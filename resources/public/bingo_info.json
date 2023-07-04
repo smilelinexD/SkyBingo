@@ -1,0 +1,202 @@
+{
+    "success": true,
+    "lastUpdated": 1688478800527,
+    "id": 19,
+    "goals": [
+        {
+            "id": "summon_sea_creatures",
+            "name": "Poseidon",
+            "tiers": [
+                20000,
+                40000,
+                60000,
+                80000,
+                100000
+            ],
+            "progress": 44837
+        },
+        {
+            "id": "stat_ferocity",
+            "name": "Ferocious",
+            "lore": "\u00a77Reach \u00a7c3 \u00a7c\u2afd Ferocity\u00a77.",
+            "requiredAmount": 3,
+            "completed": true
+        },
+        {
+            "id": "collection_sand",
+            "name": "Sand Collector",
+            "lore": "\u00a77Reach \u00a7a60,000 \u00a77Sand Collection.",
+            "requiredAmount": 60000,
+            "completed": true
+        },
+        {
+            "id": "bestiary_level_3",
+            "name": "Collecting Data",
+            "lore": "\u00a77Reach \u00a73Bestiary \u00a77Milestone 3\u00a77.",
+            "requiredAmount": 3,
+            "completed": true
+        },
+        {
+            "id": "obtain_pets",
+            "name": "Pet Hoarder",
+            "lore": "\u00a77Obtain \u00a7a12 \u00a77unique Pets.",
+            "requiredAmount": 12,
+            "completed": true
+        },
+        {
+            "id": "wear_accessories",
+            "name": "Bedazzled",
+            "lore": "\u00a77Equip \u00a7a12 \u00a77unique Accessories.",
+            "requiredAmount": 12,
+            "completed": true
+        },
+        {
+            "id": "kill_goblins",
+            "name": "Goblin Slayer",
+            "tiers": [
+                400000,
+                800000,
+                1200000,
+                1600000,
+                2000000
+            ],
+            "progress": 2297416
+        },
+        {
+            "id": "obtain_crystal",
+            "name": "Amber Crystal",
+            "lore": "\u00a77Obtain a \u00a76Amber Crystal \u00a77in the \u00a75Crystal Hollows\u00a77.",
+            "completed": true
+        },
+        {
+            "id": "brew_potion_level",
+            "name": "Trouble is Brewing...",
+            "lore": "\u00a77Brew any level IV or higher potion.",
+            "completed": true
+        },
+        {
+            "id": "GET_SKILL_combat_15",
+            "name": "Warrior",
+            "lore": "\u00a77Obtain level \u00a7e15\u00a77 in the \u00a76Combat \u00a77Skill.",
+            "completed": true
+        },
+        {
+            "id": "obtain_t11_minion",
+            "name": "Hard Worker",
+            "lore": "\u00a77Obtain Any \u00a76Tier 11 Minion\u00a77.",
+            "completed": true
+        },
+        {
+            "id": "complete_commissions",
+            "name": "Commission Master",
+            "lore": "\u00a77Complete \u00a7e8 Commissions\u00a77 in the \u00a72Dwarven Mines\u00a77 or \u00a75Crystal Hollows\u00a77.",
+            "requiredAmount": 8,
+            "completed": true
+        },
+        {
+            "id": "pet_experience",
+            "name": "Pet ",
+            "tiers": [
+                500000000,
+                1000000000,
+                1500000000,
+                2000000000,
+                2500000000
+            ],
+            "progress": 8782041524
+        },
+        {
+            "id": "collection_spider_eye",
+            "name": "Spider Eye Collector",
+            "lore": "\u00a77Reach \u00a7a22,500 \u00a77Spider Eye Collection.",
+            "requiredAmount": 22500,
+            "completed": true
+        },
+        {
+            "id": "stat_walk_speed",
+            "name": "I Am Speed",
+            "lore": "\u00a77Reach \u00a7f200 \u00a7f\u2726 Speed\u00a77.",
+            "requiredAmount": 200,
+            "completed": true
+        },
+        {
+            "id": "skill_average",
+            "name": "Skill Average",
+            "lore": "\u00a77Reach a non-cosmetic Skill Average of \u00a7a10\u00a77.",
+            "requiredAmount": 10,
+            "completed": true
+        },
+        {
+            "id": "kill_mobs_10000",
+            "name": "Exterminator",
+            "lore": "\u00a77Kill \u00a7e10,000 \u00a77mobs.",
+            "requiredAmount": 10000,
+            "completed": true
+        },
+        {
+            "id": "bank_coins",
+            "name": "Meiser",
+            "lore": "\u00a77Store \u00a76250,000 Coins \u00a77in your Bank.",
+            "requiredAmount": 250000,
+            "completed": true
+        },
+        {
+            "id": "collect_essence_dragon",
+            "name": "Essence Of Dragons",
+            "tiers": [
+                200000,
+                400000,
+                600000,
+                800000,
+                1000000
+            ],
+            "progress": 371751
+        },
+        {
+            "id": "DUNGEON_CATACOMBS_1_230",
+            "name": "High Score!",
+            "lore": "\u00a77Obtain a score of \u00a76230\u00a77 or higher on \u00a7cFloor 1\u00a77 of \u00a7cCatacombs\u00a77.",
+            "completed": true
+        },
+        {
+            "id": "reforge_dirty",
+            "name": "Dirty Reforger",
+            "lore": "\u00a77Apply the \u00a79Dirty \u00a77reforge to an item.",
+            "completed": true
+        },
+        {
+            "id": "collection_gold_ingot",
+            "name": "Gold Ingot Collector",
+            "lore": "\u00a77Reach \u00a7a60,000 \u00a77Gold Ingot Collection.",
+            "requiredAmount": 60000,
+            "completed": true
+        },
+        {
+            "id": "fairy_souls",
+            "name": "Fairy Finder",
+            "lore": "\u00a77Obtain \u00a7d10 Fairy Souls\u00a77.",
+            "requiredAmount": 10,
+            "completed": true
+        },
+        {
+            "id": "craft_minions",
+            "name": "Minion Machine",
+            "lore": "\u00a77Obtain \u00a7a100 \u00a77unique Minions.",
+            "requiredAmount": 100,
+            "completed": true
+        },
+        {
+            "id": "kill_golden_goblins",
+            "name": "Goblin's Treasure",
+            "tiers": [
+                2000,
+                4000,
+                6000,
+                8000,
+                10000
+            ],
+            "progress": 18056
+        }
+    ],
+    "timestamp": "2023-07"
+}
