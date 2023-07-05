@@ -1,12 +1,15 @@
 import json
-from pprint import pprint
 
-with open('./collections.json', 'r') as f:
+with open('./resources/public/bingo_hint.json', 'r') as f:
     info = json.load(f)
 
-for type in info['collections']:
-    for item in info['collections'][type]['items']:
-        item_name = info['collections'][type]['items'][item]['name']
-        with open('./src/{:s}/{:s}.txt'.format(type, item_name), 'w') as f:
-            f.write(json.dumps(info['collections'][type]['items'][item]))
-        print(item_name)
+for i, hint in enumerate(info):
+    if i > 52:
+        break
+    # print(hint[11:])
+    info[hint]['collectionType'] = hint[11:].upper()
+    info[hint]['trackable'] = True
+    info[hint]['handler'] = 'collection'
+
+with open('./resources/public/bingo_hint.json', 'w') as f:
+    json.dump(info, f)

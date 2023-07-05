@@ -117,7 +117,7 @@ class Worker():
             json.dump(self.bingo_info, f)
         print('Bingo info creation done!')
 
-    def getProfileInfo(self, dumping=True):
+    def getProfileInfo(self, dumping=False):
         # Request particular profile info from Hypixel API
         payload = {'key': self.API_KEY,
                    'profile': self.personal_info['profile_id']}
@@ -128,7 +128,7 @@ class Worker():
         if dumping:
             with open('./profile.json', 'w') as f:
                 json.dump(responce, f)
-        return responce
+        return responce['profile']['members'][self.UUID]
 
     def updateBingoInfo(self):
         print('Checking if each goal completed...')
@@ -149,4 +149,4 @@ class Worker():
 
 
 if __name__ == '__main__':
-    Worker()
+    Worker().getProfileInfo(dumping=True)

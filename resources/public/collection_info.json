@@ -1,0 +1,214 @@
+{
+    "CACTUS": {
+        "name": "Cactus",
+        "img": "farming/Cactus.webp"
+    },
+    "CARROT": {
+        "name": "Carrot",
+        "img": "farming/Carrot.webp"
+    },
+    "INK_SACK:3": {
+        "name": "Cocoa Beans",
+        "img": "farming/Cocoa_Beans.webp"
+    },
+    "FEATHER": {
+        "name": "Feather",
+        "img": "farming/Feather.webp"
+    },
+    "LEATHER": {
+        "name": "Leather",
+        "img": "farming/Leather.webp"
+    },
+    "MELON": {
+        "name": "Melon",
+        "img": "farming/Melon_Slice.webp"
+    },
+    "MUSHROOM": {
+        "name": "Mushroom",
+        "img": "farming/Red_Mushroom.webp"
+    },
+    "MUTTON": {
+        "name": "Raw Mutton",
+        "img": "farming/Raw_Mutton.webp"
+    },
+    "POTATO": {
+        "name": "Potato",
+        "img": "farming/Potato.webp"
+    },
+    "PUMPKIN": {
+        "name": "Pumpkin",
+        "img": "farming/Pumpkin.webp"
+    },
+    "RAW_CHICKEN": {
+        "name": "Raw Chicken",
+        "img": "farming/Raw_Chicken.webp"
+    },
+    "PORK": {
+        "name": "Raw Porkchop",
+        "img": "farming/Raw_Porkchop.webp"
+    },
+    "RABBIT": {
+        "name": "Raw Rabbit",
+        "img": "farming/Raw_Rabbit.webp"
+    },
+    "SUGAR_CANE": {
+        "name": "Sugar Cane",
+        "img": "farming/Sugar_Cane.webp"
+    },
+    "WHEAT": {
+        "name": "Wheat",
+        "img": "farming/Wheat.webp"
+    },
+    "COAL": {
+        "name": "Coal",
+        "img": "mining/Coal.webp"
+    },
+    "COBBLESTONE": {
+        "name": "Cobblestone",
+        "img": "mining/Cobblestone.webp"
+    },
+    "DIAMOND": {
+        "name": "Diamond",
+        "img": "mining/Diamond.webp"
+    },
+    "ENDER_STONE": {
+        "name": "End Stone",
+        "img": "mining/End_Stone.webp"
+    },
+    "EMERALD": {
+        "name": "Emerald",
+        "img": "mining/Emerald.webp"
+    },
+    "GEMSTONE_COLLECTION": {
+        "name": "Gemstone",
+        "img": "mining/Fine_Jasper_Gemstone.webp"
+    },
+    "GOLD_INGOT": {
+        "name": "Gold Ingot",
+        "img": "mining/Gold_Ingot.webp"
+    },
+    "GRAVEL": {
+        "name": "Gravel",
+        "img": "mining/Gravel.webp"
+    },
+    "HARD_STONE": {
+        "name": "Hard Stone",
+        "img": "mining/Stone.webp"
+    },
+    "IRON_INGOT": {
+        "name": "Iron Ingot",
+        "img": "mining/Iron_Ingot.webp"
+    },
+    "INK_SACK:4": {
+        "name": "Lapis Lazuli",
+        "img": "mining/Lapis_Lazuli.webp"
+    },
+    "MITHRIL_ORE": {
+        "name": "Mithril",
+        "img": "mining/Prismarine_Crystals.webp"
+    },
+    "OBSIDIAN": {
+        "name": "Obsidian",
+        "img": "mining/Obsidian.webp"
+    },
+    "REDSTONE": {
+        "name": "Redstone",
+        "img": "mining/Redstone_Dust.webp"
+    },
+    "SAND": {
+        "name": "Sand",
+        "img": "mining/Sand.webp"
+    },
+    "BONE": {
+        "name": "Bone",
+        "img": "combat/Bone.webp"
+    },
+    "ENDER_PEARL": {
+        "name": "Ender Pearl",
+        "img": "combat/Ender_Pearl.webp"
+    },
+    "SULPHUR": {
+        "name": "Gunpowder",
+        "img": "combat/Gunpowder.webp"
+    },
+    "ROTTEN_FLESH": {
+        "name": "Rotten Flesh",
+        "img": "combat/Rotten_Flesh.webp"
+    },
+    "SLIME_BALL": {
+        "name": "Slimeball",
+        "img": "combat/Slimeball.webp"
+    },
+    "SPIDER_EYE": {
+        "name": "Spider Eye",
+        "img": "combat/Spider_Eye.webp"
+    },
+    "STRING": {
+        "name": "String",
+        "img": "combat/String.webp"
+    },
+    "LOG_2": {
+        "name": "Acacia Wood",
+        "img": "foraging/Acacia_Wood.webp"
+    },
+    "LOG:2": {
+        "name": "Birch Wood",
+        "img": "foraging/Birch_Wood.webp"
+    },
+    "LOG_2:1": {
+        "name": "Dark Oak Wood",
+        "img": "foraging/Dark_Oak_Wood.webp"
+    },
+    "LOG:3": {
+        "name": "Jungle Wood",
+        "img": "foraging/Jungle_Wood.webp"
+    },
+    "LOG": {
+        "name": "Oak Wood",
+        "img": "foraging/Oak_Wood.webp"
+    },
+    "LOG:1": {
+        "name": "Spruce Wood",
+        "img": "foraging/Spruce_Wood.webp"
+    },
+    "CLAY_BALL": {
+        "name": "Clay",
+        "img": "fishing/Clay.webp"
+    },
+    "RAW_FISH:2": {
+        "name": "Clownfish",
+        "img": "fishing/Clownfish.webp"
+    },
+    "INK_SACK": {
+        "name": "Ink Sac",
+        "img": "fishing/Ink_Sac.webp"
+    },
+    "WATER_LILY": {
+        "name": "Lily Pad",
+        "img": "fishing/Lily_Pad.webp"
+    },
+    "PRISMARINE_CRYSTALS": {
+        "name": "Prismarine Crystals",
+        "img": "fishing/Prismarine_Crystals.webp"
+    },
+    "PRISMARINE_SHARD": {
+        "name": "Prismarine Shard",
+        "img": "fishing/Prismarine_Shard.webp"
+    },
+    "RAW_FISH:3": {
+        "name": "Pufferfish",
+        "img": "fishing/Pufferfish.webp"
+    },
+    "RAW_FISH": {
+        "name": "Raw Fish",
+        "img": "fishing/Raw_Fish.webp"
+    },
+    "RAW_FISH:1": {
+        "name": "Raw Salmon",
+        "img": "fishing/Raw_Salmon.webp"
+    },
+    "SPONGE": {
+        "name": "Sponge",
+        "img": "fishing/Sponge.webp"
+    }
+}
