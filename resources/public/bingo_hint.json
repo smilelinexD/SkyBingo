@@ -1,1880 +1,1846 @@
 {
-    "goals": [
-        {
-            "id": "collection_wheat",
-            "group": "collection",
-            "name": "Wheat Collector",
-            "description": "Reach {:d} wheat collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_carrot",
-            "group": "collection",
-            "name": "Carrot Collector",
-            "description": "Reach {:d} carrot collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_potato",
-            "group": "collection",
-            "name": "Potato Collector",
-            "description": "Reach {:d} potato collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_pumpkin",
-            "group": "collection",
-            "name": "Pumpkin Collector",
-            "description": "Reach {:d} pumpkin collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_melon",
-            "group": "collection",
-            "name": "Melon Collector",
-            "description": "Reach {:d} melon collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_mushroom",
-            "group": "collection",
-            "name": "Mushroom Collector",
-            "description": "Reach {:d} mushroom collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_cactus",
-            "group": "collection",
-            "name": "Cactus Collector",
-            "description": "Reach {:d} cactus collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_sugar_cane",
-            "group": "collection",
-            "name": "Sugar Cane Collector",
-            "description": "Reach {:d} sugar cane collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_feather",
-            "group": "collection",
-            "name": "Feather Collector",
-            "description": "Reach {:d} feather collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_raw_chicken",
-            "group": "collection",
-            "name": "Raw Chicken Collector",
-            "description": "Reach {:d} raw chicken collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_leather",
-            "group": "collection",
-            "name": "Leather Collector",
-            "description": "Reach {:d} leather collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_pork",
-            "group": "collection",
-            "name": "Raw Porkchop Collector",
-            "description": "Reach {:d} raw porkchop collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_mutton",
-            "group": "collection",
-            "name": "Mutton Collector",
-            "description": "Reach {:d} mutton collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_rabbit",
-            "group": "collection",
-            "name": "Raw Rabbit Collector",
-            "description": "Reach {:d} raw rabbit collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_ink_sack:4",
-            "group": "collection",
-            "name": "Lapis Lazuli Collector",
-            "description": "Reach {:d} lapis lazuli collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_cobblestone",
-            "group": "collection",
-            "name": "Cobblestone Collector",
-            "description": "Reach {:d} cobblestone collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_coal",
-            "group": "collection",
-            "name": "Coal Collector",
-            "description": "Reach {:d} coal collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_iron_ingot",
-            "group": "collection",
-            "name": "Iron Ingot Collector",
-            "description": "Reach {:d} iron ingot collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_gold_ingot",
-            "group": "collection",
-            "name": "Gold Ingot Collector",
-            "description": "Reach {:d} gold ingot collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_diamond",
-            "group": "collection",
-            "name": "Diamond Collector",
-            "description": "Reach {:d} diamond collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_emerald",
-            "group": "collection",
-            "name": "Emerald Collector",
-            "description": "Reach {:d} emerald collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_redstone",
-            "group": "collection",
-            "name": "Redstone Collector",
-            "description": "Reach {:d} redstone collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_ink_sack:3",
-            "group": "collection",
-            "name": "Cocoa Beans Collector",
-            "description": "Reach {:d} cocoa beans collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_obsidian",
-            "group": "collection",
-            "name": "Obsidian Collector",
-            "description": "Reach {:d} obsidian collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_gravel",
-            "group": "collection",
-            "name": "Gravel Collector",
-            "description": "Reach {:d} gravel collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_sand",
-            "group": "collection",
-            "name": "Sand Collector",
-            "description": "Reach {:d} sand collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_ender_stone",
-            "group": "collection",
-            "name": "End Stone Collector",
-            "description": "Reach {:d} end stone collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_mithril_ore",
-            "group": "collection",
-            "name": "Mithril Collector",
-            "description": "Reach {:d} mithril collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_hard_stone",
-            "group": "collection",
-            "name": "Hard Stone Collector",
-            "description": "Reach {:d} hard stone collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_gemstone_collection",
-            "group": "collection",
-            "name": "Gemstone Collector",
-            "description": "Reach {:d} gemstone collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_rotten_flesh",
-            "group": "collection",
-            "name": "Rotten Flesh Collector",
-            "description": "Reach {:d} rotten flesh collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_bone",
-            "group": "collection",
-            "name": "Bone Collector",
-            "description": "Reach {:d} bone collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_string",
-            "group": "collection",
-            "name": "String Collector",
-            "description": "Reach {:d} string collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_spider_eye",
-            "group": "collection",
-            "name": "Spider Eye Collector",
-            "description": "Reach {:d} spider eye collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_sulphur",
-            "group": "collection",
-            "name": "Gunpowder Collector",
-            "description": "Reach {:d} gunpowder collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_ender_pearl",
-            "group": "collection",
-            "name": "Ender Pearl Collector",
-            "description": "Reach {:d} ender pearl collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_slime_ball",
-            "group": "collection",
-            "name": "Slime Ball Collector",
-            "description": "Reach {:d} slime ball collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_log",
-            "group": "collection",
-            "name": "Oak Wood Collector",
-            "description": "Reach {:d} oak wood collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_log:1",
-            "group": "collection",
-            "name": "Spruce Wood Collector",
-            "description": "Reach {:d} spruce wood collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_log:2",
-            "group": "collection",
-            "name": "Birch Wood Collector",
-            "description": "Reach {:d} birch wood collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_log:3",
-            "group": "collection",
-            "name": "Jungle Wood Collector",
-            "description": "Reach {:d} jungle wood collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_log_2",
-            "group": "collection",
-            "name": "Acacia Wood Collector",
-            "description": "Reach {:d} acacia wood collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_log_2:1",
-            "group": "collection",
-            "name": "Dark Oak Wood Collector",
-            "description": "Reach {:d} dark oak wood collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_raw_fish",
-            "group": "collection",
-            "name": "Raw Fish Collector",
-            "description": "Reach {:d} raw fish collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_raw_fish:1",
-            "group": "collection",
-            "name": "Raw Salmon Collector",
-            "description": "Reach {:d} raw salmon collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_raw_fish:2",
-            "group": "collection",
-            "name": "Clownfish Collector",
-            "description": "Reach {:d} clownfish collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_raw_fish:3",
-            "group": "collection",
-            "name": "Pufferrfish Collector",
-            "description": "Reach {:d} pufferfish collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_prismarine_shard",
-            "group": "collection",
-            "name": "Prismarine Shard Collector",
-            "description": "Reach {:d} prismarine shard collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_prismarine_crystals",
-            "group": "collection",
-            "name": "Prismarine Crystals Collector",
-            "description": "Reach {:d} prismarine crystals collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_sponge",
-            "group": "collection",
-            "name": "Sponge Collector",
-            "description": "Reach {:d} sponge collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_clay_ball",
-            "group": "collection",
-            "name": "Clay Collector",
-            "description": "Reach {:d} clay collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_water_lily",
-            "group": "collection",
-            "name": "Lily Pads Collector",
-            "description": "Reach {:d} lily pads collection",
-            "hint": "Sea Creatures",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "collection_ink_sack",
-            "group": "collection",
-            "name": "Ink Sack Collector",
-            "description": "Reach {:d} ink sack collection",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "COLLECTION_LEVEL_7_5",
-            "group": "collection",
-            "name": "Collector",
-            "description": "Get {:d} collections to at least tier 7",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "COLLECTION_LEVEL_7_7",
-            "group": "collection",
-            "name": "Collector",
-            "description": "Get {:d} collections to at least tier 7",
-            "hint": "Collect manually or with a minion",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "?",
-            "group": "stats",
-            "name": "Healthy",
-            "description": "Reach {:d} Health",
-            "hint": "Splash, mushroom armor plus growth V",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "stat_walk_speed",
-            "group": "stats",
-            "name": "I Am Speed",
-            "description": "Reach {:d} Speed",
-            "hint": "Splash",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "?",
-            "group": "stats",
-            "name": "Strongman",
-            "description": "Reach {:d} Strength",
-            "hint": "Splash",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "stat_ferocity",
-            "group": "stats",
-            "name": "Ferocious",
-            "description": "Reach {:d} Ferocity",
-            "hint": "Use Dirty reforge on uncommon or higher tiered weapon",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "stat_critical_damage",
-            "group": "stats",
-            "name": "Critical",
-            "description": "Reach {:d} Crit Damage",
-            "hint": "Splash or silky power stone",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "?",
-            "group": "stats",
-            "name": "Hawk-eyed",
-            "description": "Reach {:d} Crit Chance",
-            "hint": "Splash",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "stat_sea_creature_chance",
-            "group": "stats",
-            "name": "Sea Summoner",
-            "description": "Reach {:d} Sea Creature Chance",
-            "hint": "Splash, level up skill, get good armor set",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "?",
-            "group": "reforge",
-            "name": "Titanic Reforger",
-            "description": "Apply the Titanic Reforge to an item",
-            "hint": "Reforge at Blacksmith",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "reforge_dirty",
-            "group": "reforge",
-            "name": "Dirty Reforger",
-            "description": "Apply the Dirty Reforge to an item",
-            "hint": "The Dirt Bottle can be purchased from the Smithmonger in the Hub for 100,000 Coins",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "reforge",
-            "name": "Warped Reforger",
-            "description": "Apply the Warped Reforge to any Armor piece",
-            "hint": "The Warped Stone can be obtained from either an Emerald, Obsidian, or Bedrock Dungeon Reward Chest in the Catacombs Floor V(?)",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_foraging_5",
-            "group": "skill",
-            "name": "Lumberjack",
-            "description": "Obtain level 5 in the Foraging skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_foraging_10",
-            "group": "skill",
-            "name": "Lumberjack",
-            "description": "Obtain level 10 in the Foraging skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_foraging_15",
-            "group": "skill",
-            "name": "Lumberjack",
-            "description": "Obtain level 15 in the Foraging skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_foraging_18",
-            "group": "skill",
-            "name": "Lumberjack",
-            "description": "Obtain level 18 in the Foraging skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_foraging_20",
-            "group": "skill",
-            "name": "Lumberjack",
-            "description": "Obtain level 20 in the Foraging skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_mining_5",
-            "group": "skill",
-            "name": "Miner",
-            "description": "Obtain level 5 in the Mining skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_mining_10",
-            "group": "skill",
-            "name": "Miner",
-            "description": "Obtain level 10 in the Mining skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_mining_15",
-            "group": "skill",
-            "name": "Miner",
-            "description": "Obtain level 15 in the Mining skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_mining_18",
-            "group": "skill",
-            "name": "Miner",
-            "description": "Obtain level 18 in the Mining skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_mining_20",
-            "group": "skill",
-            "name": "Miner",
-            "description": "Obtain level 20 in the Mining skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_farming_5",
-            "group": "skill",
-            "name": "Farmer",
-            "description": "Obtain level 5 in the Farming skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_farming_10",
-            "group": "skill",
-            "name": "Farmer",
-            "description": "Obtain level 10 in the Farming skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_farming_15",
-            "group": "skill",
-            "name": "Farmer",
-            "description": "Obtain level 15 in the Farming skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_farming_18",
-            "group": "skill",
-            "name": "Farmer",
-            "description": "Obtain level 18 in the Farming skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_farming_20",
-            "group": "skill",
-            "name": "Farmer",
-            "description": "Obtain level 20 in the Farming skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_alchemy_5",
-            "group": "skill",
-            "name": "Brewer",
-            "description": "Obtain level 5 in the Alchemy skill",
-            "hint": "Pufferfish at fish merchant, or Enchanted gold",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_alchemy_10",
-            "group": "skill",
-            "name": "Brewer",
-            "description": "Obtain level 10 in the Alchemy skill",
-            "hint": "Pufferfish at fish merchant, or Enchanted gold",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_alchemy_15",
-            "group": "skill",
-            "name": "Brewer",
-            "description": "Obtain level 15 in the Alchemy skill",
-            "hint": "Pufferfish at fish merchant, or Enchanted gold, auto brewer might help",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_alchemy_16",
-            "group": "skill",
-            "name": "Brewer",
-            "description": "Obtain level 16 in the Alchemy skill",
-            "hint": "Pufferfish at fish merchant, or Enchanted gold, auto brewer might help",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_alchemy_18",
-            "group": "skill",
-            "name": "Brewer",
-            "description": "Obtain level 18 in the Alchemy skill",
-            "hint": "Pufferfish at fish merchant, or Enchanted gold, auto brewer might help",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_alchemy_20",
-            "group": "skill",
-            "name": "Brewer",
-            "description": "Obtain level 20 in the Alchemy skill",
-            "hint": "Pufferfish at fish merchant, or Enchanted gold, auto brewer might help",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_enchanting_5",
-            "group": "skill",
-            "name": "Enchanter",
-            "description": "Obtain level 5 in the Enchanting skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_enchanting_10",
-            "group": "skill",
-            "name": "Enchanter",
-            "description": "Obtain level 10 in the Enchanting skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_enchanting_15",
-            "group": "skill",
-            "name": "Enchanter",
-            "description": "Obtain level 15 in the Enchanting skill",
-            "hint": "Reach enchating X ASAP, then use the experiment table everyday",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_enchanting_18",
-            "group": "skill",
-            "name": "Enchanter",
-            "description": "Obtain level 18 in the Enchanting skill",
-            "hint": "Reach enchating X ASAP, then use the experiment table everyday",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_enchanting_20",
-            "group": "skill",
-            "name": "Enchanter",
-            "description": "Obtain level 20 in the Enchanting skill",
-            "hint": "Reach enchating X ASAP, then use the experiment table everyday",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_combat_5",
-            "group": "skill",
-            "name": "Warrior",
-            "description": "Obtain level 5 in the Combat skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_combat_10",
-            "group": "skill",
-            "name": "Warrior",
-            "description": "Obtain level 10 in the Combat skill",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_combat_15",
-            "group": "skill",
-            "name": "Warrior",
-            "description": "Obtain level 15 in the Combat skill",
-            "hint": "Bestiary",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_combat_18",
-            "group": "skill",
-            "name": "Warrior",
-            "description": "Obtain level 18 in the Combat skill",
-            "hint": "Bestiary",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "GET_SKILL_combat_20",
-            "group": "skill",
-            "name": "Warrior",
-            "description": "Obtain level 20 in the Combat skill",
-            "hint": "Bestiary",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "skill_average",
-            "group": "skill",
-            "name": "Skill Average",
-            "description": "Reach a non-cosmetic Skill Average of {:d}",
-            "hint": "no hint",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "OBTAIN_JACOB_BRONZE",
-            "group": "farming",
-            "name": "Podium Position",
-            "description": "Obtain a Bronze or higher medal in Jacob's Farming Contest",
-            "hint": "Wheat",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "OBTAIN_JACOB_SILVER",
-            "group": "farming",
-            "name": "Podium Position",
-            "description": "Obtain a Silver or higher medal in Jacob's Farming Contest",
-            "hint": "?????",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "KILL_TRAPPER_MOB",
-            "group": "farming",
-            "name": "Setting a Trap",
-            "description": "Kill a trapped animal",
-            "hint": "Mushroom Desert",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "fishing",
-            "name": "Quick Reel",
-            "description": "Summon {:d} Sea Creatures within 75 seconds",
-            "hint": "no hint",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "fish_sea_creature_CARROT_KING",
-            "group": "fishing",
-            "name": "King Of The... Seas?",
-            "description": "Fish up a Carrot King",
-            "hint": "Fishing 15 + carrot bait",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "brew_potion_level",
-            "group": "alchemy",
-            "name": "Trouble is Brewing...",
-            "description": "Brew any level IV or higher potion",
-            "hint": "Absorption potion, enchanted gold, glowstone powder",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "craft_minions",
-            "group": "minion",
-            "name": "Minion Machine",
-            "description": "Obtain {:d} unique Minions",
-            "hint": "Get first 3 tiers of each type of minions",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "obtain_t11_minion",
-            "group": "minion",
-            "name": "Hard Worker",
-            "description": "Obtain any Tier 11 Minion",
-            "hint": "Wheat is the fastest, while endstone has more profit",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "obtain_t12_minion",
-            "group": "minion",
-            "name": "Hard Worker",
-            "description": "Obtain any Tier 12 Minion",
-            "hint": "??????",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "craft_any_pet",
-            "group": "pets",
-            "name": "A Best Friend",
-            "description": "Craft any pet",
-            "hint": "Use chicken hat to get enchanted egg, then craft a jerry pet",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "obtain_pets",
-            "group": "pets",
-            "name": "Pet Hoarder",
-            "description": "Obtain {:d} unique Pets",
-            "hint": "Use chicken hat to get first enchanted egg, then use it to chicken minion to obtain more eggs.",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "upgrade_pet",
-            "group": "pets",
-            "name": "Petsitter",
-            "description": "Upgrade a pet with Kat",
-            "hint": "Upgrade a bee pet",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "obtain_pet_level",
-            "group": "pets",
-            "name": "Pet Grinder",
-            "description": "Obtain a [Lvl100] Pet",
-            "hint": "Bingo Pet",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "EQUIP_ROCK_COMMON",
-            "group": "pets",
-            "name": "Rock Solid",
-            "description": "Equip a COMMON or higher tiered Rock Pet",
-            "hint": "Mining Milestone 2500",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "EQUIP_ROCK_UNCOMMON",
-            "group": "pets",
-            "name": "Rock Solid",
-            "description": "Equip a UNCOMMON or higher tiered Rock Pet",
-            "hint": "Mining Milestone 7500",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "EQUIP_ROCK_RARE",
-            "group": "pets",
-            "name": "Rock Solid",
-            "description": "Equip a RARE or higher tiered Rock Pet",
-            "hint": "Mining Milestone 20000",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "EQUIP_DOLPHIN_COMMON",
-            "group": "pets",
-            "name": "Friend Of The Seas",
-            "description": "Equip a COMMON or higher tiered Dolphin Pet",
-            "hint": "Fishing Milestone 250",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "EQUIP_DOLPHIN_UNCOMMON",
-            "group": "pets",
-            "name": "Friend Of The Seas",
-            "description": "Equip a UNCOMMON or higher tiered Dolphin Pet",
-            "hint": "Fishing Milestone 1000",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "bank_coins",
-            "group": "coin",
-            "name": "Meiser",
-            "description": "Store {:d} coins in your bank",
-            "hint": "Ender nodes",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "?",
-            "gruop": "slayer",
-            "name": "Slayer",
-            "description": "Reach Level {:d} for any Slayer boss",
-            "hint": "no hint",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "fairy_souls",
-            "group": "fairy_soul",
-            "name": "Fairy Finder",
-            "description": "Obtain {:d} Fairy Souls",
-            "hint": "no hint",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "obtain_item_grand_exp_bottle",
-            "group": "item",
-            "name": "Experienced",
-            "description": "Obtain a Grand Experience Bottle",
-            "hint": "Ender node, or experiment table, or lapis lazuli collection",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "obtain_item_titanic_exp_bottle",
-            "group": "item",
-            "name": "Experienced",
-            "description": "Obtain a Titanic Experience Bottle",
-            "hint": "Experiment table, or lapis lazuli collection, or fish if you're lucky",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "craft_item_cleaver",
-            "group": "item",
-            "name": "Multitasking",
-            "description": "Craft a Cleaver",
-            "hint": "Gold Ingot Collection II(100), recipe: 4 Gold Ingots, 2 Stick",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "craft_item_hot_potato_book",
-            "group": "item",
-            "name": "Potatorific",
-            "description": "Craft a Hot Potato Book",
-            "hint": "Potato Collection VIII(50000), recipe: 1 Enchated Baked Potato(160 Enchanted Potato, 25600 Potato), 3 Paper"
-        },
-        {
-            "id": "craft_item_large_enchanted_chest",
-            "group": "item",
-            "name": "Extra Storage",
-            "description": "Craft a Large Storage",
-            "hint": "Oak Wood Collection IX(30000), recipe: 256 Enchanted Oak Wood(40960 Oak Wood), 1 Medium Storage, 42304 Oak Wood in total",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "craft_item_small_backpack",
-            "group": "item",
-            "name": "Carry-on",
-            "description": "Craft a Small Backpack",
-            "hint": "Leather Collection III(250), recipe: 80 Leather",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "craft_item_medium_backpack",
-            "group": "item",
-            "name": "Carry-on",
-            "description": "Craft a Medium Backpack",
-            "hint": "Leather Collection V(2500), recipe: 512 Leather, 1 Small Backpack, 592 Leather in total",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "craft_item_large_backpack",
-            "group": "item",
-            "name": "Carry-on",
-            "description": "Craft a Large Backpack",
-            "hint": "Leather Collection VIII(25000), recipe: 16 Enchanted Leather(2560 Leather), 1 Medium Backpack, 9808 Leather in total",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "craft_item_piggy_bank",
-            "group": "item",
-            "name": "New Savings",
-            "description": "Craft a Piggy Bank",
-            "hint": "Raw Porkchop Collection V(2500), recipe: 40 Enchanted Raw Porkchop(6400 Raw Porkchop), 1 Chest",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "craft_item_emerald_ring",
-            "group": "item",
-            "name": "The Green Gold",
-            "description": "Craft an Emerald Ring",
-            "hint": "Emerald Collection V(5000), recipe: 32 Enchanted Emerald(5120 Emerald)",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "craft_item_diamond_spreading",
-            "group": "item",
-            "name": "Now We're In Business",
-            "description": "Craft a Diamond Spreading",
-            "hint": "Diamond Collection VI(5000), recipe: 1 Enchanted Diamond, 8 Vine(unlocks trade at Jungle Wood Collection IV(500))",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "craft_item_super_compactor_3000",
-            "group": "item",
-            "name": "Compact Crafting",
-            "description": "Craft a Super Compactor 3000",
-            "hint": "Cobblestone Collection X(70000), recipe: 448 Enchanted Cobblestone(71680 Cobblestone), 1 Enchanted Redstone Block(160 Enchanted Redstone)",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "craft_item_aspect_of_the_end",
-            "group": "item",
-            "name": "Zoop!",
-            "description": "Craft an Aspect of the End",
-            "hint": "Buy Blaze Powder from alchemist in the hub everyday. Ender Pearl Collection VIII(25000), recipe: 32 Enchanted Eye of Ender(512 Enchanted Ender Pearl, 2048 Blaze Powder), 1 Enchanted Diamond(160 Diamond)",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "consume_mushroomsoup_regular",
-            "group": "item",
-            "name": "Taking Flight",
-            "description": "Consume a Magical Mushroom soup",
-            "hint": "You can buy glowstone from builder in the hub. Mushroom Collection IV(1000), recipe: 1 Glowstone Dust, 1 Red Mushroom, 1 Brown Mushroom, 1 Redstone, 1 Bowl",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "item",
-            "name": "Taking Flight",
-            "description": "Consume a Mystical Mushroom soup",
-            "hint": "You need Combat 24 to unlock Glowstone collection. Mushroom Collection VII(10000), recipe: 1 Enchanted Glowstone Dust, 1 Enchanted Red Mushroom, 1 Enchanted Brown Mushroom, 1 Enchanted Redstone, 1 Bowl",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "obtain_item_stonk_pickaxe(?)",
-            "group": "item",
-            "name": "stonks",
-            "description": "Obtain a Stonk",
-            "hint": "You need combat 12 to unlock the end. Then buy from the Pearl Dealer for 499999 Coins",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "obtain_item_theoretical_hoe",
-            "group": "item",
-            "name": "E=mc^2",
-            "description": "Obtain a Mathematical Hoe BluePrint",
-            "hint": "Do Wheat Contests",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "crystal_hollow",
-            "name": "Divan's Chance",
-            "description": "Place all 5 crystals in the Nucleus in the Crystal Hollows",
-            "hint": "??????",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "crystal_hollow",
-            "name": "Jade Crystal",
-            "description": "Obtain a Jade Crystal in the Crystal Hollows",
-            "hint": "Mithril Deposits, Mines of Divan",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "crystal_hollow",
-            "name": "Amber Crystal",
-            "description": "Obtain an Amber Crystal in the Crystal Hollows",
-            "hint": "Goblin Holdout, need 3 goblon eggs",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "crystal_hollow",
-            "name": "Amethyst Crystal",
-            "description": "Obtain an Amethyst Crystal in the Crystal Hollows",
-            "hint": "Jungle, Jungle Temple, need jungle key",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "crystal_hollow",
-            "name": "Sapphire Crystal",
-            "description": "Obtain a Sapphire Crystal in the Crystal Hollows",
-            "hint": "Precursor Remnants, Lost Precursor City, Find Part chests on Discord",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "obtain_crystal",
-            "group": "crystal_hollow",
-            "name": "Topaz Crystal",
-            "description": "Obtain a Topaz Crystal in the Crystal Hollows",
-            "hint": "Khazad-dum, defeat Bal Boss",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "crystal_hollow",
-            "name": "Powder Collector",
-            "description": "Collect 30000 Gemstone Powder",
-            "hint": "Do daily commissions",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "wear_unique_armor_4",
-            "group": "armor",
-            "name": "Fashionable",
-            "description": "Wear 4 Unique Armor Sets",
-            "hint": "Craft Easy Farming Sets",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "wear_unique_armor_18",
-            "group": "armor",
-            "name": "Fashionable",
-            "description": "Wear 18 Unique Armor Sets",
-            "hint": "Craft Easy Farming Sets",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "?",
-            "group": "armor",
-            "name": "I've got Chills!",
-            "description": "Wear a full set of Glacite Armor",
-            "hint": "Bow swap",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "armor",
-            "name": "Golem",
-            "description": "Wear a full set of Golem Armor",
-            "hint": "Iron Collection VI(5000), recipe: 240 Enchanted Iron Ingot(38400 Iron Ingot)",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "armor",
-            "name": "Lapis Warrior",
-            "description": "Wear a full set of Lapis Armor",
-            "hint": "Lapis zombie",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "armor",
-            "name": "Fisherman",
-            "description": "Wear a full set of Angler Armor",
-            "hint": "Raw Fish Collection V(500), recipe: 24 Raw Fish",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "complete_commissions",
-            "group": "dwarven",
-            "name": "Commission Master",
-            "description": "Complete {:d} Commissions in the Dwarven Mines or Crystal Hollows",
-            "hint": "Enter the Dwavern Mines using 30 enchanted lapiz lazuli",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "?",
-            "group": "dwarven",
-            "name": "Strange Eggs",
-            "description": "Spawn a Golden Goblin",
-            "hint": "Mine in the Dwarven Mines",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "SOLVE_PUZZLER",
-            "group": "dwarven",
-            "name": "A Real Head Scratcher",
-            "description": "Complete Puzzler's quest",
-            "hint": "In the palace",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "dwarven",
-            "name": "Search And Rescue",
-            "description": "Help Fetchur find his item",
-            "hint": "Use mods",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "collect_powder_mithril",
-            "group": "dwarven",
-            "name": "Powder Collector",
-            "description": "Collect {:d} Mithril Powder",
-            "hint": "Do daily commissions",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "KILL_GOBLINS_RAID",
-            "group": "dwarven",
-            "name": "Dwarves Defender",
-            "description": "Kill 25 Goblins during a Goblin Raid in the Dwavern Mines",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "dwarven",
-            "name": "Forgery",
-            "description": "Forge an item in The Forge",
-            "hint": "refined mithril",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "wear_accessories",
-            "group": "accesory",
-            "name": "Bedazzled",
-            "description": "Equip {:d} Unique Accessories",
-            "hint": "Thirtyvirus got a video for this",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "?",
-            "group": "accesory",
-            "name": "Lynx",
-            "description": "Obtain a Lynx Talisman",
-            "hint": "Dungeon Race",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "accesory",
-            "name": "Cheetah",
-            "description": "Obtain a Cheetah Talisman",
-            "hint": "Dungeon Race",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "accesory",
-            "name": "Hot Trails",
-            "description": "Obtain a Campfire Cultist Badge",
-            "hint": "Use mushroom armor + growth V",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "gruop": "dungeon",
-            "name": "Wooden Treasure",
-            "description": "Unlock a Wooden Dungeon Chest",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "UNLOCK_DUNGEON_CHEST_EMERALD",
-            "gruop": "dungeon",
-            "name": "Emerald Treasure",
-            "description": "Unlock an Emerald Dungeon Chest",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "UNLOCK_DUNGEON_CHEST_OBSIDIAN",
-            "gruop": "dungeon",
-            "name": "Obsidian Treasure",
-            "description": "Unlock an Obsidian Dungeon Chest",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "KILL_LOST_ADVENTURER",
-            "gruop": "dungeon",
-            "name": "A Lost Cause",
-            "description": "Kill a Lost Adventurer",
-            "hint": "Use mage ult",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "DUNGEON_CATACOMBS_1_230",
-            "gruop": "dungeon",
-            "name": "High Score!",
-            "description": "Obtain a score of 250 or higher on Floor 2 of Catacombs",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "DUNGEON_CATACOMBS_2_250",
-            "gruop": "dungeon",
-            "name": "High Score!",
-            "description": "Obtain a score of 250 or higher on Floor 2 of Catacombs",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "gruop": "dungeon",
-            "name": "Weird Flex",
-            "description": "Gain 5 Strength from a Training Weight",
-            "hint": "Lock your slot using mods",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "gruop": "dungeon",
-            "name": "I See Stars",
-            "description": "Apply 5 stars to a dungeon item",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "bestiary_level_3",
-            "group": "bestiary",
-            "name": "Collecting Data",
-            "description": "Reach Bestiary Milestone 3",
-            "hint": "Kill mobs",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "bestiary_level_5",
-            "group": "bestiary",
-            "name": "Collecting Data",
-            "description": "Reach Bestiary Milestone 5",
-            "hint": "Kill mobs",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "FIND_EXPERIMENT_PAIRS_1",
-            "group": "experiment",
-            "name": "Pair Up!",
-            "description": "Find 1 Pair in the Experiment Table",
-            "hint": "Get Enchanting X",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "FIND_EXPERIMENT_PAIRS_3",
-            "group": "experiment",
-            "name": "Pair Up!",
-            "description": "Find 3 Pair in the Experiment Table",
-            "hint": "Get Enchanting X",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "FIND_EXPERIMENT_PAIRS_5",
-            "group": "experiment",
-            "name": "Pair Up!",
-            "description": "Find 5 Pair in the Experiment Table",
-            "hint": "Get Enchanting X",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "miscellaneous",
-            "name": "Eagle-Eyed",
-            "description": "Complete a timed Target Practice",
-            "hint": "Buy shortbow from the Weaponsmith and head to the basement next to him",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "kill_mobs_2500",
-            "group": "miscellaneous",
-            "name": "Exterminator",
-            "description": "Kill 2500 Mobs",
-            "hint": "Kill mobs",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "kill_mobs_5000",
-            "group": "miscellaneous",
-            "name": "Exterminator",
-            "description": "Kill 5000 Mobs",
-            "hint": "Kill mobs",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "kill_mobs_10000",
-            "group": "miscellaneous",
-            "name": "Exterminator",
-            "description": "Kill 10000 Mobs",
-            "hint": "Kill mobs",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "UNLOCK_UNIQUE_COLLECTIONS_40",
-            "group": "miscellaneous",
-            "name": "Diversity",
-            "description": "Unlock {:d} unique Collections",
-            "hint": "no hint",
-            "hasRequiredAmount": true
-        },
-        {
-            "id": "?",
-            "group": "miscellaneous",
-            "name": "Ultimate Enchanter",
-            "description": "Obtain an Ultimate Enchanted Book",
-            "hint": "Dungeon",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "miscellaneous",
-            "name": "Esteemed Enchanter",
-            "description": "Obtain an Level VI Enchanted Book",
-            "hint": "Fishing",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "kill_runic_mob",
-            "group": "miscellaneous",
-            "name": "Strange Effects",
-            "description": "Kill a Runic Mob",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "kill_endermen_10_8",
-            "group": "miscellaneous",
-            "name": "Ender Menace",
-            "description": "Kill 10 Endermen in 8 seconds",
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "miscellaneous",
-            "name": "Spider Queen",
-            "description": "Summon Arachne",
-            "hint": "Kill Arachne's Keeper",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "spider_relic",
-            "group": "miscellaneous",
-            "name": "Relic Researcher",
-            "description": "Find 28 Relics in the Spider's Den",
-            "hint": "Use mods",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "multi_enchant_RAIDER_AXE_10",
-            "group": "miscellaneous",
-            "name": "An Axe To Grind",
-            "description": "Put 10 Enchantments on a Raider Axe",
-            "hint": "Fish Hat, Magical Water Bucket at Ice Collection V(1000)",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "harvest_crops",
-            "group": "community",
-            "name": "Agricultural Revolution",
-            "description": "Harvest 30000000 crop blocks",
-            "tiers": [
-                30000000,
-                60000000,
-                90000000,
-                120000000,
-                150000000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "community",
-            "name": "Agricultural Revolution",
-            "description": "Harvest 2000000 crops",
-            "tiers": [
-                2000000,
-                4000000,
-                6000000,
-                8000000,
-                10000000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "hotm_experience",
-            "group": "community",
-            "name": "Cave Commodity",
-            "description": "Gain 1000000 Heart Of The Mountain XP",
-            "tiers": [
-                1000000,
-                2000000,
-                3000000,
-                4000000,
-                5000000
-            ],
-            "hint": "Do daily commissions",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "kill_dungeon_boss_catacombs_1",
-            "group": "community",
-            "name": "Clown Collab",
-            "description": "Kill Bonzo 1000 times",
-            "tiers": [
-                1000,
-                2000,
-                3000,
-                4000,
-                5000
-            ],
-            "hint": "find carries",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "kill_endermans(?)",
-            "group": "community",
-            "name": "Enderman Slayer",
-            "description": "Kill 500000 Endermen",
-            "tiers": [
-                500000,
-                1000000,
-                1500000,
-                2000000,
-                2500000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "kill_goblins",
-            "group": "community",
-            "name": "Goblin Slayer",
-            "description": "Kill 400000 Goblins",
-            "tiers": [
-                400000,
-                800000,
-                1200000,
-                1600000,
-                2000000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "kill_golden_goblins",
-            "group": "community",
-            "name": "Goblin's Treasure",
-            "description": "Kill 2000 Golden Goblins",
-            "tiers": [
-                2000,
-                4000,
-                6000,
-                8000,
-                10000
-            ],
-            "hint": "mine cobblestone at bridge",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "community",
-            "name": "Hunter",
-            "description": "Collect 20000 Pelts",
-            "tiers": [
-                20000,
-                40000,
-                60000,
-                80000,
-                100000
-            ],
-            "hint": "mushroom desert",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "deposit_chum",
-            "group": "community",
-            "name": "Bait",
-            "description": "Deposit 200000 Chum",
-            "tiers": [
-                200000,
-                400000,
-                600000,
-                800000,
-                1000000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "community",
-            "name": "KABOOM!",
-            "description": "Blow up 15000 Crypts in the Catacombs",
-            "tiers": [
-                15000,
-                30000,
-                45000,
-                60000,
-                75000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "kill_team_treasurite",
-            "group": "community",
-            "name": "Let the StarFall",
-            "description": "Kill 100000 Team Treasurite members",
-            "tiers": [
-                100000,
-                200000,
-                300000,
-                400000,
-                500000
-            ],
-            "hint": "mithril deposits in the crystal hollows",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "loot_drop",
-            "group": "community",
-            "name": "Lucky Looter",
-            "description": "Loot 20000 drops with a chance of 1% or lower",
-            "tiers": [
-                20000,
-                40000,
-                60000,
-                80000,
-                100000
-            ],
-            "hint": "enderman",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "community",
-            "name": "Operation:Ore",
-            "description": "Break 2000000 Ores",
-            "tiers": [
-                2000000,
-                4000000,
-                6000000,
-                8000000,
-                10000000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "pet_experience",
-            "group": "community",
-            "name": "Pet",
-            "description": "Gain 500000000 Pet XP",
-            "tiers": [
-                500000000,
-                1000000000,
-                1500000000,
-                2000000000,
-                2500000000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "summon_sea_creatures",
-            "group": "community",
-            "name": "Poseidon",
-            "description": "Summon 20000 Sea Creatures",
-            "tiers": [
-                20000,
-                40000,
-                60000,
-                80000,
-                100000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "kill_slayer_zombie",
-            "group": "community",
-            "name": "Revenant Horror",
-            "description": "Kill 2000 Revenant Horrors",
-            "tiers": [
-                2000,
-                4000,
-                6000,
-                8000,
-                10000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "kill_dungeon_boss_catacombs_2(?)",
-            "group": "community",
-            "name": "Scarf Offensive",
-            "description": "Kill Scarf 800 times",
-            "tiers": [
-                800,
-                1600,
-                2400,
-                3200,
-                4000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "?",
-            "group": "community",
-            "name": "Scavenger",
-            "description": "Obtain 500000000 Coins from the Scavenger Enchantment",
-            "tiers": [
-                500000000,
-                1000000000,
-                1500000000,
-                2000000000,
-                2500000000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "collect_exp_taming",
-            "group": "community",
-            "name": "Skilled",
-            "description": "Gain 150000000 Taming XP",
-            "tiers": [
-                150000000,
-                300000000,
-                450000000,
-                600000000,
-                750000000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "collect_exp_farming",
-            "group": "community",
-            "name": "Skilled",
-            "description": "Gain 150000000 Farming XP",
-            "tiers": [
-                150000000,
-                300000000,
-                450000000,
-                600000000,
-                750000000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "collect_exp_mining",
-            "group": "community",
-            "name": "Skilled",
-            "description": "Gain 150000000 Mining XP",
-            "tiers": [
-                150000000,
-                300000000,
-                450000000,
-                600000000,
-                750000000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "collect_exp_enchanting",
-            "group": "community",
-            "name": "Skilled",
-            "description": "Gain 150000000 Enchanting XP",
-            "tiers": [
-                150000000,
-                300000000,
-                450000000,
-                600000000,
-                750000000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "collect_exp_fishing",
-            "group": "community",
-            "name": "Skilled",
-            "description": "Gain 50000000 Fishing XP",
-            "tiers": [
-                50000000,
-                100000000,
-                150000000,
-                200000000,
-                250000000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "kill_slayer_spider",
-            "group": "community",
-            "name": "Tarantula Broodfather",
-            "description": "Kill 2000 Tarantula Broodfathers of tier II or higher",
-            "tiers": [
-                2000,
-                4000,
-                6000,
-                8000,
-                10000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "COLLECT_JACOB_TICKETS",
-            "group": "community",
-            "name": "A Hard Day's Work",
-            "description": "Collect 20000 Jacob's Tickets",
-            "tiers": [
-                20000,
-                40000,
-                60000,
-                80000,
-                100000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "collect_essence_spider",
-            "group": "community",
-            "name": "Essence Of Spiders",
-            "description": "Collect 200000 Spider Essence",
-            "tiers": [
-                200000,
-                400000,
-                600000,
-                800000,
-                1000000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        },
-        {
-            "id": "collect_essence_dragon",
-            "group": "community",
-            "name": "Essence Of Dragons",
-            "description": "Collect 200000 Dragon Essence",
-            "tiers": [
-                200000,
-                400000,
-                600000,
-                800000,
-                1000000
-            ],
-            "hint": "no hint",
-            "hasRequiredAmount": false
-        }
-    ]
+    "collection_wheat": {
+        "id": "collection_wheat",
+        "group": "collection",
+        "name": "Wheat Collector",
+        "description": "Reach {:d} wheat collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_carrot": {
+        "id": "collection_carrot",
+        "group": "collection",
+        "name": "Carrot Collector",
+        "description": "Reach {:d} carrot collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_potato": {
+        "id": "collection_potato",
+        "group": "collection",
+        "name": "Potato Collector",
+        "description": "Reach {:d} potato collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_pumpkin": {
+        "id": "collection_pumpkin",
+        "group": "collection",
+        "name": "Pumpkin Collector",
+        "description": "Reach {:d} pumpkin collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_melon": {
+        "id": "collection_melon",
+        "group": "collection",
+        "name": "Melon Collector",
+        "description": "Reach {:d} melon collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_mushroom": {
+        "id": "collection_mushroom",
+        "group": "collection",
+        "name": "Mushroom Collector",
+        "description": "Reach {:d} mushroom collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_cactus": {
+        "id": "collection_cactus",
+        "group": "collection",
+        "name": "Cactus Collector",
+        "description": "Reach {:d} cactus collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_sugar_cane": {
+        "id": "collection_sugar_cane",
+        "group": "collection",
+        "name": "Sugar Cane Collector",
+        "description": "Reach {:d} sugar cane collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_feather": {
+        "id": "collection_feather",
+        "group": "collection",
+        "name": "Feather Collector",
+        "description": "Reach {:d} feather collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_raw_chicken": {
+        "id": "collection_raw_chicken",
+        "group": "collection",
+        "name": "Raw Chicken Collector",
+        "description": "Reach {:d} raw chicken collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_leather": {
+        "id": "collection_leather",
+        "group": "collection",
+        "name": "Leather Collector",
+        "description": "Reach {:d} leather collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_pork": {
+        "id": "collection_pork",
+        "group": "collection",
+        "name": "Raw Porkchop Collector",
+        "description": "Reach {:d} raw porkchop collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_mutton": {
+        "id": "collection_mutton",
+        "group": "collection",
+        "name": "Mutton Collector",
+        "description": "Reach {:d} mutton collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_rabbit": {
+        "id": "collection_rabbit",
+        "group": "collection",
+        "name": "Raw Rabbit Collector",
+        "description": "Reach {:d} raw rabbit collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_ink_sack:4": {
+        "id": "collection_ink_sack:4",
+        "group": "collection",
+        "name": "Lapis Lazuli Collector",
+        "description": "Reach {:d} lapis lazuli collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_cobblestone": {
+        "id": "collection_cobblestone",
+        "group": "collection",
+        "name": "Cobblestone Collector",
+        "description": "Reach {:d} cobblestone collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_coal": {
+        "id": "collection_coal",
+        "group": "collection",
+        "name": "Coal Collector",
+        "description": "Reach {:d} coal collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_iron_ingot": {
+        "id": "collection_iron_ingot",
+        "group": "collection",
+        "name": "Iron Ingot Collector",
+        "description": "Reach {:d} iron ingot collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_gold_ingot": {
+        "id": "collection_gold_ingot",
+        "group": "collection",
+        "name": "Gold Ingot Collector",
+        "description": "Reach {:d} gold ingot collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_diamond": {
+        "id": "collection_diamond",
+        "group": "collection",
+        "name": "Diamond Collector",
+        "description": "Reach {:d} diamond collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_emerald": {
+        "id": "collection_emerald",
+        "group": "collection",
+        "name": "Emerald Collector",
+        "description": "Reach {:d} emerald collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_redstone": {
+        "id": "collection_redstone",
+        "group": "collection",
+        "name": "Redstone Collector",
+        "description": "Reach {:d} redstone collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_ink_sack:3": {
+        "id": "collection_ink_sack:3",
+        "group": "collection",
+        "name": "Cocoa Beans Collector",
+        "description": "Reach {:d} cocoa beans collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_obsidian": {
+        "id": "collection_obsidian",
+        "group": "collection",
+        "name": "Obsidian Collector",
+        "description": "Reach {:d} obsidian collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_gravel": {
+        "id": "collection_gravel",
+        "group": "collection",
+        "name": "Gravel Collector",
+        "description": "Reach {:d} gravel collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_sand": {
+        "id": "collection_sand",
+        "group": "collection",
+        "name": "Sand Collector",
+        "description": "Reach {:d} sand collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_ender_stone": {
+        "id": "collection_ender_stone",
+        "group": "collection",
+        "name": "End Stone Collector",
+        "description": "Reach {:d} end stone collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_mithril_ore": {
+        "id": "collection_mithril_ore",
+        "group": "collection",
+        "name": "Mithril Collector",
+        "description": "Reach {:d} mithril collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_hard_stone": {
+        "id": "collection_hard_stone",
+        "group": "collection",
+        "name": "Hard Stone Collector",
+        "description": "Reach {:d} hard stone collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_gemstone_collection": {
+        "id": "collection_gemstone_collection",
+        "group": "collection",
+        "name": "Gemstone Collector",
+        "description": "Reach {:d} gemstone collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_rotten_flesh": {
+        "id": "collection_rotten_flesh",
+        "group": "collection",
+        "name": "Rotten Flesh Collector",
+        "description": "Reach {:d} rotten flesh collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_bone": {
+        "id": "collection_bone",
+        "group": "collection",
+        "name": "Bone Collector",
+        "description": "Reach {:d} bone collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_string": {
+        "id": "collection_string",
+        "group": "collection",
+        "name": "String Collector",
+        "description": "Reach {:d} string collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_spider_eye": {
+        "id": "collection_spider_eye",
+        "group": "collection",
+        "name": "Spider Eye Collector",
+        "description": "Reach {:d} spider eye collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_sulphur": {
+        "id": "collection_sulphur",
+        "group": "collection",
+        "name": "Gunpowder Collector",
+        "description": "Reach {:d} gunpowder collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_ender_pearl": {
+        "id": "collection_ender_pearl",
+        "group": "collection",
+        "name": "Ender Pearl Collector",
+        "description": "Reach {:d} ender pearl collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_slime_ball": {
+        "id": "collection_slime_ball",
+        "group": "collection",
+        "name": "Slime Ball Collector",
+        "description": "Reach {:d} slime ball collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_log": {
+        "id": "collection_log",
+        "group": "collection",
+        "name": "Oak Wood Collector",
+        "description": "Reach {:d} oak wood collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_log:1": {
+        "id": "collection_log:1",
+        "group": "collection",
+        "name": "Spruce Wood Collector",
+        "description": "Reach {:d} spruce wood collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_log:2": {
+        "id": "collection_log:2",
+        "group": "collection",
+        "name": "Birch Wood Collector",
+        "description": "Reach {:d} birch wood collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_log:3": {
+        "id": "collection_log:3",
+        "group": "collection",
+        "name": "Jungle Wood Collector",
+        "description": "Reach {:d} jungle wood collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_log_2": {
+        "id": "collection_log_2",
+        "group": "collection",
+        "name": "Acacia Wood Collector",
+        "description": "Reach {:d} acacia wood collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_log_2:1": {
+        "id": "collection_log_2:1",
+        "group": "collection",
+        "name": "Dark Oak Wood Collector",
+        "description": "Reach {:d} dark oak wood collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_raw_fish": {
+        "id": "collection_raw_fish",
+        "group": "collection",
+        "name": "Raw Fish Collector",
+        "description": "Reach {:d} raw fish collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_raw_fish:1": {
+        "id": "collection_raw_fish:1",
+        "group": "collection",
+        "name": "Raw Salmon Collector",
+        "description": "Reach {:d} raw salmon collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_raw_fish:2": {
+        "id": "collection_raw_fish:2",
+        "group": "collection",
+        "name": "Clownfish Collector",
+        "description": "Reach {:d} clownfish collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_raw_fish:3": {
+        "id": "collection_raw_fish:3",
+        "group": "collection",
+        "name": "Pufferrfish Collector",
+        "description": "Reach {:d} pufferfish collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_prismarine_shard": {
+        "id": "collection_prismarine_shard",
+        "group": "collection",
+        "name": "Prismarine Shard Collector",
+        "description": "Reach {:d} prismarine shard collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_prismarine_crystals": {
+        "id": "collection_prismarine_crystals",
+        "group": "collection",
+        "name": "Prismarine Crystals Collector",
+        "description": "Reach {:d} prismarine crystals collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_sponge": {
+        "id": "collection_sponge",
+        "group": "collection",
+        "name": "Sponge Collector",
+        "description": "Reach {:d} sponge collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_clay_ball": {
+        "id": "collection_clay_ball",
+        "group": "collection",
+        "name": "Clay Collector",
+        "description": "Reach {:d} clay collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "collection_water_lily": {
+        "id": "collection_water_lily",
+        "group": "collection",
+        "name": "Lily Pads Collector",
+        "description": "Reach {:d} lily pads collection",
+        "hint": "Sea Creatures",
+        "hasRequiredAmount": true
+    },
+    "collection_ink_sack": {
+        "id": "collection_ink_sack",
+        "group": "collection",
+        "name": "Ink Sack Collector",
+        "description": "Reach {:d} ink sack collection",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "COLLECTION_LEVEL_7_5": {
+        "id": "COLLECTION_LEVEL_7_5",
+        "group": "collection",
+        "name": "Collector",
+        "description": "Get {:d} collections to at least tier 7",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "COLLECTION_LEVEL_7_7": {
+        "id": "COLLECTION_LEVEL_7_7",
+        "group": "collection",
+        "name": "Collector",
+        "description": "Get {:d} collections to at least tier 7",
+        "hint": "Collect manually or with a minion",
+        "hasRequiredAmount": true
+    },
+    "stat_health": {
+        "id": "stat_health",
+        "group": "stats",
+        "name": "Healthy",
+        "description": "Reach {:d} Health",
+        "hint": "Splash, mushroom armor plus growth V",
+        "hasRequiredAmount": true
+    },
+    "stat_walk_speed": {
+        "id": "stat_walk_speed",
+        "group": "stats",
+        "name": "I Am Speed",
+        "description": "Reach {:d} Speed",
+        "hint": "Splash",
+        "hasRequiredAmount": true
+    },
+    "stat_strength": {
+        "id": "stat_strength",
+        "group": "stats",
+        "name": "Strongman",
+        "description": "Reach {:d} Strength",
+        "hint": "Splash",
+        "hasRequiredAmount": true
+    },
+    "stat_ferocity": {
+        "id": "stat_ferocity",
+        "group": "stats",
+        "name": "Ferocious",
+        "description": "Reach {:d} Ferocity",
+        "hint": "Use Dirty reforge on uncommon or higher tiered weapon",
+        "hasRequiredAmount": true
+    },
+    "stat_critical_damage": {
+        "id": "stat_critical_damage",
+        "group": "stats",
+        "name": "Critical",
+        "description": "Reach {:d} Crit Damage",
+        "hint": "Splash or silky power stone",
+        "hasRequiredAmount": true
+    },
+    "stat_critical_chance": {
+        "id": "stat_critical_chance",
+        "group": "stats",
+        "name": "Hawk-eyed",
+        "description": "Reach {:d} Crit Chance",
+        "hint": "Splash",
+        "hasRequiredAmount": true
+    },
+    "stat_sea_creature_chance": {
+        "id": "stat_sea_creature_chance",
+        "group": "stats",
+        "name": "Sea Summoner",
+        "description": "Reach {:d} Sea Creature Chance",
+        "hint": "Splash, level up skill, get good armor set",
+        "hasRequiredAmount": true
+    },
+    "reforge_titanic": {
+        "id": "reforge_titanic",
+        "group": "reforge",
+        "name": "Titanic Reforger",
+        "description": "Apply the Titanic Reforge to an item",
+        "hint": "Reforge at Blacksmith",
+        "hasRequiredAmount": false
+    },
+    "reforge_dirty": {
+        "id": "reforge_dirty",
+        "group": "reforge",
+        "name": "Dirty Reforger",
+        "description": "Apply the Dirty Reforge to an item",
+        "hint": "The Dirt Bottle can be purchased from the Smithmonger in the Hub for 100,000 Coins",
+        "hasRequiredAmount": false
+    },
+    "reforge_warped": {
+        "id": "reforge_warped",
+        "group": "reforge",
+        "name": "Warped Reforger",
+        "description": "Apply the Warped Reforge to any Armor piece",
+        "hint": "The Warped Stone can be obtained from either an Emerald, Obsidian, or Bedrock Dungeon Reward Chest in the Catacombs Floor V(?)",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_foraging_5": {
+        "id": "GET_SKILL_foraging_5",
+        "group": "skill",
+        "name": "Lumberjack",
+        "description": "Obtain level 5 in the Foraging skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_foraging_10": {
+        "id": "GET_SKILL_foraging_10",
+        "group": "skill",
+        "name": "Lumberjack",
+        "description": "Obtain level 10 in the Foraging skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_foraging_15": {
+        "id": "GET_SKILL_foraging_15",
+        "group": "skill",
+        "name": "Lumberjack",
+        "description": "Obtain level 15 in the Foraging skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_foraging_18": {
+        "id": "GET_SKILL_foraging_18",
+        "group": "skill",
+        "name": "Lumberjack",
+        "description": "Obtain level 18 in the Foraging skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_foraging_20": {
+        "id": "GET_SKILL_foraging_20",
+        "group": "skill",
+        "name": "Lumberjack",
+        "description": "Obtain level 20 in the Foraging skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_mining_5": {
+        "id": "GET_SKILL_mining_5",
+        "group": "skill",
+        "name": "Miner",
+        "description": "Obtain level 5 in the Mining skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_mining_10": {
+        "id": "GET_SKILL_mining_10",
+        "group": "skill",
+        "name": "Miner",
+        "description": "Obtain level 10 in the Mining skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_mining_15": {
+        "id": "GET_SKILL_mining_15",
+        "group": "skill",
+        "name": "Miner",
+        "description": "Obtain level 15 in the Mining skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_mining_18": {
+        "id": "GET_SKILL_mining_18",
+        "group": "skill",
+        "name": "Miner",
+        "description": "Obtain level 18 in the Mining skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_mining_20": {
+        "id": "GET_SKILL_mining_20",
+        "group": "skill",
+        "name": "Miner",
+        "description": "Obtain level 20 in the Mining skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_farming_5": {
+        "id": "GET_SKILL_farming_5",
+        "group": "skill",
+        "name": "Farmer",
+        "description": "Obtain level 5 in the Farming skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_farming_10": {
+        "id": "GET_SKILL_farming_10",
+        "group": "skill",
+        "name": "Farmer",
+        "description": "Obtain level 10 in the Farming skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_farming_15": {
+        "id": "GET_SKILL_farming_15",
+        "group": "skill",
+        "name": "Farmer",
+        "description": "Obtain level 15 in the Farming skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_farming_18": {
+        "id": "GET_SKILL_farming_18",
+        "group": "skill",
+        "name": "Farmer",
+        "description": "Obtain level 18 in the Farming skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_farming_20": {
+        "id": "GET_SKILL_farming_20",
+        "group": "skill",
+        "name": "Farmer",
+        "description": "Obtain level 20 in the Farming skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_alchemy_5": {
+        "id": "GET_SKILL_alchemy_5",
+        "group": "skill",
+        "name": "Brewer",
+        "description": "Obtain level 5 in the Alchemy skill",
+        "hint": "Pufferfish at fish merchant, or Enchanted gold",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_alchemy_10": {
+        "id": "GET_SKILL_alchemy_10",
+        "group": "skill",
+        "name": "Brewer",
+        "description": "Obtain level 10 in the Alchemy skill",
+        "hint": "Pufferfish at fish merchant, or Enchanted gold",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_alchemy_15": {
+        "id": "GET_SKILL_alchemy_15",
+        "group": "skill",
+        "name": "Brewer",
+        "description": "Obtain level 15 in the Alchemy skill",
+        "hint": "Pufferfish at fish merchant, or Enchanted gold, auto brewer might help",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_alchemy_16": {
+        "id": "GET_SKILL_alchemy_16",
+        "group": "skill",
+        "name": "Brewer",
+        "description": "Obtain level 16 in the Alchemy skill",
+        "hint": "Pufferfish at fish merchant, or Enchanted gold, auto brewer might help",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_alchemy_18": {
+        "id": "GET_SKILL_alchemy_18",
+        "group": "skill",
+        "name": "Brewer",
+        "description": "Obtain level 18 in the Alchemy skill",
+        "hint": "Pufferfish at fish merchant, or Enchanted gold, auto brewer might help",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_alchemy_20": {
+        "id": "GET_SKILL_alchemy_20",
+        "group": "skill",
+        "name": "Brewer",
+        "description": "Obtain level 20 in the Alchemy skill",
+        "hint": "Pufferfish at fish merchant, or Enchanted gold, auto brewer might help",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_enchanting_5": {
+        "id": "GET_SKILL_enchanting_5",
+        "group": "skill",
+        "name": "Enchanter",
+        "description": "Obtain level 5 in the Enchanting skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_enchanting_10": {
+        "id": "GET_SKILL_enchanting_10",
+        "group": "skill",
+        "name": "Enchanter",
+        "description": "Obtain level 10 in the Enchanting skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_enchanting_15": {
+        "id": "GET_SKILL_enchanting_15",
+        "group": "skill",
+        "name": "Enchanter",
+        "description": "Obtain level 15 in the Enchanting skill",
+        "hint": "Reach enchating X ASAP, then use the experiment table everyday",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_enchanting_18": {
+        "id": "GET_SKILL_enchanting_18",
+        "group": "skill",
+        "name": "Enchanter",
+        "description": "Obtain level 18 in the Enchanting skill",
+        "hint": "Reach enchating X ASAP, then use the experiment table everyday",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_enchanting_20": {
+        "id": "GET_SKILL_enchanting_20",
+        "group": "skill",
+        "name": "Enchanter",
+        "description": "Obtain level 20 in the Enchanting skill",
+        "hint": "Reach enchating X ASAP, then use the experiment table everyday",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_combat_5": {
+        "id": "GET_SKILL_combat_5",
+        "group": "skill",
+        "name": "Warrior",
+        "description": "Obtain level 5 in the Combat skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_combat_10": {
+        "id": "GET_SKILL_combat_10",
+        "group": "skill",
+        "name": "Warrior",
+        "description": "Obtain level 10 in the Combat skill",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_combat_15": {
+        "id": "GET_SKILL_combat_15",
+        "group": "skill",
+        "name": "Warrior",
+        "description": "Obtain level 15 in the Combat skill",
+        "hint": "Bestiary",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_combat_18": {
+        "id": "GET_SKILL_combat_18",
+        "group": "skill",
+        "name": "Warrior",
+        "description": "Obtain level 18 in the Combat skill",
+        "hint": "Bestiary",
+        "hasRequiredAmount": false
+    },
+    "GET_SKILL_combat_20": {
+        "id": "GET_SKILL_combat_20",
+        "group": "skill",
+        "name": "Warrior",
+        "description": "Obtain level 20 in the Combat skill",
+        "hint": "Bestiary",
+        "hasRequiredAmount": false
+    },
+    "skill_average": {
+        "id": "skill_average",
+        "group": "skill",
+        "name": "Skill Average",
+        "description": "Reach a non-cosmetic Skill Average of {:d}",
+        "hint": "no hint",
+        "hasRequiredAmount": true
+    },
+    "OBTAIN_JACOB_BRONZE": {
+        "id": "OBTAIN_JACOB_BRONZE",
+        "group": "farming",
+        "name": "Podium Position",
+        "description": "Obtain a Bronze or higher medal in Jacob's Farming Contest",
+        "hint": "Wheat",
+        "hasRequiredAmount": false
+    },
+    "OBTAIN_JACOB_SILVER": {
+        "id": "OBTAIN_JACOB_SILVER",
+        "group": "farming",
+        "name": "Podium Position",
+        "description": "Obtain a Silver or higher medal in Jacob's Farming Contest",
+        "hint": "?????",
+        "hasRequiredAmount": false
+    },
+    "KILL_TRAPPER_MOB": {
+        "id": "KILL_TRAPPER_MOB",
+        "group": "farming",
+        "name": "Setting a Trap",
+        "description": "Kill a trapped animal",
+        "hint": "Mushroom Desert",
+        "hasRequiredAmount": false
+    },
+    "fish_summon_10_75": {
+        "id": "fish_summon_10_75",
+        "group": "fishing",
+        "name": "Quick Reel",
+        "description": "Summon {:d} Sea Creatures within 75 seconds",
+        "hint": "no hint",
+        "hasRequiredAmount": true
+    },
+    "fish_sea_creature_CARROT_KING": {
+        "id": "fish_sea_creature_CARROT_KING",
+        "group": "fishing",
+        "name": "King Of The... Seas?",
+        "description": "Fish up a Carrot King",
+        "hint": "Fishing 15 + carrot bait",
+        "hasRequiredAmount": false
+    },
+    "brew_potion_level": {
+        "id": "brew_potion_level",
+        "group": "alchemy",
+        "name": "Trouble is Brewing...",
+        "description": "Brew any level IV or higher potion",
+        "hint": "Absorption potion, enchanted gold, glowstone powder",
+        "hasRequiredAmount": false
+    },
+    "craft_minions": {
+        "id": "craft_minions",
+        "group": "minion",
+        "name": "Minion Machine",
+        "description": "Obtain {:d} unique Minions",
+        "hint": "Get first 3 tiers of each type of minions",
+        "hasRequiredAmount": true
+    },
+    "obtain_t11_minion": {
+        "id": "obtain_t11_minion",
+        "group": "minion",
+        "name": "Hard Worker",
+        "description": "Obtain any Tier 11 Minion",
+        "hint": "Wheat is the fastest, while endstone has more profit",
+        "hasRequiredAmount": false
+    },
+    "obtain_t12_minion": {
+        "id": "obtain_t12_minion",
+        "group": "minion",
+        "name": "Hard Worker",
+        "description": "Obtain any Tier 12 Minion",
+        "hint": "??????",
+        "hasRequiredAmount": false
+    },
+    "craft_any_pet": {
+        "id": "craft_any_pet",
+        "group": "pets",
+        "name": "A Best Friend",
+        "description": "Craft any pet",
+        "hint": "Use chicken hat to get enchanted egg, then craft a jerry pet",
+        "hasRequiredAmount": false
+    },
+    "obtain_pets": {
+        "id": "obtain_pets",
+        "group": "pets",
+        "name": "Pet Hoarder",
+        "description": "Obtain {:d} unique Pets",
+        "hint": "Use chicken hat to get first enchanted egg, then use it to chicken minion to obtain more eggs.",
+        "hasRequiredAmount": true
+    },
+    "upgrade_pet": {
+        "id": "upgrade_pet",
+        "group": "pets",
+        "name": "Petsitter",
+        "description": "Upgrade a pet with Kat",
+        "hint": "Upgrade a bee pet",
+        "hasRequiredAmount": false
+    },
+    "obtain_pet_level": {
+        "id": "obtain_pet_level",
+        "group": "pets",
+        "name": "Pet Grinder",
+        "description": "Obtain a [Lvl100] Pet",
+        "hint": "Bingo Pet",
+        "hasRequiredAmount": false
+    },
+    "EQUIP_ROCK_COMMON": {
+        "id": "EQUIP_ROCK_COMMON",
+        "group": "pets",
+        "name": "Rock Solid",
+        "description": "Equip a COMMON or higher tiered Rock Pet",
+        "hint": "Mining Milestone 2500",
+        "hasRequiredAmount": false
+    },
+    "EQUIP_ROCK_UNCOMMON": {
+        "id": "EQUIP_ROCK_UNCOMMON",
+        "group": "pets",
+        "name": "Rock Solid",
+        "description": "Equip a UNCOMMON or higher tiered Rock Pet",
+        "hint": "Mining Milestone 7500",
+        "hasRequiredAmount": false
+    },
+    "EQUIP_ROCK_RARE": {
+        "id": "EQUIP_ROCK_RARE",
+        "group": "pets",
+        "name": "Rock Solid",
+        "description": "Equip a RARE or higher tiered Rock Pet",
+        "hint": "Mining Milestone 20000",
+        "hasRequiredAmount": false
+    },
+    "EQUIP_DOLPHIN_COMMON": {
+        "id": "EQUIP_DOLPHIN_COMMON",
+        "group": "pets",
+        "name": "Friend Of The Seas",
+        "description": "Equip a COMMON or higher tiered Dolphin Pet",
+        "hint": "Fishing Milestone 250",
+        "hasRequiredAmount": false
+    },
+    "EQUIP_DOLPHIN_UNCOMMON": {
+        "id": "EQUIP_DOLPHIN_UNCOMMON",
+        "group": "pets",
+        "name": "Friend Of The Seas",
+        "description": "Equip a UNCOMMON or higher tiered Dolphin Pet",
+        "hint": "Fishing Milestone 1000",
+        "hasRequiredAmount": false
+    },
+    "bank_coins": {
+        "id": "bank_coins",
+        "group": "coin",
+        "name": "Meiser",
+        "description": "Store {:d} coins in your bank",
+        "hint": "Ender nodes",
+        "hasRequiredAmount": true
+    },
+    "slayer_bosses": {
+        "id": "slayer_bosses",
+        "group": "slayer",
+        "name": "Slayer",
+        "description": "Reach Level {:d} for any Slayer boss",
+        "hint": "no hint",
+        "hasRequiredAmount": true
+    },
+    "fairy_souls": {
+        "id": "fairy_souls",
+        "group": "fairy_soul",
+        "name": "Fairy Finder",
+        "description": "Obtain {:d} Fairy Souls",
+        "hint": "no hint",
+        "hasRequiredAmount": true
+    },
+    "obtain_item_grand_exp_bottle": {
+        "id": "obtain_item_grand_exp_bottle",
+        "group": "item",
+        "name": "Experienced",
+        "description": "Obtain a Grand Experience Bottle",
+        "hint": "Ender node, or experiment table, or lapis lazuli collection",
+        "hasRequiredAmount": false
+    },
+    "obtain_item_titanic_exp_bottle": {
+        "id": "obtain_item_titanic_exp_bottle",
+        "group": "item",
+        "name": "Experienced",
+        "description": "Obtain a Titanic Experience Bottle",
+        "hint": "Experiment table, or lapis lazuli collection, or fish if you're lucky",
+        "hasRequiredAmount": false
+    },
+    "craft_item_cleaver": {
+        "id": "craft_item_cleaver",
+        "group": "item",
+        "name": "Multitasking",
+        "description": "Craft a Cleaver",
+        "hint": "Gold Ingot Collection II(100), recipe: 4 Gold Ingots, 2 Stick",
+        "hasRequiredAmount": false
+    },
+    "craft_item_hot_potato_book": {
+        "id": "craft_item_hot_potato_book",
+        "group": "item",
+        "name": "Potatorific",
+        "description": "Craft a Hot Potato Book",
+        "hint": "Potato Collection VIII(50000), recipe: 1 Enchated Baked Potato(160 Enchanted Potato, 25600 Potato), 3 Paper"
+    },
+    "craft_item_large_enchanted_chest": {
+        "id": "craft_item_large_enchanted_chest",
+        "group": "item",
+        "name": "Extra Storage",
+        "description": "Craft a Large Storage",
+        "hint": "Oak Wood Collection IX(30000), recipe: 256 Enchanted Oak Wood(40960 Oak Wood), 1 Medium Storage, 42304 Oak Wood in total",
+        "hasRequiredAmount": false
+    },
+    "craft_item_small_backpack": {
+        "id": "craft_item_small_backpack",
+        "group": "item",
+        "name": "Carry-on",
+        "description": "Craft a Small Backpack",
+        "hint": "Leather Collection III(250), recipe: 80 Leather",
+        "hasRequiredAmount": false
+    },
+    "craft_item_medium_backpack": {
+        "id": "craft_item_medium_backpack",
+        "group": "item",
+        "name": "Carry-on",
+        "description": "Craft a Medium Backpack",
+        "hint": "Leather Collection V(2500), recipe: 512 Leather, 1 Small Backpack, 592 Leather in total",
+        "hasRequiredAmount": false
+    },
+    "craft_item_large_backpack": {
+        "id": "craft_item_large_backpack",
+        "group": "item",
+        "name": "Carry-on",
+        "description": "Craft a Large Backpack",
+        "hint": "Leather Collection VIII(25000), recipe: 16 Enchanted Leather(2560 Leather), 1 Medium Backpack, 9808 Leather in total",
+        "hasRequiredAmount": false
+    },
+    "craft_item_piggy_bank": {
+        "id": "craft_item_piggy_bank",
+        "group": "item",
+        "name": "New Savings",
+        "description": "Craft a Piggy Bank",
+        "hint": "Raw Porkchop Collection V(2500), recipe: 40 Enchanted Raw Porkchop(6400 Raw Porkchop), 1 Chest",
+        "hasRequiredAmount": false
+    },
+    "craft_item_emerald_ring": {
+        "id": "craft_item_emerald_ring",
+        "group": "item",
+        "name": "The Green Gold",
+        "description": "Craft an Emerald Ring",
+        "hint": "Emerald Collection V(5000), recipe: 32 Enchanted Emerald(5120 Emerald)",
+        "hasRequiredAmount": false
+    },
+    "craft_item_diamond_spreading": {
+        "id": "craft_item_diamond_spreading",
+        "group": "item",
+        "name": "Now We're In Business",
+        "description": "Craft a Diamond Spreading",
+        "hint": "Diamond Collection VI(5000), recipe: 1 Enchanted Diamond, 8 Vine(unlocks trade at Jungle Wood Collection IV(500))",
+        "hasRequiredAmount": false
+    },
+    "craft_item_super_compactor_3000": {
+        "id": "craft_item_super_compactor_3000",
+        "group": "item",
+        "name": "Compact Crafting",
+        "description": "Craft a Super Compactor 3000",
+        "hint": "Cobblestone Collection X(70000), recipe: 448 Enchanted Cobblestone(71680 Cobblestone), 1 Enchanted Redstone Block(160 Enchanted Redstone)",
+        "hasRequiredAmount": false
+    },
+    "craft_item_aspect_of_the_end": {
+        "id": "craft_item_aspect_of_the_end",
+        "group": "item",
+        "name": "Zoop!",
+        "description": "Craft an Aspect of the End",
+        "hint": "Buy Blaze Powder from alchemist in the hub everyday. Ender Pearl Collection VIII(25000), recipe: 32 Enchanted Eye of Ender(512 Enchanted Ender Pearl, 2048 Blaze Powder), 1 Enchanted Diamond(160 Diamond)",
+        "hasRequiredAmount": false
+    },
+    "consume_mushroomsoup_regular": {
+        "id": "consume_mushroomsoup_regular",
+        "group": "item",
+        "name": "Taking Flight",
+        "description": "Consume a Magical Mushroom soup",
+        "hint": "You can buy glowstone from builder in the hub. Mushroom Collection IV(1000), recipe: 1 Glowstone Dust, 1 Red Mushroom, 1 Brown Mushroom, 1 Redstone, 1 Bowl",
+        "hasRequiredAmount": false
+    },
+    "consume_mushroomsoup_enchanted": {
+        "id": "consume_mushroomsoup_enchanted",
+        "group": "item",
+        "name": "Taking Flight",
+        "description": "Consume a Mystical Mushroom soup",
+        "hint": "You need Combat 24 to unlock Glowstone collection. Mushroom Collection VII(10000), recipe: 1 Enchanted Glowstone Dust, 1 Enchanted Red Mushroom, 1 Enchanted Brown Mushroom, 1 Enchanted Redstone, 1 Bowl",
+        "hasRequiredAmount": false
+    },
+    "obtain_item_stonk_pickaxe": {
+        "id": "obtain_item_stonk_pickaxe",
+        "group": "item",
+        "name": "stonks",
+        "description": "Obtain a Stonk",
+        "hint": "You need combat 12 to unlock the end. Then buy from the Pearl Dealer for 499999 Coins",
+        "hasRequiredAmount": false
+    },
+    "obtain_item_theoretical_hoe": {
+        "id": "obtain_item_theoretical_hoe",
+        "group": "item",
+        "name": "E=mc^2",
+        "description": "Obtain a Mathematical Hoe BluePrint",
+        "hint": "Do Wheat Contests",
+        "hasRequiredAmount": false
+    },
+    "obtain_all_crystal": {
+        "id": "obtain_all_crystal",
+        "group": "crystal_hollow",
+        "name": "Divan's Chance",
+        "description": "Place all 5 crystals in the Nucleus in the Crystal Hollows",
+        "hint": "??????",
+        "hasRequiredAmount": false
+    },
+    "obtain_crystal": {
+        "id": "obtain_crystal",
+        "group": "crystal_hollow",
+        "name": "Topaz Crystal",
+        "description": "Obtain a Topaz Crystal in the Crystal Hollows",
+        "hint": "Khazad-dum, defeat Bal Boss",
+        "hasRequiredAmount": false
+    },
+    "wear_unique_armor_4": {
+        "id": "wear_unique_armor_4",
+        "group": "armor",
+        "name": "Fashionable",
+        "description": "Wear 4 Unique Armor Sets",
+        "hint": "Craft Easy Farming Sets",
+        "hasRequiredAmount": true
+    },
+    "wear_unique_armor_18": {
+        "id": "wear_unique_armor_18",
+        "group": "armor",
+        "name": "Fashionable",
+        "description": "Wear 18 Unique Armor Sets",
+        "hint": "Craft Easy Farming Sets",
+        "hasRequiredAmount": true
+    },
+    "wear_armor_glacite": {
+        "id": "wear_armor_glacite",
+        "group": "armor",
+        "name": "I've got Chills!",
+        "description": "Wear a full set of Glacite Armor",
+        "hint": "Bow swap",
+        "hasRequiredAmount": false
+    },
+    "wear_armor_golem": {
+        "id": "wear_armor_golem",
+        "group": "armor",
+        "name": "Golem",
+        "description": "Wear a full set of Golem Armor",
+        "hint": "Iron Collection VI(5000), recipe: 240 Enchanted Iron Ingot(38400 Iron Ingot)",
+        "hasRequiredAmount": false
+    },
+    "wear_armor_lapis": {
+        "id": "wear_armor_lapis",
+        "group": "armor",
+        "name": "Lapis Warrior",
+        "description": "Wear a full set of Lapis Armor",
+        "hint": "Lapis zombie",
+        "hasRequiredAmount": false
+    },
+    "wear_armor_angler": {
+        "id": "wear_armor_angler",
+        "group": "armor",
+        "name": "Fisherman",
+        "description": "Wear a full set of Angler Armor",
+        "hint": "Raw Fish Collection V(500), recipe: 24 Raw Fish",
+        "hasRequiredAmount": false
+    },
+    "complete_commissions": {
+        "id": "complete_commissions",
+        "group": "dwarven",
+        "name": "Commission Master",
+        "description": "Complete {:d} Commissions in the Dwarven Mines or Crystal Hollows",
+        "hint": "Enter the Dwavern Mines using 30 enchanted lapiz lazuli",
+        "hasRequiredAmount": true
+    },
+    "summon_golden_goblin": {
+        "id": "summon_golden_goblin",
+        "group": "dwarven",
+        "name": "Strange Eggs",
+        "description": "Spawn a Golden Goblin",
+        "hint": "Mine in the Dwarven Mines",
+        "hasRequiredAmount": false
+    },
+    "SOLVE_PUZZLER": {
+        "id": "SOLVE_PUZZLER",
+        "group": "dwarven",
+        "name": "A Real Head Scratcher",
+        "description": "Complete Puzzler's quest",
+        "hint": "In the palace",
+        "hasRequiredAmount": false
+    },
+    "SOLVE_FETCHUR": {
+        "id": "SOLVE_FETCHUR",
+        "group": "dwarven",
+        "name": "Search And Rescue",
+        "description": "Help Fetchur find his item",
+        "hint": "Use mods",
+        "hasRequiredAmount": false
+    },
+    "collect_powder_mithril": {
+        "id": "collect_powder_mithril",
+        "group": "dwarven",
+        "name": "Powder Collector",
+        "description": "Collect {:d} Mithril Powder",
+        "hint": "Do daily commissions",
+        "hasRequiredAmount": true
+    },
+    "collect_powder_gemstone": {
+        "id": "collect_powder_gemstone",
+        "group": "crystal_hollow",
+        "name": "Powder Collector",
+        "description": "Collect 30000 Gemstone Powder",
+        "hint": "Do daily commissions",
+        "hasRequiredAmount": false
+    },
+    "KILL_GOBLINS_RAID": {
+        "id": "KILL_GOBLINS_RAID",
+        "group": "dwarven",
+        "name": "Dwarves Defender",
+        "description": "Kill 25 Goblins during a Goblin Raid in the Dwavern Mines",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "forge_item": {
+        "id": "forge_item",
+        "group": "dwarven",
+        "name": "Forgery",
+        "description": "Forge an item in The Forge",
+        "hint": "refined mithril",
+        "hasRequiredAmount": false
+    },
+    "wear_accessories": {
+        "id": "wear_accessories",
+        "group": "accesory",
+        "name": "Bedazzled",
+        "description": "Equip {:d} Unique Accessories",
+        "hint": "Thirtyvirus got a video for this",
+        "hasRequiredAmount": true
+    },
+    "obtain_item_lynx_talisman": {
+        "id": "obtain_item_lynx_talisman",
+        "group": "accesory",
+        "name": "Lynx",
+        "description": "Obtain a Lynx Talisman",
+        "hint": "Dungeon Race",
+        "hasRequiredAmount": false
+    },
+    "obtain_item_cheetah_talisman": {
+        "id": "obtain_item_cheetah_talisman",
+        "group": "accesory",
+        "name": "Cheetah",
+        "description": "Obtain a Cheetah Talisman",
+        "hint": "Dungeon Race",
+        "hasRequiredAmount": false
+    },
+    "obtain_item_campfire_cultist_badge": {
+        "id": "obtain_item_campfire_cultist_badge",
+        "group": "accesory",
+        "name": "Hot Trails",
+        "description": "Obtain a Campfire Cultist Badge",
+        "hint": "Use mushroom armor + growth V",
+        "hasRequiredAmount": false
+    },
+    "UNLOCK_DUNGEON_CHEST_WOODEN": {
+        "id": "UNLOCK_DUNGEON_CHEST_WOODEN",
+        "group": "dungeon",
+        "name": "Wooden Treasure",
+        "description": "Unlock a Wooden Dungeon Chest",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "UNLOCK_DUNGEON_CHEST_EMERALD": {
+        "id": "UNLOCK_DUNGEON_CHEST_EMERALD",
+        "group": "dungeon",
+        "name": "Emerald Treasure",
+        "description": "Unlock an Emerald Dungeon Chest",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "UNLOCK_DUNGEON_CHEST_OBSIDIAN": {
+        "id": "UNLOCK_DUNGEON_CHEST_OBSIDIAN",
+        "group": "dungeon",
+        "name": "Obsidian Treasure",
+        "description": "Unlock an Obsidian Dungeon Chest",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "KILL_LOST_ADVENTURER": {
+        "id": "KILL_LOST_ADVENTURER",
+        "group": "dungeon",
+        "name": "A Lost Cause",
+        "description": "Kill a Lost Adventurer",
+        "hint": "Use mage ult",
+        "hasRequiredAmount": false
+    },
+    "DUNGEON_CATACOMBS_1_230": {
+        "id": "DUNGEON_CATACOMBS_1_230",
+        "group": "dungeon",
+        "name": "High Score!",
+        "description": "Obtain a score of 250 or higher on Floor 2 of Catacombs",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "DUNGEON_CATACOMBS_2_250": {
+        "id": "DUNGEON_CATACOMBS_2_250",
+        "group": "dungeon",
+        "name": "High Score!",
+        "description": "Obtain a score of 250 or higher on Floor 2 of Catacombs",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "training_weight_5": {
+        "id": "training_weight_5",
+        "group": "dungeon",
+        "name": "Weird Flex",
+        "description": "Gain 5 Strength from a Training Weight",
+        "hint": "Lock your slot using mods",
+        "hasRequiredAmount": false
+    },
+    "dungeon_item_star_5": {
+        "id": "dungeon_item_star_5",
+        "group": "dungeon",
+        "name": "I See Stars",
+        "description": "Apply 5 stars to a dungeon item",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "bestiary_level_3": {
+        "id": "bestiary_level_3",
+        "group": "bestiary",
+        "name": "Collecting Data",
+        "description": "Reach Bestiary Milestone 3",
+        "hint": "Kill mobs",
+        "hasRequiredAmount": true
+    },
+    "bestiary_level_5": {
+        "id": "bestiary_level_5",
+        "group": "bestiary",
+        "name": "Collecting Data",
+        "description": "Reach Bestiary Milestone 5",
+        "hint": "Kill mobs",
+        "hasRequiredAmount": true
+    },
+    "FIND_EXPERIMENT_PAIRS_1": {
+        "id": "FIND_EXPERIMENT_PAIRS_1",
+        "group": "experiment",
+        "name": "Pair Up!",
+        "description": "Find 1 Pair in the Experiment Table",
+        "hint": "Get Enchanting X",
+        "hasRequiredAmount": false
+    },
+    "FIND_EXPERIMENT_PAIRS_3": {
+        "id": "FIND_EXPERIMENT_PAIRS_3",
+        "group": "experiment",
+        "name": "Pair Up!",
+        "description": "Find 3 Pair in the Experiment Table",
+        "hint": "Get Enchanting X",
+        "hasRequiredAmount": false
+    },
+    "FIND_EXPERIMENT_PAIRS_5": {
+        "id": "FIND_EXPERIMENT_PAIRS_5",
+        "group": "experiment",
+        "name": "Pair Up!",
+        "description": "Find 5 Pair in the Experiment Table",
+        "hint": "Get Enchanting X",
+        "hasRequiredAmount": false
+    },
+    "COMPLETE_TIMED_TARGET_PRACTICE": {
+        "id": "COMPLETE_TIMED_TARGET_PRACTICE",
+        "group": "miscellaneous",
+        "name": "Eagle-Eyed",
+        "description": "Complete a timed Target Practice",
+        "hint": "Buy shortbow from the Weaponsmith and head to the basement next to him",
+        "hasRequiredAmount": false
+    },
+    "kill_mobs_2500": {
+        "id": "kill_mobs_2500",
+        "group": "miscellaneous",
+        "name": "Exterminator",
+        "description": "Kill 2500 Mobs",
+        "hint": "Kill mobs",
+        "hasRequiredAmount": true
+    },
+    "kill_mobs_5000": {
+        "id": "kill_mobs_5000",
+        "group": "miscellaneous",
+        "name": "Exterminator",
+        "description": "Kill 5000 Mobs",
+        "hint": "Kill mobs",
+        "hasRequiredAmount": true
+    },
+    "kill_mobs_10000": {
+        "id": "kill_mobs_10000",
+        "group": "miscellaneous",
+        "name": "Exterminator",
+        "description": "Kill 10000 Mobs",
+        "hint": "Kill mobs",
+        "hasRequiredAmount": true
+    },
+    "UNLOCK_UNIQUE_COLLECTIONS_40": {
+        "id": "UNLOCK_UNIQUE_COLLECTIONS_40",
+        "group": "miscellaneous",
+        "name": "Diversity",
+        "description": "Unlock {:d} unique Collections",
+        "hint": "no hint",
+        "hasRequiredAmount": true
+    },
+    "obtain_ultimate_enchanted_book": {
+        "id": "obtain_ultimate_enchanted_book",
+        "group": "miscellaneous",
+        "name": "Ultimate Enchanter",
+        "description": "Obtain an Ultimate Enchanted Book",
+        "hint": "Dungeon",
+        "hasRequiredAmount": false
+    },
+    "obtain_enchanted_book_6": {
+        "id": "obtain_enchanted_book_6",
+        "group": "miscellaneous",
+        "name": "Esteemed Enchanter",
+        "description": "Obtain an Level VI Enchanted Book",
+        "hint": "Fishing",
+        "hasRequiredAmount": false
+    },
+    "kill_runic_mob": {
+        "id": "kill_runic_mob",
+        "group": "miscellaneous",
+        "name": "Strange Effects",
+        "description": "Kill a Runic Mob",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "kill_endermen_10_8": {
+        "id": "kill_endermen_10_8",
+        "group": "miscellaneous",
+        "name": "Ender Menace",
+        "description": "Kill 10 Endermen in 8 seconds",
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "summon_arachne": {
+        "id": "summon_arachne",
+        "group": "miscellaneous",
+        "name": "Spider Queen",
+        "description": "Summon Arachne",
+        "hint": "Kill Arachne's Keeper",
+        "hasRequiredAmount": false
+    },
+    "spider_relic": {
+        "id": "spider_relic",
+        "group": "miscellaneous",
+        "name": "Relic Researcher",
+        "description": "Find 28 Relics in the Spider's Den",
+        "hint": "Use mods",
+        "hasRequiredAmount": false
+    },
+    "multi_enchant_RAIDER_AXE_10": {
+        "id": "multi_enchant_RAIDER_AXE_10",
+        "group": "miscellaneous",
+        "name": "An Axe To Grind",
+        "description": "Put 10 Enchantments on a Raider Axe",
+        "hint": "Fish Hat, Magical Water Bucket at Ice Collection V(1000)",
+        "hasRequiredAmount": false
+    },
+    "harvest_crops_extreme": {
+        "id": "harvest_crops_extreme",
+        "group": "community",
+        "name": "Agricultural Revolution",
+        "description": "Harvest 30000000 crop blocks",
+        "tiers": [
+            30000000,
+            60000000,
+            90000000,
+            120000000,
+            150000000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "harvest_crops": {
+        "id": "harvest_crops",
+        "group": "community",
+        "name": "Agricultural Revolution",
+        "description": "Harvest 2000000 crops",
+        "tiers": [
+            2000000,
+            4000000,
+            6000000,
+            8000000,
+            10000000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "hotm_experience": {
+        "id": "hotm_experience",
+        "group": "community",
+        "name": "Cave Commodity",
+        "description": "Gain 1000000 Heart Of The Mountain XP",
+        "tiers": [
+            1000000,
+            2000000,
+            3000000,
+            4000000,
+            5000000
+        ],
+        "hint": "Do daily commissions",
+        "hasRequiredAmount": false
+    },
+    "kill_dungeon_boss_catacombs_1": {
+        "id": "kill_dungeon_boss_catacombs_1",
+        "group": "community",
+        "name": "Clown Collab",
+        "description": "Kill Bonzo 1000 times",
+        "tiers": [
+            1000,
+            2000,
+            3000,
+            4000,
+            5000
+        ],
+        "hint": "find carries",
+        "hasRequiredAmount": false
+    },
+    "kill_endermans": {
+        "id": "kill_endermans",
+        "group": "community",
+        "name": "Enderman Slayer",
+        "description": "Kill 500000 Endermen",
+        "tiers": [
+            500000,
+            1000000,
+            1500000,
+            2000000,
+            2500000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "kill_goblins": {
+        "id": "kill_goblins",
+        "group": "community",
+        "name": "Goblin Slayer",
+        "description": "Kill 400000 Goblins",
+        "tiers": [
+            400000,
+            800000,
+            1200000,
+            1600000,
+            2000000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "kill_golden_goblins": {
+        "id": "kill_golden_goblins",
+        "group": "community",
+        "name": "Goblin's Treasure",
+        "description": "Kill 2000 Golden Goblins",
+        "tiers": [
+            2000,
+            4000,
+            6000,
+            8000,
+            10000
+        ],
+        "hint": "mine cobblestone at bridge",
+        "hasRequiredAmount": false
+    },
+    "obtain_pelts": {
+        "id": "obtain_pelts",
+        "group": "community",
+        "name": "Hunter",
+        "description": "Collect 20000 Pelts",
+        "tiers": [
+            20000,
+            40000,
+            60000,
+            80000,
+            100000
+        ],
+        "hint": "mushroom desert",
+        "hasRequiredAmount": false
+    },
+    "deposit_chum": {
+        "id": "deposit_chum",
+        "group": "community",
+        "name": "Bait",
+        "description": "Deposit 200000 Chum",
+        "tiers": [
+            200000,
+            400000,
+            600000,
+            800000,
+            1000000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "summon_crypts": {
+        "id": "summon_crypts",
+        "group": "community",
+        "name": "KABOOM!",
+        "description": "Blow up 15000 Crypts in the Catacombs",
+        "tiers": [
+            15000,
+            30000,
+            45000,
+            60000,
+            75000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "kill_team_treasurite": {
+        "id": "kill_team_treasurite",
+        "group": "community",
+        "name": "Let the StarFall",
+        "description": "Kill 100000 Team Treasurite members",
+        "tiers": [
+            100000,
+            200000,
+            300000,
+            400000,
+            500000
+        ],
+        "hint": "mithril deposits in the crystal hollows",
+        "hasRequiredAmount": false
+    },
+    "loot_drop": {
+        "id": "loot_drop",
+        "group": "community",
+        "name": "Lucky Looter",
+        "description": "Loot 20000 drops with a chance of 1% or lower",
+        "tiers": [
+            20000,
+            40000,
+            60000,
+            80000,
+            100000
+        ],
+        "hint": "enderman",
+        "hasRequiredAmount": false
+    },
+    "mine_ores": {
+        "id": "mine_ores",
+        "group": "community",
+        "name": "Operation:Ore",
+        "description": "Break 2000000 Ores",
+        "tiers": [
+            2000000,
+            4000000,
+            6000000,
+            8000000,
+            10000000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "pet_experience": {
+        "id": "pet_experience",
+        "group": "community",
+        "name": "Pet",
+        "description": "Gain 500000000 Pet XP",
+        "tiers": [
+            500000000,
+            1000000000,
+            1500000000,
+            2000000000,
+            2500000000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "summon_sea_creatures": {
+        "id": "summon_sea_creatures",
+        "group": "community",
+        "name": "Poseidon",
+        "description": "Summon 20000 Sea Creatures",
+        "tiers": [
+            20000,
+            40000,
+            60000,
+            80000,
+            100000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "kill_slayer_zombie": {
+        "id": "kill_slayer_zombie",
+        "group": "community",
+        "name": "Revenant Horror",
+        "description": "Kill 2000 Revenant Horrors",
+        "tiers": [
+            2000,
+            4000,
+            6000,
+            8000,
+            10000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "kill_dungeon_boss_catacombs_2": {
+        "id": "kill_dungeon_boss_catacombs_2",
+        "group": "community",
+        "name": "Scarf Offensive",
+        "description": "Kill Scarf 800 times",
+        "tiers": [
+            800,
+            1600,
+            2400,
+            3200,
+            4000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "obtain_coin_scavenger": {
+        "id": "obtain_coin_scavenger",
+        "group": "community",
+        "name": "Scavenger",
+        "description": "Obtain 500000000 Coins from the Scavenger Enchantment",
+        "tiers": [
+            500000000,
+            1000000000,
+            1500000000,
+            2000000000,
+            2500000000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "collect_exp_taming": {
+        "id": "collect_exp_taming",
+        "group": "community",
+        "name": "Skilled",
+        "description": "Gain 150000000 Taming XP",
+        "tiers": [
+            150000000,
+            300000000,
+            450000000,
+            600000000,
+            750000000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "collect_exp_farming": {
+        "id": "collect_exp_farming",
+        "group": "community",
+        "name": "Skilled",
+        "description": "Gain 150000000 Farming XP",
+        "tiers": [
+            150000000,
+            300000000,
+            450000000,
+            600000000,
+            750000000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "collect_exp_mining": {
+        "id": "collect_exp_mining",
+        "group": "community",
+        "name": "Skilled",
+        "description": "Gain 150000000 Mining XP",
+        "tiers": [
+            150000000,
+            300000000,
+            450000000,
+            600000000,
+            750000000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "collect_exp_enchanting": {
+        "id": "collect_exp_enchanting",
+        "group": "community",
+        "name": "Skilled",
+        "description": "Gain 150000000 Enchanting XP",
+        "tiers": [
+            150000000,
+            300000000,
+            450000000,
+            600000000,
+            750000000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "collect_exp_fishing": {
+        "id": "collect_exp_fishing",
+        "group": "community",
+        "name": "Skilled",
+        "description": "Gain 50000000 Fishing XP",
+        "tiers": [
+            50000000,
+            100000000,
+            150000000,
+            200000000,
+            250000000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "kill_slayer_spider": {
+        "id": "kill_slayer_spider",
+        "group": "community",
+        "name": "Tarantula Broodfather",
+        "description": "Kill 2000 Tarantula Broodfathers of tier II or higher",
+        "tiers": [
+            2000,
+            4000,
+            6000,
+            8000,
+            10000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "COLLECT_JACOB_TICKETS": {
+        "id": "COLLECT_JACOB_TICKETS",
+        "group": "community",
+        "name": "A Hard Day's Work",
+        "description": "Collect 20000 Jacob's Tickets",
+        "tiers": [
+            20000,
+            40000,
+            60000,
+            80000,
+            100000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "collect_essence_spider": {
+        "id": "collect_essence_spider",
+        "group": "community",
+        "name": "Essence Of Spiders",
+        "description": "Collect 200000 Spider Essence",
+        "tiers": [
+            200000,
+            400000,
+            600000,
+            800000,
+            1000000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    },
+    "collect_essence_dragon": {
+        "id": "collect_essence_dragon",
+        "group": "community",
+        "name": "Essence Of Dragons",
+        "description": "Collect 200000 Dragon Essence",
+        "tiers": [
+            200000,
+            400000,
+            600000,
+            800000,
+            1000000
+        ],
+        "hint": "no hint",
+        "hasRequiredAmount": false
+    }
 }
