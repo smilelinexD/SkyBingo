@@ -6,9 +6,11 @@
         "description": "Reach {:d} cactus collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "CACTUS",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "CACTUS"
+        ]
     },
     "collection_carrot": {
         "id": "collection_carrot",
@@ -17,9 +19,11 @@
         "description": "Reach {:d} carrot collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "CARROT",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "CARROT"
+        ]
     },
     "collection_ink_sack:3": {
         "id": "collection_ink_sack:3",
@@ -28,9 +32,11 @@
         "description": "Reach {:d} cocoa beans collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "INK_SACK:3",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "INK_SACK:3"
+        ]
     },
     "collection_feather": {
         "id": "collection_feather",
@@ -39,9 +45,11 @@
         "description": "Reach {:d} feather collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "FEATHER",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "FEATHER"
+        ]
     },
     "collection_leather": {
         "id": "collection_leather",
@@ -50,9 +58,11 @@
         "description": "Reach {:d} leather collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "LEATHER",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "LEATHER"
+        ]
     },
     "collection_melon": {
         "id": "collection_melon",
@@ -61,9 +71,11 @@
         "description": "Reach {:d} melon collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "MELON",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "MELON"
+        ]
     },
     "collection_mushroom": {
         "id": "collection_mushroom",
@@ -72,9 +84,11 @@
         "description": "Reach {:d} mushroom collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "MUSHROOM",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "MUSHROOM"
+        ]
     },
     "collection_mutton": {
         "id": "collection_mutton",
@@ -83,9 +97,11 @@
         "description": "Reach {:d} mutton collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "MUTTON",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "MUTTON"
+        ]
     },
     "collection_potato": {
         "id": "collection_potato",
@@ -94,9 +110,11 @@
         "description": "Reach {:d} potato collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "POTATO",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "POTATO"
+        ]
     },
     "collection_pumpkin": {
         "id": "collection_pumpkin",
@@ -105,9 +123,11 @@
         "description": "Reach {:d} pumpkin collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "PUMPKIN",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "PUMPKIN"
+        ]
     },
     "collection_raw_chicken": {
         "id": "collection_raw_chicken",
@@ -116,9 +136,11 @@
         "description": "Reach {:d} raw chicken collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "RAW_CHICKEN",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "RAW_CHICKEN"
+        ]
     },
     "collection_pork": {
         "id": "collection_pork",
@@ -127,9 +149,11 @@
         "description": "Reach {:d} raw porkchop collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "PORK",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "PORK"
+        ]
     },
     "collection_rabbit": {
         "id": "collection_rabbit",
@@ -138,9 +162,11 @@
         "description": "Reach {:d} raw rabbit collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "RABBIT",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "RABBIT"
+        ]
     },
     "collection_sugar_cane": {
         "id": "collection_sugar_cane",
@@ -149,9 +175,11 @@
         "description": "Reach {:d} sugar cane collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "SUGAR_CANE",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "SUGAR_CANE"
+        ]
     },
     "collection_wheat": {
         "id": "collection_wheat",
@@ -160,9 +188,11 @@
         "description": "Reach {:d} wheat collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "WHEAT",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "WHEAT"
+        ]
     },
     "collection_coal": {
         "id": "collection_coal",
@@ -171,9 +201,11 @@
         "description": "Reach {:d} coal collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "COAL",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "COAL"
+        ]
     },
     "collection_cobblestone": {
         "id": "collection_cobblestone",
@@ -182,9 +214,11 @@
         "description": "Reach {:d} cobblestone collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "COBBLESTONE",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "COBBLESTONE"
+        ]
     },
     "collection_diamond": {
         "id": "collection_diamond",
@@ -193,9 +227,11 @@
         "description": "Reach {:d} diamond collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "DIAMOND",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "DIAMOND"
+        ]
     },
     "collection_ender_stone": {
         "id": "collection_ender_stone",
@@ -204,9 +240,11 @@
         "description": "Reach {:d} end stone collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "ENDER_STONE",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "ENDER_STONE"
+        ]
     },
     "collection_emerald": {
         "id": "collection_emerald",
@@ -215,9 +253,11 @@
         "description": "Reach {:d} emerald collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "EMERALD",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "EMERALD"
+        ]
     },
     "collection_gemstone_collection": {
         "id": "collection_gemstone_collection",
@@ -226,9 +266,11 @@
         "description": "Reach {:d} gemstone collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "GEMSTONE_COLLECTION",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "GEMSTONE_COLLECTION"
+        ]
     },
     "collection_gold_ingot": {
         "id": "collection_gold_ingot",
@@ -237,9 +279,11 @@
         "description": "Reach {:d} gold ingot collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "GOLD_INGOT",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "GOLD_INGOT"
+        ]
     },
     "collection_gravel": {
         "id": "collection_gravel",
@@ -248,9 +292,11 @@
         "description": "Reach {:d} gravel collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "GRAVEL",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "GRAVEL"
+        ]
     },
     "collection_hard_stone": {
         "id": "collection_hard_stone",
@@ -259,9 +305,11 @@
         "description": "Reach {:d} hard stone collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "HARD_STONE",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "HARD_STONE"
+        ]
     },
     "collection_iron_ingot": {
         "id": "collection_iron_ingot",
@@ -270,9 +318,11 @@
         "description": "Reach {:d} iron ingot collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "IRON_INGOT",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "IRON_INGOT"
+        ]
     },
     "collection_ink_sack:4": {
         "id": "collection_ink_sack:4",
@@ -281,9 +331,11 @@
         "description": "Reach {:d} lapis lazuli collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "INK_SACK:4",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "INK_SACK:4"
+        ]
     },
     "collection_mithril_ore": {
         "id": "collection_mithril_ore",
@@ -292,9 +344,11 @@
         "description": "Reach {:d} mithril collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "MITHRIL_ORE",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "MITHRIL_ORE"
+        ]
     },
     "collection_obsidian": {
         "id": "collection_obsidian",
@@ -303,9 +357,11 @@
         "description": "Reach {:d} obsidian collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "OBSIDIAN",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "OBSIDIAN"
+        ]
     },
     "collection_redstone": {
         "id": "collection_redstone",
@@ -314,9 +370,11 @@
         "description": "Reach {:d} redstone collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "REDSTONE",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "REDSTONE"
+        ]
     },
     "collection_sand": {
         "id": "collection_sand",
@@ -325,9 +383,11 @@
         "description": "Reach {:d} sand collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "SAND",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "SAND"
+        ]
     },
     "collection_bone": {
         "id": "collection_bone",
@@ -336,9 +396,11 @@
         "description": "Reach {:d} bone collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "BONE",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "BONE"
+        ]
     },
     "collection_ender_pearl": {
         "id": "collection_ender_pearl",
@@ -347,9 +409,11 @@
         "description": "Reach {:d} ender pearl collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "ENDER_PEARL",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "ENDER_PEARL"
+        ]
     },
     "collection_sulphur": {
         "id": "collection_sulphur",
@@ -358,9 +422,11 @@
         "description": "Reach {:d} gunpowder collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "SULPHUR",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "SULPHUR"
+        ]
     },
     "collection_rotten_flesh": {
         "id": "collection_rotten_flesh",
@@ -369,9 +435,11 @@
         "description": "Reach {:d} rotten flesh collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "ROTTEN_FLESH",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "ROTTEN_FLESH"
+        ]
     },
     "collection_slime_ball": {
         "id": "collection_slime_ball",
@@ -380,9 +448,11 @@
         "description": "Reach {:d} slimeball collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "SLIME_BALL",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "SLIME_BALL"
+        ]
     },
     "collection_spider_eye": {
         "id": "collection_spider_eye",
@@ -391,9 +461,11 @@
         "description": "Reach {:d} spider eye collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "SPIDER_EYE",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "SPIDER_EYE"
+        ]
     },
     "collection_string": {
         "id": "collection_string",
@@ -402,9 +474,11 @@
         "description": "Reach {:d} string collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "STRING",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "STRING"
+        ]
     },
     "collection_log_2": {
         "id": "collection_log_2",
@@ -413,9 +487,11 @@
         "description": "Reach {:d} acacia wood collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "LOG_2",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "LOG_2"
+        ]
     },
     "collection_log:2": {
         "id": "collection_log:2",
@@ -424,9 +500,11 @@
         "description": "Reach {:d} birch wood collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "LOG:2",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "LOG:2"
+        ]
     },
     "collection_log_2:1": {
         "id": "collection_log_2:1",
@@ -435,9 +513,11 @@
         "description": "Reach {:d} dark oak wood collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "LOG_2:1",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "LOG_2:1"
+        ]
     },
     "collection_log:3": {
         "id": "collection_log:3",
@@ -446,9 +526,11 @@
         "description": "Reach {:d} jungle wood collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "LOG:3",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "LOG:3"
+        ]
     },
     "collection_log": {
         "id": "collection_log",
@@ -457,9 +539,11 @@
         "description": "Reach {:d} oak wood collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "LOG",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "LOG"
+        ]
     },
     "collection_log:1": {
         "id": "collection_log:1",
@@ -468,9 +552,11 @@
         "description": "Reach {:d} spruce wood collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "LOG:1",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "LOG:1"
+        ]
     },
     "collection_clay_ball": {
         "id": "collection_clay_ball",
@@ -479,9 +565,11 @@
         "description": "Reach {:d} clay collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "CLAY_BALL",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "CLAY_BALL"
+        ]
     },
     "collection_raw_fish:2": {
         "id": "collection_raw_fish:2",
@@ -490,9 +578,11 @@
         "description": "Reach {:d} clownfish collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "RAW_FISH:2",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "RAW_FISH:2"
+        ]
     },
     "collection_ink_sack": {
         "id": "collection_ink_sack",
@@ -501,9 +591,11 @@
         "description": "Reach {:d} ink sack collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "INK_SACK",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "INK_SACK"
+        ]
     },
     "collection_water_lily": {
         "id": "collection_water_lily",
@@ -512,9 +604,11 @@
         "description": "Reach {:d} lily pad collection",
         "hint": "Sea Creatures",
         "hasRequiredAmount": true,
-        "collectionType": "WATER_LILY",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "WATER_LILY"
+        ]
     },
     "collection_prismarine_crystals": {
         "id": "collection_prismarine_crystals",
@@ -523,9 +617,11 @@
         "description": "Reach {:d} prismarine crystals collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "PRISMARINE_CRYSTALS",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "PRISMARINE_CRYSTALS"
+        ]
     },
     "collection_prismarine_shard": {
         "id": "collection_prismarine_shard",
@@ -534,9 +630,11 @@
         "description": "Reach {:d} prismarine shard collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "PRISMARINE_SHARD",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "PRISMARINE_SHARD"
+        ]
     },
     "collection_raw_fish:3": {
         "id": "collection_raw_fish:3",
@@ -545,9 +643,11 @@
         "description": "Reach {:d} pufferfish collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "RAW_FISH:3",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "RAW_FISH:3"
+        ]
     },
     "collection_raw_fish": {
         "id": "collection_raw_fish",
@@ -556,9 +656,11 @@
         "description": "Reach {:d} raw fish collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "RAW_FISH",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "RAW_FISH"
+        ]
     },
     "collection_raw_fish:1": {
         "id": "collection_raw_fish:1",
@@ -567,9 +669,11 @@
         "description": "Reach {:d} raw salmon collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "RAW_FISH:1",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "RAW_FISH:1"
+        ]
     },
     "collection_sponge": {
         "id": "collection_sponge",
@@ -578,9 +682,11 @@
         "description": "Reach {:d} sponge collection",
         "hint": "Collect manually or with a minion",
         "hasRequiredAmount": true,
-        "collectionType": "SPONGE",
         "trackable": true,
-        "handler": "collection"
+        "handler": [
+            "collectionTracker",
+            "SPONGE"
+        ]
     },
     "COLLECTION_LEVEL_7_5": {
         "id": "COLLECTION_LEVEL_7_5",
@@ -611,7 +717,7 @@
         "group": "stats",
         "name": "I Am Speed",
         "description": "Reach {:d} Speed",
-        "hint": "Splash",
+        "hint": "Splash or rogue sword",
         "hasRequiredAmount": true
     },
     "stat_strength": {

@@ -4,10 +4,10 @@ import json
 import utils.api_contact as api
 
 
-class Worker():
+class Interface():
 
     def __init__(self):
-        self.API = api.Worker()
+        self.API = api.Interface()
 
         self.load_personal_info()
         self.load_bingo_hint()
@@ -25,6 +25,7 @@ class Worker():
             self.bingo_hint = json.load(f)
 
     def load_bingo_info(self):
+        self.API.updateBingoInfo()
         file_path = './resources/public/bingo_info.json'
         with open(file_path, 'r') as f:
             self.bingo_info = json.load(f)['goals']
@@ -45,7 +46,7 @@ class Worker():
                 name = goal['name']
                 print(f'goal {name} has no hint.')
 
-    def load_profile_info(self):
+    def get_profile_info(self):
         return self.API.getProfileInfo()
 
     def load_collection_info(self):
@@ -53,9 +54,19 @@ class Worker():
         with open(filepath, 'r') as f:
             self.collection_info = json.load(f)
 
-    def get_collection_info(self, collection_id):
-        return self.collection_info[collection_id]
+    def get_collection_info_main(self):
+        return self.collection_info['TYPE']
+
+    def get_collection_info_type(self, type_id):
+        return self.collection_info[type_id]
+
+    def get_collection_info_item(self, item_id):
+        return self.collection_info[item_id]
+
+    def get_int_to_roman(self):
+        with open('./resources/public/int_to_roman.json', 'r') as f:
+            return json.load(f)
 
 
 if __name__ == '__main__':
-    print(Worker().bingo_info)
+    print(Interface().bingo_info)

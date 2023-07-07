@@ -4,7 +4,7 @@ import os
 from datetime import date
 
 
-class Worker():
+class Interface():
     def __init__(self):
         self.TIMESTAMP = date.today().strftime('%Y-%m')
         self.loadAPIKey()
@@ -126,7 +126,7 @@ class Worker():
         if not responce['success']:
             raise Exception(responce['cause'])
         if dumping:
-            with open('./profile.json', 'w') as f:
+            with open('./resources/private/profile.json', 'w') as f:
                 json.dump(responce, f)
         return responce['profile']['members'][self.UUID]
 
@@ -149,4 +149,16 @@ class Worker():
 
 
 if __name__ == '__main__':
-    Worker().getProfileInfo(dumping=True)
+    # Interface().getProfileInfo(dumping=True)
+    i = Interface()
+
+    profile_id = 'b7358da7-520b-4e55-958b-5e2a75df8f80'
+
+    payload = {'key': i.API_KEY,
+               'profile': profile_id}
+    responce = requests.get(
+        'https://api.hypixel.net/skyblock/profile', params=payload).json()
+    if not responce['success']:
+        raise Exception(responce['cause'])
+    with open('./tmp.json', 'w') as f:
+        json.dump(responce, f)
