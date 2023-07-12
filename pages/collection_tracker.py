@@ -38,18 +38,18 @@ class CollectionTrackerMain(tk.Frame):
             self.img_list.append(ImageTk.PhotoImage(Image.open(
                 f'./imgs/collection_item/{img_path}').resize((100, 100), Image.ANTIALIAS)))
             btn = tk.Button(self, image=self.img_list[i], command=partial(
-                self.showCollectionType, type))
+                self.showCollectionTrackerType, type))
             Hovertip(btn, type.capitalize() + ' Collections', hover_delay=300)
             if i <= 4:
                 btn.grid(row=1, column=i + 1)
             else:
                 btn.grid(row=2, column=i - 2)
 
-    def showCollectionType(self, type):
-        self.master.showCollectionTrackerType(type)
+    def showCollectionTrackerType(self, type):
+        self.master.showPage('collectionTrackerType', [type])
 
     def back(self):
-        self.master.showFeatureSelect()
+        self.master.back()
 
 
 class CollectionTrackerType(tk.Frame):
@@ -78,22 +78,20 @@ class CollectionTrackerType(tk.Frame):
             btn.grid(row=int(i / 7 + 1), column=i % 7 + 1)
 
     def showCollectionTrackerItem(self, item):
-        self.master.showCollectionTrackerItem(
-            item, 'collectionTracker', self.type)
+        self.master.showPage('collectionTrackerItem', [item, None])
 
     def back(self):
-        self.master.showCollectionTrackerMain()
+        self.master.back()
 
 
 class CollectionTrackerItem(tk.Frame):
-    def __init__(self, master, item, caller, id, loader):
+    def __init__(self, master, item, loader, numRequired=None):
         super().__init__(master)
         self.master = master
         self.master.geometry('500x250')
         self.item = item
-        self.caller = caller
-        self.id = id
         self.loader = loader
+        self.numRequired = numRequired
         self.collection_info = self.loader.get_collection_info_item(self.item)
         self.INTTOROMAN = self.loader.get_int_to_roman()
         self.flag = True
@@ -101,8 +99,7 @@ class CollectionTrackerItem(tk.Frame):
         self.initUI()
 
     def initUI(self):
-        btn = tk.Button(self, text='Back', command=partial(
-            self.back, self.caller, self.id))
+        btn = tk.Button(self, text='Back', command=self.back)
         btn.grid(row=0, column=0)
 
         self.item_img = ImageTk.PhotoImage(
@@ -111,6 +108,7 @@ class CollectionTrackerItem(tk.Frame):
         label.grid(row=1, column=1)
         self.track_text = tk.Label(self, text=self.item, font=('Arial', 20))
         self.track_text.grid(row=1, column=2)
+        self.track()
 
     def track(self):
         if self.flag:
@@ -121,7 +119,7 @@ class CollectionTrackerItem(tk.Frame):
             else:
                 self.item_count = 0
 
-            if self.caller == 'collectionTracker':
+            if not self.numRequired:
                 i = 0
                 requirements = self.collection_info['levelRequirements']
                 print(self.item_count, requirements)
@@ -133,9 +131,12 @@ class CollectionTrackerItem(tk.Frame):
                 else:
                     text = f'{self.INTTOROMAN[str(i)]} {self.item_count}/{requirements[i]}'
                 self.track_text.configure(text=text)
+            else:
+                text = f'{self.item_count/self.numRequired*100:.2f}% {self.item_count}/{self.numRequired}'
+                self.track_text.configure(text=text)
+
             self.after(self.INTERVAL * 1000, self.track)
 
-    def back(self, to, id):
+    def back(self):
         self.flag = False
-        if to == 'collectionTracker':
-            self.master.showCollectionTrackerType(id)
+        self.master.back()

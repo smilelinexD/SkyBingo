@@ -8,7 +8,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "CACTUS"
         ]
     },
@@ -21,7 +21,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "CARROT"
         ]
     },
@@ -34,7 +34,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "INK_SACK:3"
         ]
     },
@@ -47,7 +47,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "FEATHER"
         ]
     },
@@ -60,7 +60,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "LEATHER"
         ]
     },
@@ -73,7 +73,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "MELON"
         ]
     },
@@ -86,7 +86,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "MUSHROOM"
         ]
     },
@@ -99,7 +99,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "MUTTON"
         ]
     },
@@ -112,7 +112,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "POTATO"
         ]
     },
@@ -125,7 +125,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "PUMPKIN"
         ]
     },
@@ -138,7 +138,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "RAW_CHICKEN"
         ]
     },
@@ -151,7 +151,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "PORK"
         ]
     },
@@ -164,7 +164,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "RABBIT"
         ]
     },
@@ -177,7 +177,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "SUGAR_CANE"
         ]
     },
@@ -190,7 +190,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "WHEAT"
         ]
     },
@@ -203,7 +203,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "COAL"
         ]
     },
@@ -216,7 +216,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "COBBLESTONE"
         ]
     },
@@ -229,7 +229,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "DIAMOND"
         ]
     },
@@ -242,7 +242,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "ENDER_STONE"
         ]
     },
@@ -255,7 +255,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "EMERALD"
         ]
     },
@@ -268,7 +268,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "GEMSTONE_COLLECTION"
         ]
     },
@@ -281,7 +281,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "GOLD_INGOT"
         ]
     },
@@ -294,7 +294,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "GRAVEL"
         ]
     },
@@ -307,7 +307,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "HARD_STONE"
         ]
     },
@@ -320,7 +320,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "IRON_INGOT"
         ]
     },
@@ -333,7 +333,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "INK_SACK:4"
         ]
     },
@@ -346,7 +346,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "MITHRIL_ORE"
         ]
     },
@@ -359,7 +359,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "OBSIDIAN"
         ]
     },
@@ -372,7 +372,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "REDSTONE"
         ]
     },
@@ -385,7 +385,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "SAND"
         ]
     },
@@ -398,7 +398,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "BONE"
         ]
     },
@@ -411,7 +411,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "ENDER_PEARL"
         ]
     },
@@ -424,7 +424,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "SULPHUR"
         ]
     },
@@ -437,7 +437,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "ROTTEN_FLESH"
         ]
     },
@@ -450,7 +450,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "SLIME_BALL"
         ]
     },
@@ -463,7 +463,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "SPIDER_EYE"
         ]
     },
@@ -476,7 +476,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "STRING"
         ]
     },
@@ -489,7 +489,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "LOG_2"
         ]
     },
@@ -502,7 +502,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "LOG:2"
         ]
     },
@@ -515,7 +515,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "LOG_2:1"
         ]
     },
@@ -528,7 +528,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "LOG:3"
         ]
     },
@@ -541,7 +541,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "LOG"
         ]
     },
@@ -554,7 +554,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "LOG:1"
         ]
     },
@@ -567,7 +567,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "CLAY_BALL"
         ]
     },
@@ -580,7 +580,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "RAW_FISH:2"
         ]
     },
@@ -593,7 +593,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "INK_SACK"
         ]
     },
@@ -606,7 +606,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "WATER_LILY"
         ]
     },
@@ -619,7 +619,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "PRISMARINE_CRYSTALS"
         ]
     },
@@ -632,7 +632,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "PRISMARINE_SHARD"
         ]
     },
@@ -645,7 +645,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "RAW_FISH:3"
         ]
     },
@@ -658,7 +658,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "RAW_FISH"
         ]
     },
@@ -671,7 +671,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "RAW_FISH:1"
         ]
     },
@@ -684,7 +684,7 @@
         "hasRequiredAmount": true,
         "trackable": true,
         "handler": [
-            "collectionTracker",
+            "collectionTrackerItem",
             "SPONGE"
         ]
     },

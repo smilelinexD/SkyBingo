@@ -20,10 +20,10 @@ class FeatureSelect(tk.Frame):
         btn.grid(row=1, column=2)
 
     def back(self):
-        self.master.showMainPage()
+        self.master.back()
 
     def showBingoCard(self):
-        self.master.showBingoCard()
+        self.master.showPage('bingoCard', None)
 
     def showCollectionTrackerMain(self):
-        self.master.showCollectionTrackerMain()
+        self.master.showPage('collectionTrackerMain', None)
