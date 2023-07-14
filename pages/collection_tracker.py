@@ -6,22 +6,26 @@ from functools import partial
 
 class Interface():
     def __init__(self, loader):
-        self.loader = loader
+        self.LOADER = loader
 
     def getCollectionTrackerMain(self, master):
         master.geometry('650x250')
-        return CollectionTrackerMain(master, self.loader)
+        return CollectionTrackerMain(master, self.LOADER)
 
-    def getCollectionTrackType(self, type, master):
+    def getCollectionTrackerType(self, master, type):
         master.geometry('650x250')
-        return CollectionTrackerType(type, master, self.loader)
+        return CollectionTrackerType(master, type, self.LOADER)
+
+    def getCollectionTrackerItem(self, master, item, numRequired=None):
+        master.geometry('500x250')
+        return CollectionTrackerItem(master, item, numRequired, self.LOADER)
 
 
 class CollectionTrackerMain(tk.Frame):
     def __init__(self, master, loader):
         super().__init__(master)
         self.master = master
-        self.loader = loader
+        self.LOADER = loader
 
         self.collection_types = loader.get_collection_info_main()
         self.img_list = list()
@@ -33,7 +37,7 @@ class CollectionTrackerMain(tk.Frame):
         btn.grid(row=0, column=0)
 
         for i, type in enumerate(self.collection_types):
-            type_info = self.loader.get_collection_info_type(type)
+            type_info = self.LOADER.get_collection_info_type(type)
             img_path = type_info['img']
             self.img_list.append(ImageTk.PhotoImage(Image.open(
                 f'./imgs/collection_item/{img_path}').resize((100, 100), Image.ANTIALIAS)))
@@ -53,12 +57,13 @@ class CollectionTrackerMain(tk.Frame):
 
 
 class CollectionTrackerType(tk.Frame):
-    def __init__(self, type, master, loader):
+    def __init__(self, master, type, loader):
         super().__init__(master)
         self.master = master
-        self.loader = loader
+        self.LOADER = loader
         self.type = type
-        self.collection_items = loader.get_collection_info_type(type)['list']
+        self.collection_items = self.LOADER.get_collection_info_type(type)[
+            'list']
         self.img_list = list()
         self.initUI()
 
@@ -68,7 +73,7 @@ class CollectionTrackerType(tk.Frame):
         btn.grid(row=0, column=0)
 
         for i, item in enumerate(self.collection_items):
-            item_info = self.loader.get_collection_info_item(item)
+            item_info = self.LOADER.get_collection_info_item(item)
             img_path = item_info['img']
             self.img_list.append(ImageTk.PhotoImage(Image.open(
                 f'./imgs/collection_item/{img_path}').resize((64, 64), Image.ANTIALIAS)))
@@ -85,15 +90,14 @@ class CollectionTrackerType(tk.Frame):
 
 
 class CollectionTrackerItem(tk.Frame):
-    def __init__(self, master, item, loader, numRequired=None):
+    def __init__(self, master, item, numRequired, loader):
         super().__init__(master)
         self.master = master
-        self.master.geometry('500x250')
         self.item = item
-        self.loader = loader
+        self.LOADER = loader
         self.numRequired = numRequired
-        self.collection_info = self.loader.get_collection_info_item(self.item)
-        self.INTTOROMAN = self.loader.get_int_to_roman()
+        self.collection_info = self.LOADER.get_collection_info_item(self.item)
+        self.INTTOROMAN = self.LOADER.get_int_to_roman()
         self.flag = True
         self.INTERVAL = 5
         self.initUI()
@@ -113,7 +117,7 @@ class CollectionTrackerItem(tk.Frame):
     def track(self):
         if self.flag:
             # print('track')
-            profile = self.loader.get_profile_info()
+            profile = self.LOADER.get_profile_info()
             if self.item in profile['collection']:
                 self.item_count = profile['collection'][self.item]
             else:

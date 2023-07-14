@@ -132,4 +132,5 @@ dmypy.json
 resources/private/
 imgs/
 test.py
+tmp.py
 tmp.json

@@ -1,0 +1,1388 @@
+{
+    "INK_SACK:2": {
+        "id": "CACTUS",
+        "value": 1,
+        "variation": 0,
+        "name": "Cactus Green"
+    },
+    "ENCHANTED_CACTUS_GREEN": {
+        "id": "CACTUS",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Cactus Green"
+    },
+    "ENCHANTED_CACTUS": {
+        "id": "CACTUS",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Cactus"
+    },
+    "CACTUS": {
+        "id": "CACTUS",
+        "value": 1,
+        "variation": 1,
+        "name": "Cactus"
+    },
+    "CARROT_ITEM": {
+        "id": "CARROT_ITEM",
+        "value": 1,
+        "variation": 0,
+        "name": "Carrot"
+    },
+    "ENCHANTED_CARROT": {
+        "id": "CARROT_ITEM",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Carrot"
+    },
+    "ENCHANTED_GOLDEN_CARROT": {
+        "id": "CARROT_ITEM",
+        "value": 20480,
+        "variation": 0,
+        "name": "Enchanted Golden Carrot"
+    },
+    "INK_SACK:3": {
+        "id": "INK_SACK:3",
+        "value": 1,
+        "variation": 0,
+        "name": "Cocoa Beans"
+    },
+    "ENCHANTED_COCOA": {
+        "id": "INK_SACK:3",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Cocoa Bean"
+    },
+    "ENCHANTED_COOKIE": {
+        "id": "INK_SACK:3",
+        "value": 20480,
+        "variation": 0,
+        "name": "Enchanted Cookie"
+    },
+    "FEATHER": {
+        "id": "FEATHER",
+        "value": 1,
+        "variation": 0,
+        "name": "Feather"
+    },
+    "ENCHANTED_FEATHER": {
+        "id": "FEATHER",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Feather"
+    },
+    "LEATHER": {
+        "id": "LEATHER",
+        "value": 1,
+        "variation": 0,
+        "name": "Leather"
+    },
+    "ENCHANTED_LEATHER": {
+        "id": "LEATHER",
+        "value": 576,
+        "variation": 0,
+        "name": "Enchanted Leather"
+    },
+    "MELON": {
+        "id": "MELON",
+        "value": 1,
+        "variation": 0,
+        "name": "Melon"
+    },
+    "ENCHANTED_MELON": {
+        "id": "MELON",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Melon"
+    },
+    "ENCHANTED_MELON_BLOCK": {
+        "id": "MELON",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Melon Block"
+    },
+    "RED_MUSHROOM": {
+        "id": "MUSHROOM_COLLECTION",
+        "value": 1,
+        "variation": 0,
+        "name": "Red Mushroom"
+    },
+    "ENCHANTED_RED_MUSHROOM": {
+        "id": "MUSHROOM_COLLECTION",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Red Mushroom"
+    },
+    "ENCHANTED_HUGE_MUSHROOM_2": {
+        "id": "MUSHROOM_COLLECTION",
+        "value": 5120,
+        "variation": 0,
+        "name": "Enchanted Red Mushroom Block"
+    },
+    "BROWN_MUSHROOM": {
+        "id": "MUSHROOM_COLLECTION",
+        "value": 1,
+        "variation": 1,
+        "name": "Brown Mushroom"
+    },
+    "ENCHANTED_BROWN_MUSHROOM": {
+        "id": "MUSHROOM_COLLECTION",
+        "value": 160,
+        "variation": 1,
+        "name": "Enchanted Brown Mushroom"
+    },
+    "ENCHANTED_HUGE_MUSHROOM_1": {
+        "id": "MUSHROOM_COLLECTION",
+        "value": 5120,
+        "variation": 1,
+        "name": "Enchanted Brown Mushroom Block"
+    },
+    "MUTTON": {
+        "id": "MUTTON",
+        "value": 1,
+        "variation": 0,
+        "name": "Mutton"
+    },
+    "ENCHANTED_MUTTON": {
+        "id": "MUTTON",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Mutton"
+    },
+    "ENCHANTED_COOKED_MUTTON": {
+        "id": "MUTTON",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Cooked Mutton"
+    },
+    "NETHER_STALK": {
+        "id": "NETHER_STALK",
+        "value": 1,
+        "variation": 0,
+        "name": "Nether Wart"
+    },
+    "ENCHANTED_NETHER_STALK": {
+        "id": "NETHER_STALK",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Nether Wart"
+    },
+    "MUTANT_NETHER_STALK": {
+        "id": "NETHER_STALK",
+        "value": 25600,
+        "variation": 0,
+        "name": "Mutant Nether Wart"
+    },
+    "POTATO_ITEM": {
+        "id": "POTATO_ITEM",
+        "value": 1,
+        "variation": 0,
+        "name": "Potato"
+    },
+    "ENCHANTED_POTATO": {
+        "id": "POTATO_ITEM",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Potato"
+    },
+    "ENCHANTED_BAKED_POTATO": {
+        "id": "POTATO_ITEM",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Baked Potato"
+    },
+    "PUMPKIN": {
+        "id": "PUMPKIN",
+        "value": 1,
+        "variation": 0,
+        "name": "Pumpkin"
+    },
+    "ENCHANTED_PUMPKIN": {
+        "id": "PUMPKIN",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Pumpkin"
+    },
+    "POLISHED_PUMPKIN": {
+        "id": "PUMPKIN",
+        "value": 25600,
+        "variation": 0,
+        "name": "Polished Pumpkin"
+    },
+    "RAW_CHICKEN": {
+        "id": "RAW_CHICKEN",
+        "value": 1,
+        "variation": 0,
+        "name": "Raw Chicken"
+    },
+    "ENCHANTED_RAW_CHICKEN": {
+        "id": "RAW_CHICKEN",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Raw Chicken"
+    },
+    "PORK": {
+        "id": "PORK",
+        "value": 1,
+        "variation": 0,
+        "name": "Raw Porkchop"
+    },
+    "ENCHANTED_PORK": {
+        "id": "PORK",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Pork"
+    },
+    "ENCHANTED_GRILLED_PORK": {
+        "id": "PORK",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Grilled Pork"
+    },
+    "RABBIT": {
+        "id": "RABBIT",
+        "value": 1,
+        "variation": 0,
+        "name": "Raw Rabbit"
+    },
+    "ENCHANTED_RABBIT": {
+        "id": "RABBIT",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Raw Rabbit"
+    },
+    "SEEDS": {
+        "id": "SEEDS",
+        "value": 1,
+        "variation": 0,
+        "name": "Seeds"
+    },
+    "ENCHANTED_SEEDS": {
+        "id": "SEEDS",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Seeds"
+    },
+    "BOX_OF_SEEDS": {
+        "id": "SEEDS",
+        "value": 25600,
+        "variation": 0,
+        "name": "Box of Seeds"
+    },
+    "SUGAR_CANE": {
+        "id": "SUGAR_CANE",
+        "value": 1,
+        "variation": 0,
+        "name": "Sugar Cane"
+    },
+    "ENCHANTED_SUGAR": {
+        "id": "SUGAR_CANE",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Sugar"
+    },
+    "ENCHANTED_SUGAR_CANE": {
+        "id": "SUGAR_CANE",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Sugar Cane"
+    },
+    "ENCHANTED_PAPER": {
+        "id": "SUGAR_CANE",
+        "value": 192,
+        "variation": 1,
+        "name": "Enchanted Paper"
+    },
+    "WHEAT": {
+        "id": "WHEAT",
+        "value": 1,
+        "variation": 0,
+        "name": "Wheat"
+    },
+    "HAY_BALE": {
+        "id": "WHEAT",
+        "value": 9,
+        "variation": 0,
+        "name": "Hay Bale"
+    },
+    "ENCHANTED_HAY_BLOCK": {
+        "id": "WHEAT",
+        "value": 1296,
+        "variation": 0,
+        "name": "Enchanted Hay Bale"
+    },
+    "TIGHTLY_TIED_HAY_BALE": {
+        "id": "WHEAT",
+        "value": 186624,
+        "variation": 0,
+        "name": "Tightly-Tied Hay Bale"
+    },
+    "COAL": {
+        "id": "COAL",
+        "value": 1,
+        "variation": 0,
+        "name": "Coal"
+    },
+    "ENCHANTED_COAL": {
+        "id": "COAL",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Coal"
+    },
+    "ENCHANTED_COAL_BLOCK": {
+        "id": "COAL",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Block of Coal"
+    },
+    "COBBLESTONE": {
+        "id": "COBBLESTONE",
+        "value": 1,
+        "variation": 0,
+        "name": "Cobblestone"
+    },
+    "ENCHANTED_COBBLESTONE": {
+        "id": "COBBLESTONE",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Cobblestone"
+    },
+    "DIAMOND": {
+        "id": "DIAMOND",
+        "value": 1,
+        "variation": 0,
+        "name": "Diamond"
+    },
+    "ENCHANTED_DIAMOND": {
+        "id": "DIAMOND",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Diamond"
+    },
+    "ENCHANTED_DIAMOND_BLOCK": {
+        "id": "DIAMOND",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Diamond Block"
+    },
+    "EMERALD": {
+        "id": "EMERALD",
+        "value": 1,
+        "variation": 0,
+        "name": "Emerald"
+    },
+    "ENCHANTED_EMERALD": {
+        "id": "EMERALD",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Emerald"
+    },
+    "ENCHANTED_EMERALD_BLOCK": {
+        "id": "EMERALD",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Emerald Block"
+    },
+    "ENDER_STONE": {
+        "id": "ENDER_STONE",
+        "value": 1,
+        "variation": 0,
+        "name": "End Stone"
+    },
+    "ENCHANTED_ENDSTONE": {
+        "id": "ENDER_STONE",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted End Stone"
+    },
+    "ROUGH_AMBER_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 1,
+        "variation": 0,
+        "name": "Rough Amber Gemstone"
+    },
+    "FLAWED_AMBER_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 80,
+        "variation": 0,
+        "name": "Flawed Amber Gemstone"
+    },
+    "FINE_AMBER_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 6400,
+        "variation": 0,
+        "name": "Fine Amber Gemstone"
+    },
+    "FLAWLESS_AMBER_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 512000,
+        "variation": 0,
+        "name": "Flawless Amber Gemstone"
+    },
+    "PERFECT_AMBER_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 2560000,
+        "variation": 0,
+        "name": "Perfect Amber Gemstone"
+    },
+    "ROUGH_TOPAZ_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 1,
+        "variation": 1,
+        "name": "Rough Topaz Gemstone"
+    },
+    "FLAWED_TOPAZ_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 80,
+        "variation": 1,
+        "name": "Flawed Topaz Gemstone"
+    },
+    "FINE_TOPAZ_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 6400,
+        "variation": 1,
+        "name": "Fine Topaz Gemstone"
+    },
+    "FLAWLESS_TOPAZ_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 512000,
+        "variation": 1,
+        "name": "Flawless Topaz Gemstone"
+    },
+    "PERFECT_TOPAZ_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 2560000,
+        "variation": 1,
+        "name": "Perfect Topaz Gemstone"
+    },
+    "ROUGH_SAPPHIRE_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 1,
+        "variation": 2,
+        "name": "Rough Sapphire Gemstone"
+    },
+    "FLAWED_SAPPHIRE_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 80,
+        "variation": 2,
+        "name": "Flawed Sapphire Gemstone"
+    },
+    "FINE_SAPPHIRE_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 6400,
+        "variation": 2,
+        "name": "Fine Sapphire Gemstone"
+    },
+    "FLAWLESS_SAPPHIRE_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 512000,
+        "variation": 2,
+        "name": "Flawless Sapphire Gemstone"
+    },
+    "PERFECT_SAPPHIRE_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 2560000,
+        "variation": 2,
+        "name": "Perfect Sapphire Gemstone"
+    },
+    "ROUGH_AMETHYST_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 1,
+        "variation": 3,
+        "name": "Rough Amethyst Gemstone"
+    },
+    "FLAWED_AMETHYST_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 80,
+        "variation": 3,
+        "name": "Flawed Amethyst Gemstone"
+    },
+    "FINE_AMETHYST_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 6400,
+        "variation": 3,
+        "name": "Fine Amethyst Gemstone"
+    },
+    "FLAWLESS_AMETHYST_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 512000,
+        "variation": 3,
+        "name": "Flawless Amethyst Gemstone"
+    },
+    "PERFECT_AMETHYST_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 2560000,
+        "variation": 3,
+        "name": "Perfect Amethyst Gemstone"
+    },
+    "ROUGH_JASPER_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 1,
+        "variation": 4,
+        "name": "Rough Jasper Gemstone"
+    },
+    "FLAWED_JASPER_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 80,
+        "variation": 4,
+        "name": "Flawed Jasper Gemstone"
+    },
+    "FINE_JASPER_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 6400,
+        "variation": 4,
+        "name": "Fine Jasper Gemstone"
+    },
+    "FLAWLESS_JASPER_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 512000,
+        "variation": 4,
+        "name": "Flawless Jasper Gemstone"
+    },
+    "PERFECT_JASPER_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 2560000,
+        "variation": 4,
+        "name": "Perfect Jasper Gemstone"
+    },
+    "ROUGH_RUBY_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 1,
+        "variation": 5,
+        "name": "Rough Ruby Gemstone"
+    },
+    "FLAWED_RUBY_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 80,
+        "variation": 5,
+        "name": "Flawed Ruby Gemstone"
+    },
+    "FINE_RUBY_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 6400,
+        "variation": 5,
+        "name": "Fine Ruby Gemstone"
+    },
+    "FLAWLESS_RUBY_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 512000,
+        "variation": 5,
+        "name": "Flawless Ruby Gemstone"
+    },
+    "PERFECT_RUBY_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 2560000,
+        "variation": 5,
+        "name": "Perfect Ruby Gemstone"
+    },
+    "ROUGH_JADE_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 1,
+        "variation": 6,
+        "name": "Rough Jade Gemstone"
+    },
+    "FLAWED_JADE_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 80,
+        "variation": 6,
+        "name": "Flawed Jade Gemstone"
+    },
+    "FINE_JADE_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 6400,
+        "variation": 6,
+        "name": "Fine Jade Gemstone"
+    },
+    "FLAWLESS_JADE_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 256000,
+        "variation": 6,
+        "name": "Flawless Jade Gemstone"
+    },
+    "PERFECT_JADE_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 5120000,
+        "variation": 6,
+        "name": "Perfect Jade Gemstone"
+    },
+    "ROUGH_OPAL_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 1,
+        "variation": 7,
+        "name": "Rough Opal Gemstone"
+    },
+    "FLAWED_OPAL_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 80,
+        "variation": 7,
+        "name": "Flawed Opal Gemstone"
+    },
+    "FINE_OPAL_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 6400,
+        "variation": 7,
+        "name": "Fine Opal Gemstone"
+    },
+    "FLAWLESS_OPAL_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 512000,
+        "variation": 7,
+        "name": "Flawless Opal Gemstone"
+    },
+    "PERFECT_OPAL_GEM": {
+        "id": "GENSTONE_COLLECTION",
+        "value": 2560000,
+        "variation": 7,
+        "name": "Perfect Opal Gemstone"
+    },
+    "GLOWSTONE_DUST": {
+        "id": "GLOWSTONE_DUST",
+        "value": 1,
+        "variation": 0,
+        "name": "Glowstone Dust"
+    },
+    "ENCHANTED_GLOWSTONE_DUST": {
+        "id": "GLOWSTONE_DUST",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Glowstone Dust"
+    },
+    "ENCHANTED_GLOWSTONE": {
+        "id": "GLOWSTONE_DUST",
+        "value": 30720,
+        "variation": 0,
+        "name": "Enchanted Glowstone"
+    },
+    "GOLD_INGOT": {
+        "id": "GOLD_INGOT",
+        "value": 1,
+        "variation": 0,
+        "name": "Gold Ingot"
+    },
+    "ENCHANTED_GOLD": {
+        "id": "GOLD_INGOT",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Gold"
+    },
+    "ENCHANTED_GOLD_BLOCK": {
+        "id": "GOLD_INGOT",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Gold Block"
+    },
+    "FLINT": {
+        "id": "GRAVEL",
+        "value": 1,
+        "variation": 0,
+        "name": "Flint"
+    },
+    "ENCHANTED_FLINT": {
+        "id": "GRAVEL",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Flint"
+    },
+    "GRAVEL": {
+        "id": "GRAVEL",
+        "value": 1,
+        "variation": 1,
+        "name": "Gravel"
+    },
+    "HARD_STONE": {
+        "id": "HARD_STONE",
+        "value": 1,
+        "variation": 0,
+        "name": "Hard Stone"
+    },
+    "ENCHANTED_HARD_STONE": {
+        "id": "HARD_STONE",
+        "value": 576,
+        "variation": 0,
+        "name": "Enchanted Hard Stone"
+    },
+    "CONCENTRATED_STONE": {
+        "id": "HARD_STONE",
+        "value": 331776,
+        "variation": 0,
+        "name": "Concentrated Stone"
+    },
+    "ICE": {
+        "id": "ICE",
+        "value": 1,
+        "variation": 0,
+        "name": "Ice"
+    },
+    "ENCHANTED_ICE": {
+        "id": "ICE",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Ice"
+    },
+    "ENCHANTED_PACKED_ICE": {
+        "id": "ICE",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Packed Ice"
+    },
+    "IRON_INGOT": {
+        "id": "IRON_INGOT",
+        "value": 1,
+        "variation": 0,
+        "name": "Iron Ingot"
+    },
+    "ENCHANTED_IRON": {
+        "id": "IRON_INGOT",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Iron"
+    },
+    "ENCHANTED_IRON_BLOCK": {
+        "id": "IRON_INGOT",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Iron Block"
+    },
+    "INK_SACK:4": {
+        "id": "INK_SACK:4",
+        "value": 1,
+        "variation": 0,
+        "name": "Lapis Lazuli"
+    },
+    "ENCHANTED_LAPIS_LAZULI": {
+        "id": "INK_SACK:4",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Lapis Lazuli"
+    },
+    "ENCHANTED_LAPIS_LAZULI_BLOCK": {
+        "id": "INK_SACK:4",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Lapis Block"
+    },
+    "MITHRIL_ORE": {
+        "id": "MITHRIL_ORE",
+        "value": 1,
+        "variation": 0,
+        "name": "Mithril"
+    },
+    "ENCHANTED_MITHRIL": {
+        "id": "MITHRIL_ORE",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Mithril"
+    },
+    "MYCEL": {
+        "id": "MYCEL",
+        "value": 1,
+        "variation": 0,
+        "name": "Mycelium"
+    },
+    "ENCHANTED_MYCELIUM": {
+        "id": "MYCEL",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Mycelium"
+    },
+    "ENCHANTED_MYCELIUM_CUBE": {
+        "id": "MYCEL",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Mycelium Cube"
+    },
+    "QUARTZ": {
+        "id": "QUARTZ",
+        "value": 1,
+        "variation": 0,
+        "name": "Nether Quartz"
+    },
+    "ENCHANTED_QUARTZ": {
+        "id": "QUARTZ",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Quartz"
+    },
+    "ENCHANTED_QUARTZ_BLOCK": {
+        "id": "QUARTZ",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Quartz Block"
+    },
+    "NETHERRACK": {
+        "id": "NETHERRACK",
+        "value": 1,
+        "variation": 0,
+        "name": "Netherrack"
+    },
+    "ENCHANTED_NETHERRACK": {
+        "id": "NETHERRACK",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Netherrack"
+    },
+    "OBSIDIAN": {
+        "id": "OBSIDIAN",
+        "value": 1,
+        "variation": 0,
+        "name": "Obsidian"
+    },
+    "ENCHANTED_OBSIDIAN": {
+        "id": "OBSIDIAN",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Obsidian"
+    },
+    "SAND:1": {
+        "id": "SAND:1",
+        "value": 1,
+        "variation": 0,
+        "name": "Red Sand"
+    },
+    "ENCHANTED_RED_SAND": {
+        "id": "SAND:1",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Red Sand"
+    },
+    "ENCHANTED_RED_SAND_CUBE": {
+        "id": "SAND:1",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Red Sand Cube"
+    },
+    "REDSTONE": {
+        "id": "REDSTONE",
+        "value": 1,
+        "variation": 0,
+        "name": "Redstone"
+    },
+    "ENCHANTED_REDSTONE": {
+        "id": "REDSTONE",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Redstone"
+    },
+    "ENCHANTED_REDSTONE_BLOCK": {
+        "id": "REDSTONE",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Redstone Block"
+    },
+    "SAND": {
+        "id": "SAND",
+        "value": 1,
+        "variation": 0,
+        "name": "Sand"
+    },
+    "ENCHANTED_SAND": {
+        "id": "SAND",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Sand"
+    },
+    "SULPHUR_ORE": {
+        "id": "SULPHUR_ORE",
+        "value": 1,
+        "variation": 0,
+        "name": "Sulphur"
+    },
+    "ENCHANTED_SULPHUR": {
+        "id": "SULPHUR_ORE",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Sulphur"
+    },
+    "ENCHANTED_SULPHUR_CUBE": {
+        "id": "SULPHUR_ORE",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Sulphur Cube"
+    },
+    "BLAZE_ROD": {
+        "id": "BLAZE_ROD",
+        "value": 1,
+        "variation": 0,
+        "name": "Blaze Rod"
+    },
+    "ENCHANTED_BLAZE_POWDER": {
+        "id": "BLAZE_ROD",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Blaze Powder"
+    },
+    "ENCHANTED_BLAZE_ROD": {
+        "id": "BLAZE_ROD",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Blaze Rod"
+    },
+    "BONE": {
+        "id": "BONE",
+        "value": 1,
+        "variation": 0,
+        "name": "Bone"
+    },
+    "ENCHANTED_BONE": {
+        "id": "BONE",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Bone"
+    },
+    "ENCHANTED_BONE_BLOCK": {
+        "id": "BONE",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Bone Block"
+    },
+    "CHILI_PEPPER": {
+        "id": "CHILI_PEPPER",
+        "value": 1,
+        "variation": 0,
+        "name": "Chili Pepper"
+    },
+    "STUFFED_CHILI_PEPPER": {
+        "id": "CHILI_PEPPER",
+        "value": 160,
+        "variation": 0,
+        "name": "Stuffed Chili Pepper"
+    },
+    "ENDER_PEARL": {
+        "id": "ENDER_PEARL",
+        "value": 1,
+        "variation": 0,
+        "name": "Ender Pearl"
+    },
+    "ENCHANTED_ENDER_PEARL": {
+        "id": "ENDER_PEARL",
+        "value": 20,
+        "variation": 0,
+        "name": "Enchanted Ender Pearl"
+    },
+    "ENCHANTED_EYE_OF_ENDER": {
+        "id": "ENDER_PEARL",
+        "value": 320,
+        "variation": 0,
+        "name": "Enchanted Eye of Ender"
+    },
+    "ABSOLUTE_ENDER_PEARL": {
+        "id": "ENDER_PEARL",
+        "value": 1600,
+        "variation": 1,
+        "name": "Absolute Ender Pearl"
+    },
+    "GHAST_TEAR": {
+        "id": "GHAST_TEAR",
+        "value": 1,
+        "variation": 0,
+        "name": "Ghast Tear"
+    },
+    "ENCHANTED_GHAST_TEAR": {
+        "id": "GHAST_TEAR",
+        "value": 5,
+        "variation": 0,
+        "name": "Enchanted Ghast Tear"
+    },
+    "SILVER_FANG": {
+        "id": "GHAST_TEAR",
+        "value": 125,
+        "variation": 0,
+        "name": "Silver Fang"
+    },
+    "SULPHUR": {
+        "id": "SULPHUR",
+        "value": 1,
+        "variation": 0,
+        "name": "Gunpowder"
+    },
+    "ENCHANTED_GUNPOWDER": {
+        "id": "SULPHUR",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Gunpowder"
+    },
+    "ENCHANTED_FIREWORK_ROCKET": {
+        "id": "SULPHUR",
+        "value": 10240,
+        "variation": 0,
+        "name": "Enchanted Firework Rocket"
+    },
+    "MAGMA_CREAM": {
+        "id": "MAGMA_CREAM",
+        "value": 1,
+        "variation": 0,
+        "name": "Magma Cream"
+    },
+    "ENCHANTED_MAGMA_CREAM": {
+        "id": "MAGMA_CREAM",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Magma Cream"
+    },
+    "WHIPPED_MAGMA_CREAM": {
+        "id": "MAGMA_CREAM",
+        "value": 25600,
+        "variation": 0,
+        "name": "Whipped Magma Cream"
+    },
+    "ROTTEN_FLESH": {
+        "id": "ROTTEN_FLESH",
+        "value": 1,
+        "variation": 0,
+        "name": "Rotten Flesh"
+    },
+    "ENCHANTED_ROTTEN_FLESH": {
+        "id": "ROTTEN_FLESH",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Rotten Flesh"
+    },
+    "SLIME_BALL": {
+        "id": "SLIME_BALL",
+        "value": 1,
+        "variation": 0,
+        "name": "Slimeball"
+    },
+    "ENCHANTED_SLIME_BALL": {
+        "id": "SLIME_BALL",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Slimeball"
+    },
+    "ENCHANTED_SLIME_BLOCK": {
+        "id": "SLIME_BALL",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Slime Block"
+    },
+    "SPIDER_EYE": {
+        "id": "SPIDER_EYE",
+        "value": 1,
+        "variation": 0,
+        "name": "Spider Eye"
+    },
+    "ENCHANTED_SPIDER_EYE": {
+        "id": "SPIDER_EYE",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Spider Eye"
+    },
+    "STRING": {
+        "id": "STRING",
+        "value": 1,
+        "variation": 0,
+        "name": "String"
+    },
+    "ENCHANTED_STRING": {
+        "id": "STRING",
+        "value": 192,
+        "variation": 0,
+        "name": "Enchanted String"
+    },
+    "LOG_2": {
+        "id": "LOG_2",
+        "value": 1,
+        "variation": 0,
+        "name": "Acacia Wood"
+    },
+    "ENCHANTED_ACACIA_LOG": {
+        "id": "LOG_2",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Acacia Wood"
+    },
+    "LOG:2": {
+        "id": "LOG:2",
+        "value": 1,
+        "variation": 0,
+        "name": "Birch Wood"
+    },
+    "ENCHANTED_BIRCH_LOG": {
+        "id": "LOG:2",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Birch Wood"
+    },
+    "LOG_2:1": {
+        "id": "LOG_2:1",
+        "value": 1,
+        "variation": 0,
+        "name": "Dark Oak Wood"
+    },
+    "ENCHANTED_DARK_OAK_LOG": {
+        "id": "LOG_2:1",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Dark Oak Wood"
+    },
+    "LOG:3": {
+        "id": "LOG:3",
+        "value": 1,
+        "variation": 0,
+        "name": "Jungle Wood"
+    },
+    "ENCHANTED_JUNGLE_LOG": {
+        "id": "LOG:3",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Jungle Wood"
+    },
+    "LOG": {
+        "id": "LOG",
+        "value": 1,
+        "variation": 0,
+        "name": "Oak Wood"
+    },
+    "ENCHANTED_OAK_LOG": {
+        "id": "LOG",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Oak Wood"
+    },
+    "LOG:1": {
+        "id": "LOG:1",
+        "value": 1,
+        "variation": 0,
+        "name": "Spruce Wood"
+    },
+    "ENCHANTED_SPRUCE_LOG": {
+        "id": "LOG:1",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Spruce Wood"
+    },
+    "CLAY": {
+        "id": "CLAY_BALL",
+        "value": 1,
+        "variation": 0,
+        "name": "Clay"
+    },
+    "ENCHANTED_CLAY_BALL": {
+        "id": "CLAY_BALL",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Clay"
+    },
+    "RAW_FISH:2": {
+        "id": "RAW_FISH:2",
+        "value": 1,
+        "variation": 0,
+        "name": "Clownfish"
+    },
+    "ENCHANTED_CLOWNFISH": {
+        "id": "RAW_FISH:2",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Clownfish"
+    },
+    "INK_SACK": {
+        "id": "INK_SACK",
+        "value": 1,
+        "variation": 0,
+        "name": "Ink Sac"
+    },
+    "ENCHANTED_INK_SACK": {
+        "id": "INK_SACK",
+        "value": 80,
+        "variation": 0,
+        "name": "Enchanted Ink Sac"
+    },
+    "WATER_LILY": {
+        "id": "WATER_LILY",
+        "value": 1,
+        "variation": 0,
+        "name": "Lily Pad"
+    },
+    "ENCHANTED_WATER_LILY": {
+        "id": "WATER_LILY",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Lily Pad"
+    },
+    "MAGMA_FISH": {
+        "id": "MAGMA_FISH",
+        "value": 1,
+        "variation": 0,
+        "name": "Magmafish"
+    },
+    "MAGMA_FISH_SILVER": {
+        "id": "MAGMA_FISH",
+        "value": 80,
+        "variation": 0,
+        "name": "Silver Magmafish"
+    },
+    "MAGMA_FISH_GOLD": {
+        "id": "MAGMA_FISH",
+        "value": 6400,
+        "variation": 0,
+        "name": "Gold Magmafish"
+    },
+    "MAGMA_FISH_DIAMOND": {
+        "id": "MAGMA_FISH",
+        "value": 512000,
+        "variation": 0,
+        "name": "Diamond Magmafish"
+    },
+    "PRISMARINE_CRYSTALS": {
+        "id": "PRISMARINE_CRYSTALS",
+        "value": 1,
+        "variation": 0,
+        "name": "Prismarine Crystals"
+    },
+    "ENCHANTED_PRISMARINE_CRYSTALS": {
+        "id": "PRISMARINE_CRYSTALS",
+        "value": 80,
+        "variation": 0,
+        "name": "Enchanted Prismarine Crystals"
+    },
+    "PRISMARINE_SHARD": {
+        "id": "PRISMARINE_SHARD",
+        "value": 1,
+        "variation": 0,
+        "name": "Prismarine Shard"
+    },
+    "ENCHANTED_PRISMARINE_SHARD": {
+        "id": "PRISMARINE_SHARD",
+        "value": 80,
+        "variation": 0,
+        "name": "Enchanted Prismarine Shard"
+    },
+    "RAW_FISH:3": {
+        "id": "RAW_FISH:3",
+        "value": 1,
+        "variation": 0,
+        "name": "Pufferfish"
+    },
+    "ENCHANTED_PUFFERFISH": {
+        "id": "RAW_FISH:3",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Pufferfish"
+    },
+    "RAW_FISH": {
+        "id": "RAW_FISH",
+        "value": 1,
+        "variation": 0,
+        "name": "Raw Fish"
+    },
+    "ENCHANTED_RAW_FISH": {
+        "id": "RAW_FISH",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Raw Fish"
+    },
+    "RAW_FISH:1": {
+        "id": "RAW_FISH:1",
+        "value": 1,
+        "variation": 0,
+        "name": "Raw Salmon"
+    },
+    "ENCHANTED_RAW_SALMON": {
+        "id": "RAW_FISH:1",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Raw Salmon"
+    },
+    "ENCHANTED_COOKED_SALMON": {
+        "id": "RAW_FISH:1",
+        "value": 25600,
+        "variation": 0,
+        "name": "Enchanted Cooked Salmon"
+    },
+    "SPONGE": {
+        "id": "SPONGE",
+        "value": 1,
+        "variation": 0,
+        "name": "Sponge"
+    },
+    "ENCHANTED_SPONGE": {
+        "id": "SPONGE",
+        "value": 40,
+        "variation": 0,
+        "name": "Enchanted Sponge"
+    },
+    "ENCHANTED_WET_SPONGE": {
+        "id": "SPONGE",
+        "value": 1600,
+        "variation": 0,
+        "name": "Enchanted Wet Sponge"
+    },
+    "AGARICUS_CAP": {
+        "id": "AGARICUS_CAP",
+        "value": 1,
+        "variation": 0,
+        "name": "Agaricus Cap"
+    },
+    "AGARICUS_CAP_BUNCH": {
+        "id": "AGARICUS_CAP",
+        "value": 20,
+        "variation": 0,
+        "name": "Agaricus Cap Bunch"
+    },
+    "AGARICUS_CHUM_CAP": {
+        "id": "AGARICUS_CAP",
+        "value": 8,
+        "variation": 1,
+        "name": "Agaricus Chumcap"
+    },
+    "CADUCOUS_STEM": {
+        "id": "CADUCOUS_STEM",
+        "value": 1,
+        "variation": 0,
+        "name": "Caducous Stem"
+    },
+    "CADUCOUS_STEM_BUNCH": {
+        "id": "CADUCOUS_STEM",
+        "value": 20,
+        "variation": 0,
+        "name": "Caducous Stem Bunch"
+    },
+    "HALF_EATEN_CARROT": {
+        "id": "HALF_EATEN_CARROT",
+        "value": 1,
+        "variation": 0,
+        "name": "Half-Eaten Carrot"
+    },
+    "NEARLY_WHOLE_CARROT": {
+        "id": "HALF_EATEN_CARROT",
+        "value": 80,
+        "variation": 0,
+        "name": "Nearly-Whole Carrot"
+    },
+    "METAL_HEART": {
+        "id": "METAL_HEART",
+        "value": 1,
+        "variation": 0,
+        "name": "Living Metal Heart"
+    },
+    "HEMOVIBE": {
+        "id": "HEMOVIBE",
+        "value": 1,
+        "variation": 0,
+        "name": "Hemovibe"
+    },
+    "HEMOGLASS": {
+        "id": "HEMOVIBE",
+        "value": 160,
+        "variation": 0,
+        "name": "Hemoglass"
+    },
+    "HEMOBOMB": {
+        "id": "HEMOVIBE",
+        "value": 2400,
+        "variation": 0,
+        "name": "Hemobomb"
+    },
+    "WILTED_BERBERIS": {
+        "id": "WILTED_BERBERIS",
+        "value": 1,
+        "variation": 0,
+        "name": "Wilted Berberis"
+    },
+    "WILTED_BERBERIS_BUNCH": {
+        "id": "WILTED_BERBERIS",
+        "value": 20,
+        "variation": 0,
+        "name": "Wilted Berberis Bunch"
+    }
+}

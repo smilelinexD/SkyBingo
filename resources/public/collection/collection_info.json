@@ -223,7 +223,7 @@
         ]
     },
     "MUTTON": {
-        "name": "Raw Mutton",
+        "name": "Mutton",
         "img": "farming/Raw_Mutton.webp",
         "levelRequirements": [
             50,

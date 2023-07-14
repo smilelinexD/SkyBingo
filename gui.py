@@ -7,6 +7,7 @@ from pages.feature_select import *
 from pages.bingo_card import *
 from pages.goal_detailed import *
 import pages.collection_tracker as collection_tracker
+import pages.minion_craft_helper as minion_craft_helper
 import utils.info_loader as loader
 
 
@@ -23,6 +24,7 @@ class SkyBingo(tk.Tk):
         self.resizable(False, False)
 
         self.COLLECTION_TRACKER = collection_tracker.Interface(self.LOADER)
+        self.MINION_CRAFT_HELPER = minion_craft_helper.Interface(self.LOADER)
 
         self.loadBingoGoal()
         self.mainPage = MainPage(self)
@@ -40,13 +42,15 @@ class SkyBingo(tk.Tk):
         elif name == 'bingoCard':
             self.createBingoCard()
         elif name == 'goalDetailed':
-            self.createGoalDetailed(args[0])
+            self.createGoalDetailed(args)
         elif name == 'collectionTrackerMain':
             self.createCollectionTrackerMain()
         elif name == 'collectionTrackerType':
-            self.createCollectionTrackerType(args[0])
+            self.createCollectionTrackerType(args)
         elif name == 'collectionTrackerItem':
-            self.createCollectionTrackerItem(args[0], args[1])
+            self.createCollectionTrackerItem(args)
+        elif name == 'minionCraftHelperMain':
+            self.createMinionCraftHelperMain()
 
         self.stack[-1]['instance'].pack()
 
@@ -84,7 +88,8 @@ class SkyBingo(tk.Tk):
             self.stack.append(
                 {'name': 'bingoCard', 'instance': self.bingoCard, 'args': None})
 
-    def createGoalDetailed(self, i):
+    def createGoalDetailed(self, args):
+        i = args[0]
         self.goalDetailed = GoalDetailed(self, i)
         if self.stack[-1]['name'] == 'goalDetailed':
             self.stack[-1]['instance'] = self.goalDetailed
@@ -98,29 +103,40 @@ class SkyBingo(tk.Tk):
         if self.stack[-1]['name'] == 'collectionTrackerMain':
             self.stack[-1]['instance'] = self.collectionTrackerMain
         else:
-            self.stack.append({'name': 'collectionTackerMain',
+            self.stack.append({'name': 'collectionTrackerMain',
                                'instance': self.collectionTrackerMain, 'args': None})
 
-    def createCollectionTrackerType(self, type):
-        self.collectionTrackerType = collection_tracker.Interface(self.LOADER
-                                                                  ).getCollectionTrackType(type, self)
+    def createCollectionTrackerType(self, args):
+        type = args[0]
+        self.collectionTrackerType = self.COLLECTION_TRACKER.getCollectionTrackerType(
+            self, type)
         if self.stack[-1]['name'] == 'collectionTrackerType':
             self.stack[-1]['instance'] = self.collectionTrackerType
         else:
             self.stack.append({'name': 'collectionTrackerType',
                                'instance': self.collectionTrackerType, 'args': [type]})
 
-    def createCollectionTrackerItem(self, item, numRequired):
-        self.collectionTrackerItem = collection_tracker.CollectionTrackerItem(
-            self, item, self.LOADER, numRequired=numRequired)
+    def createCollectionTrackerItem(self, args):
+        item, numRequired = args
+        self.collectionTrackerItem = self.COLLECTION_TRACKER.getCollectionTrackerItem(
+            self, item, numRequired=numRequired)
         if self.stack[-1]['name'] == 'collectionTrackerItem':
             self.stack[-1]['instance'] = self.collectionTrackerItem
         else:
             self.stack.append({'name': 'collectionTrackerItem',
                                'instance': self.collectionTrackerItem, 'args': [item, numRequired]})
 
+    def createMinionCraftHelperMain(self):
+        self.minionCraftHelperMain = self.MINION_CRAFT_HELPER.getMinionCraftHelperMain(
+            self)
+        if self.stack[-1]['name'] == 'minionCraftHelperMain':
+            self.stack[-1]['instance'] = self.minionCraftHelperMain
+        else:
+            self.stack.append({'name': 'minionCraftHelperMain',
+                               'instance': self.minionCraftHelperMain, 'args': None})
+
     def loadBingoGoal(self):
-        self.goals = self.LOADER.bingo_info
+        self.goals = self.LOADER.get_bingo_info()
 
     def exit(self):
         self.destroy()

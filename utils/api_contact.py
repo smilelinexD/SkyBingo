@@ -83,11 +83,11 @@ class Interface():
 
     def checkBingoInfoAvailable(self):
         print('Checking bingo info availability...')
-        if not os.path.isfile('./resources/public/bingo_info.json'):
+        if not os.path.isfile('./resources/public/bingo/bingo_info.json'):
             print('Bingo info not found.')
             self.createBingoInfo()
             return
-        with open('./resources/public/bingo_info.json', 'r') as f:
+        with open('./resources/public/bingo/bingo_info.json', 'r') as f:
             info = json.load(f)
             if info['timestamp'] == self.TIMESTAMP:
                 self.bingo_info = info
@@ -143,13 +143,12 @@ class Interface():
             if goal['id'] in completed_goals:
                 goal['completed'] = True
 
-        with open('./resources/public/bingo_info.json', 'w') as f:
+        with open('./resources/public/bingo/bingo_info.json', 'w') as f:
             json.dump(self.bingo_info, f)
         print('Check done!')
 
 
 if __name__ == '__main__':
-    # Interface().getProfileInfo(dumping=True)
     i = Interface()
 
     profile_id = 'b7358da7-520b-4e55-958b-5e2a75df8f80'

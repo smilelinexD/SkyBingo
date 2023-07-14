@@ -18,6 +18,9 @@ class FeatureSelect(tk.Frame):
         btn = tk.Button(self, text='Collection Tracker', command=self.showCollectionTrackerMain,
                         font=('Arial', 15), width=15, height=5)
         btn.grid(row=1, column=2)
+        btn = tk.Button(self, text='Minion Craft Helper', command=self.showMinionCraftHelper, font=(
+            'Arial', 15), width=15, height=5)
+        btn.grid(row=1, column=3)
 
     def back(self):
         self.master.back()
@@ -27,3 +30,6 @@ class FeatureSelect(tk.Frame):
 
     def showCollectionTrackerMain(self):
         self.master.showPage('collectionTrackerMain', None)
+
+    def showMinionCraftHelper(self):
+        self.master.showPage('minionCraftHelperMain', None)

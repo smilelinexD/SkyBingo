@@ -9,10 +9,12 @@ class Interface():
     def __init__(self):
         self.API = api.Interface()
 
-        self.load_personal_info()
-        self.load_bingo_hint()
-        self.load_bingo_info()
-        self.load_collection_info()
+        self.personal_info = None
+        self.bingo_hint = None
+        self.bingo_info = None
+        self.collection_info = None
+        self.collection_variation = None
+        self.int_to_roman = None
 
     def load_personal_info(self):
         file_path = './resources/private/personal_info.json'
@@ -20,13 +22,15 @@ class Interface():
             self.personal_info = json.load(f)
 
     def load_bingo_hint(self):
-        file_path = './resources/public/bingo_hint.json'
+        file_path = './resources/public/bingo/bingo_hint.json'
         with open(file_path, 'r') as f:
             self.bingo_hint = json.load(f)
 
     def load_bingo_info(self):
+        if self.bingo_hint is None:
+            self.load_bingo_hint()
         self.API.updateBingoInfo()
-        file_path = './resources/public/bingo_info.json'
+        file_path = './resources/public/bingo/bingo_info.json'
         with open(file_path, 'r') as f:
             self.bingo_info = json.load(f)['goals']
         for goal in self.bingo_info:
@@ -46,26 +50,63 @@ class Interface():
                 name = goal['name']
                 print(f'goal {name} has no hint.')
 
-    def get_profile_info(self):
-        return self.API.getProfileInfo()
-
     def load_collection_info(self):
-        filepath = './resources/public/collection_info.json'
+        filepath = './resources/public/collection/collection_info.json'
         with open(filepath, 'r') as f:
             self.collection_info = json.load(f)
 
+    def load_collection_variation(self):
+        filepath = './resources/public/collection/collection_variation.json'
+        with open(filepath, 'r') as f:
+            self.collection_variation = json.load(f)
+
+    def load_int_to_roman(self):
+        filepath = './resources/public/other/int_to_roman.json'
+        with open(filepath, 'r') as f:
+            self.int_to_roman = json.load(f)
+
+    def get_personal_info(self):
+        if self.personal_info is None:
+            self.load_personal_info()
+        return self.personal_info
+
+    def get_bingo_hint(self):
+        if self.bingo_hint is None:
+            self.load_bingo_hint()
+        return self.bingo_hint
+
+    def get_bingo_info(self):
+        if self.bingo_info is None:
+            self.load_bingo_info()
+        return self.bingo_info
+
+    def get_profile_info(self):
+        return self.API.getProfileInfo()
+
     def get_collection_info_main(self):
+        if self.collection_info is None:
+            self.load_collection_info()
         return self.collection_info['TYPE']
 
     def get_collection_info_type(self, type_id):
+        if self.collection_info is None:
+            self.load_collection_info()
         return self.collection_info[type_id]
 
     def get_collection_info_item(self, item_id):
+        if self.collection_info is None:
+            self.load_collection_info()
         return self.collection_info[item_id]
 
+    def get_collection_variation(self):
+        if self.collection_variation is None:
+            self.load_collection_variation()
+        return self.collection_variation
+
     def get_int_to_roman(self):
-        with open('./resources/public/int_to_roman.json', 'r') as f:
-            return json.load(f)
+        if self.int_to_roman is None:
+            self.load_int_to_roman()
+        return self.int_to_roman
 
 
 if __name__ == '__main__':
