@@ -7,8 +7,8 @@ import utils.info_loader as info_loader
 
 
 class Interface():
-    def __init__(self):
-        self.LOADER = info_loader.Interface()
+    def __init__(self, loader):
+        self.LOADER = loader
 
         self.collection_variation = None
 
@@ -43,6 +43,6 @@ class Interface():
             if id in self.collection_variation:
                 item_data = self.collection_variation[id]
                 if item_data['id'] == item_id and item_data['variation'] == variation:
-                    count += item['Count'].value
+                    count += item['Count'].value * item_data['value']
 
         return count

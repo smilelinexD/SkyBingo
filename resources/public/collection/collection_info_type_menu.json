@@ -1,0 +1,10 @@
+{
+    "Type": [
+        "FARMING",
+        "MINING",
+        "COMBAT",
+        "FORAGING",
+        "FISHING",
+        "RIFT"
+    ]
+}

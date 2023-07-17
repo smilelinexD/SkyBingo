@@ -1,0 +1,111 @@
+{
+    "FARMING": {
+        "name": "Farming Collections",
+        "img": "collection/icon/Farming.webp",
+        "list": [
+            "CACTUS",
+            "CARROT_ITEM",
+            "INK_SACK:3",
+            "FEATHER",
+            "LEATHER",
+            "MELON",
+            "MUSHROOM_COLLECTION",
+            "MUTTON",
+            "NETHER_STALK",
+            "POTATO_ITEM",
+            "PUMPKIN",
+            "RAW_CHICKEN",
+            "PORK",
+            "RABBIT",
+            "SEEDS",
+            "SUGAR_CANE",
+            "WHEAT"
+        ]
+    },
+    "MINING": {
+        "name": "Mining Collections",
+        "img": "collection/icon/Mining.webp",
+        "list": [
+            "COAL",
+            "COBBLESTONE",
+            "DIAMOND",
+            "EMERALD",
+            "ENDER_STONE",
+            "GEMSTONE_COLLECTION",
+            "GLOWSTONE_DUST",
+            "GOLD_INGOT",
+            "GRAVEL",
+            "HARD_STONE",
+            "ICE",
+            "IRON_INGOT",
+            "INK_SACK:4",
+            "MITHRIL_ORE",
+            "MYCEL",
+            "QUARTZ",
+            "NETHERRACK",
+            "OBSIDIAN",
+            "SAND:1",
+            "REDSTONE",
+            "SAND",
+            "SULPHUR_ORE"
+        ]
+    },
+    "COMBAT": {
+        "name": "Combat Collections",
+        "img": "collection/icon/Combat.webp",
+        "list": [
+            "BLAZE_ROD",
+            "BONE",
+            "CHILI_PEPPER",
+            "ENDER_PEARL",
+            "GHAST_TEAR",
+            "SULPHUR",
+            "MAGMA_CREAM",
+            "ROTTEN_FLESH",
+            "SLIME_BALL",
+            "SPIDER_EYE",
+            "STRING"
+        ]
+    },
+    "FORAGING": {
+        "name": "Foraging Collections",
+        "img": "collection/icon/Foraging.webp",
+        "list": [
+            "LOG_2",
+            "LOG:2",
+            "LOG_2:1",
+            "LOG:3",
+            "LOG",
+            "LOG:1"
+        ]
+    },
+    "FISHING": {
+        "name": "Fishing Collections",
+        "img": "collection/icon/Fishing.webp",
+        "list": [
+            "CLAY_BALL",
+            "RAW_FISH:2",
+            "INK_SACK",
+            "WATER_LILY",
+            "MAGMA_FISH",
+            "PRISMARINE_CRYSTALS",
+            "PRISMARINE_SHARD",
+            "RAW_FISH:3",
+            "RAW_FISH",
+            "RAW_FISH:1",
+            "SPONGE"
+        ]
+    },
+    "RIFT": {
+        "name": "Rift Collections",
+        "img": "collection/icon/Rift.webp",
+        "list": [
+            "AGARICUS_CAP",
+            "CADUCOUS_STEM",
+            "HALF_EATEN_CARROT",
+            "METAL_HEART",
+            "HEMOVIBE",
+            "WILTED_BERBERIS"
+        ]
+    }
+}

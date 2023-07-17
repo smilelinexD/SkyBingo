@@ -1,0 +1,175 @@
+{
+    "WHEAT_GENERATOR": {
+        "img": "minion/farming/wheat/",
+        "list": []
+    },
+    "CACTUS": {
+        "img": "collection/minion/farming/cactus/",
+        "list": [
+            {
+                "tier": 1,
+                "recipe": [
+                    {
+                        "item": "CACTUS",
+                        "variation": 1,
+                        "count": 128
+                    },
+                    {
+                        "item": "WOOD_HOE",
+                        "count": 1
+                    }
+                ]
+            },
+            {
+                "tier": 2,
+                "recipe": [
+                    {
+                        "item": "CACTUS",
+                        "variation": 1,
+                        "count": 256
+                    },
+                    {
+                        "item": "CACTUS_GENERATOR_1",
+                        "count": 1
+                    }
+                ]
+            },
+            {
+                "tier": 3,
+                "recipe": [
+                    {
+                        "item": "CACTUS",
+                        "variation": 1,
+                        "count": 512
+                    },
+                    {
+                        "item": "CACTUS_GENERATOR_2",
+                        "count": 1
+                    }
+                ]
+            },
+            {
+                "tier": 4,
+                "recipe": [
+                    {
+                        "item": "ENCHANTED_CACTUS_GREEN",
+                        "variation": 0,
+                        "count": 8
+                    },
+                    {
+                        "item": "CACTUS_GENERATOR_3",
+                        "count": 1
+                    }
+                ]
+            },
+            {
+                "tier": 5,
+                "recipe": [
+                    {
+                        "item": "ENCHANTED_CACTUS_GREEN",
+                        "variation": 0,
+                        "count": 24
+                    },
+                    {
+                        "item": "CACTUS_GENERATOR_4",
+                        "count": 1
+                    }
+                ]
+            },
+            {
+                "tier": 6,
+                "recipe": [
+                    {
+                        "item": "ENCHANTED_CACTUS_GREEN",
+                        "variation": 0,
+                        "count": 64
+                    },
+                    {
+                        "item": "CACTUS_GENERATOR_5",
+                        "count": 1
+                    }
+                ]
+            },
+            {
+                "tier": 7,
+                "recipe": [
+                    {
+                        "item": "ENCHANTED_CACTUS_GREEN",
+                        "variation": 0,
+                        "count": 128
+                    },
+                    {
+                        "item": "CACTUS_GENERATOR_6",
+                        "count": 1
+                    }
+                ]
+            },
+            {
+                "tier": 8,
+                "recipe": [
+                    {
+                        "item": "ENCHANTED_CACTUS_GREEN",
+                        "variation": 0,
+                        "count": 256
+                    },
+                    {
+                        "item": "CACTUS_GENERATOR_7",
+                        "count": 1
+                    }
+                ]
+            },
+            {
+                "tier": 9,
+                "recipe": [
+                    {
+                        "item": "ENCHANTED_CACTUS_GREEN",
+                        "variation": 0,
+                        "count": 512
+                    },
+                    {
+                        "item": "CACTUS_GENERATOR_8",
+                        "count": 1
+                    }
+                ]
+            },
+            {
+                "tier": 10,
+                "recipe": [
+                    {
+                        "item": "ENCHANTED_CACTUS",
+                        "variation": 0,
+                        "count": 8
+                    },
+                    {
+                        "item": "CACTUS_GENERATOR_9",
+                        "count": 1
+                    }
+                ]
+            },
+            {
+                "tier": 11,
+                "recipe": [
+                    {
+                        "item": "ENCHANTED_CACTUS",
+                        "variation": 0,
+                        "count": 16
+                    },
+                    {
+                        "item": "CACTUS_GENERATOR_10",
+                        "count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "CLAY_GENERATOR": {
+        "name": "Clay Minion",
+        "img": "minion/fishing/clay/",
+        "list": []
+    },
+    "FISHING_GENERATOR": {
+        "name": "Fishing Minion",
+        "img": "minion/fishing/fishing/",
+        "list": []
+    }
+}

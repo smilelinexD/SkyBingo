@@ -1,0 +1,91 @@
+{
+    "FARMING": {
+        "name": "Farming Minions",
+        "img": "collection/icon/Farming.webp",
+        "list": [
+            "WHEAT_GENERATOR",
+            "MELON_GENERATOR",
+            "PUMPKIN_GENERATOR",
+            "CARROT_GENERATOR",
+            "POTATO_GENERATOR",
+            "MUSHROOM_GENERATOR",
+            "CACTUS_GENERATOR",
+            "COCOA_GENERATOR",
+            "SUGAR_CANE_GENERATOR",
+            "NETHER_WARTS_GENERATOR",
+            "COW_GENERATOR",
+            "PIG_GENERATOR",
+            "CHICKEN_GENERATOR",
+            "SHEEP_GENERATOR",
+            "RABBIT_GENERATOR"
+        ]
+    },
+    "MINING": {
+        "name": "Mining Minions",
+        "img": "collection/icon/Mining.webp",
+        "list": [
+            "COBBLESTONE_GENERATOR",
+            "OBSIDIAN_GENERATOR",
+            "GLOWSTONE_GENERATOR",
+            "GRAVEL_GENERATOR",
+            "SAND_GENERATOR",
+            "RED_SAND_GENERATOR",
+            "MYCELIUM_GENERATOR",
+            "ICE_GENERATOR",
+            "SNOW_GENERATOR",
+            "COAL_GENERATOR",
+            "IRON_GENERATOR",
+            "GOLD_GENERATOR",
+            "DIAMOND_GENERATOR",
+            "LAPIS_GENERATOR",
+            "REDSTONE_GENERATOR",
+            "EMERALD_GENERATOR",
+            "QUARTZ_GENERATOR",
+            "ENDER_STONE_GENERATOR",
+            "MITHRIL_GENERATOR",
+            "HARD_STONE_GENERATOR"
+        ]
+    },
+    "COMBAT": {
+        "name": "Combat Minions",
+        "img": "collection/icon/Combat.webp",
+        "list": [
+            "REVENANT_GENERATOR",
+            "TARANTULA_GENERATOR",
+            "VOIDLING_GENERATOR",
+            "VOIDLING_GENERATOR",
+            "VAMPIRE_GENERATOR",
+            "ZOMBIE_GENERATOR",
+            "SKELETON_GENERATOR",
+            "CREEPER_GENERATOR",
+            "SPIDER_GENERATOR",
+            "CAVESPIDER_GENERATOR",
+            "BLAZE_GENERATOR",
+            "MAGMA_CUBE_GENERATOR",
+            "ENDERMAN_GENERATOR",
+            "GHAST_GENERATOR",
+            "SLIME_GENERATOR"
+        ]
+    },
+    "FORAGING": {
+        "name": "Foraging Minions",
+        "img": "collection/icon/Foraging.webp",
+        "list": [
+            "OAK_GENERATOR",
+            "SPRUCE_GENERATOR",
+            "BIRCH_GENERATOR",
+            "DARK_OAK_GENERATOR",
+            "DARK_OAK_GENERATOR",
+            "JUNGLE_GENERATOR",
+            "FLOWER_GENERATOR"
+        ]
+    },
+    "FISHING": {
+        "name": "Fishing Minions",
+        "img": "collection/icon/Fishing.webp",
+        "list": [
+            "CLAY_GENERATOR",
+            "FISHING_GENERATOR"
+        ]
+    }
+}

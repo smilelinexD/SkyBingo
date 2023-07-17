@@ -27,7 +27,7 @@ class CollectionTrackerMain(tk.Frame):
         self.master = master
         self.LOADER = loader
 
-        self.collection_types = loader.get_collection_info_main()
+        self.collection_types = self.LOADER.get_collection_info_type_menu()
         self.img_list = list()
         self.initUI()
 
@@ -40,10 +40,10 @@ class CollectionTrackerMain(tk.Frame):
             type_info = self.LOADER.get_collection_info_type(type)
             img_path = type_info['img']
             self.img_list.append(ImageTk.PhotoImage(Image.open(
-                f'./imgs/collection_item/{img_path}').resize((100, 100), Image.ANTIALIAS)))
+                f'./imgs/{img_path}').resize((100, 100), Image.ANTIALIAS)))
             btn = tk.Button(self, image=self.img_list[i], command=partial(
                 self.showCollectionTrackerType, type))
-            Hovertip(btn, type.capitalize() + ' Collections', hover_delay=300)
+            Hovertip(btn, type_info['name'], hover_delay=300)
             if i <= 4:
                 btn.grid(row=1, column=i + 1)
             else:
@@ -76,10 +76,10 @@ class CollectionTrackerType(tk.Frame):
             item_info = self.LOADER.get_collection_info_item(item)
             img_path = item_info['img']
             self.img_list.append(ImageTk.PhotoImage(Image.open(
-                f'./imgs/collection_item/{img_path}').resize((64, 64), Image.ANTIALIAS)))
+                f'./imgs/{img_path}').resize((64, 64), Image.ANTIALIAS)))
             btn = tk.Button(self, image=self.img_list[i], command=partial(
                 self.showCollectionTrackerItem, item))
-            Hovertip(btn, item.capitalize(), hover_delay=300)
+            Hovertip(btn, item_info['name'].capitalize(), hover_delay=300)
             btn.grid(row=int(i / 7 + 1), column=i % 7 + 1)
 
     def showCollectionTrackerItem(self, item):
@@ -106,8 +106,9 @@ class CollectionTrackerItem(tk.Frame):
         btn = tk.Button(self, text='Back', command=self.back)
         btn.grid(row=0, column=0)
 
+        img_path = self.collection_info['img']
         self.item_img = ImageTk.PhotoImage(
-            Image.open('./imgs/collection_item/' + self.collection_info['img']).resize((180, 180), Image.ANTIALIAS))
+            Image.open(f'./imgs/{img_path}').resize((180, 180), Image.ANTIALIAS))
         label = tk.Label(self, image=self.item_img)
         label.grid(row=1, column=1)
         self.track_text = tk.Label(self, text=self.item, font=('Arial', 20))

@@ -1,124 +1,7 @@
 {
-    "TYPE": [
-        "FARMING",
-        "MINING",
-        "COMBAT",
-        "FORAGING",
-        "FISHING",
-        "RIFT"
-    ],
-    "FARMING": {
-        "name": "Farming Collections",
-        "img": "farming/Golden_Hoe.webp",
-        "list": [
-            "CACTUS",
-            "CARROT_ITEM",
-            "INK_SACK:3",
-            "FEATHER",
-            "LEATHER",
-            "MELON",
-            "MUSHROOM_COLLECTION",
-            "MUTTON",
-            "NETHER_STALK",
-            "POTATO_ITEM",
-            "PUMPKIN",
-            "RAW_CHICKEN",
-            "PORK",
-            "RABBIT",
-            "SEEDS",
-            "SUGAR_CANE",
-            "WHEAT"
-        ]
-    },
-    "MINING": {
-        "name": "Mining Collections",
-        "img": "mining/Stone_Pickaxe.webp",
-        "list": [
-            "COAL",
-            "COBBLESTONE",
-            "DIAMOND",
-            "EMERALD",
-            "ENDER_STONE",
-            "GEMSTONE_COLLECTION",
-            "GLOWSTONE_DUST",
-            "GOLD_INGOT",
-            "GRAVEL",
-            "HARD_STONE",
-            "ICE",
-            "IRON_INGOT",
-            "INK_SACK:4",
-            "MITHRIL_ORE",
-            "MYCEL",
-            "QUARTZ",
-            "NETHERRACK",
-            "OBSIDIAN",
-            "SAND:1",
-            "REDSTONE",
-            "SAND",
-            "SULPHUR_ORE"
-        ]
-    },
-    "COMBAT": {
-        "name": "Combat Collections",
-        "img": "combat/Stone_Sword.webp",
-        "list": [
-            "BLAZE_ROD",
-            "BONE",
-            "CHILI_PEPPER",
-            "ENDER_PEARL",
-            "GHAST_TEAR",
-            "SULPHUR",
-            "MAGMA_CREAM",
-            "ROTTEN_FLESH",
-            "SLIME_BALL",
-            "SPIDER_EYE",
-            "STRING"
-        ]
-    },
-    "FORAGING": {
-        "name": "Foraging Collections",
-        "img": "foraging/Jungle_Sapling.webp",
-        "list": [
-            "LOG_2",
-            "LOG:2",
-            "LOG_2:1",
-            "LOG:3",
-            "LOG",
-            "LOG:1"
-        ]
-    },
-    "FISHING": {
-        "name": "Fishing Collections",
-        "img": "fishing/Fishing_Rod.webp",
-        "list": [
-            "CLAY_BALL",
-            "RAW_FISH:2",
-            "INK_SACK",
-            "WATER_LILY",
-            "MAGMA_FISH",
-            "PRISMARINE_CRYSTALS",
-            "PRISMARINE_SHARD",
-            "RAW_FISH:3",
-            "RAW_FISH",
-            "RAW_FISH:1",
-            "SPONGE"
-        ]
-    },
-    "RIFT": {
-        "name": "Rift Collections",
-        "img": "rift/Mycelium.webp",
-        "list": [
-            "AGARICUS_CAP",
-            "CADUCOUS_STEM",
-            "HALF_EATEN_CARROT",
-            "METAL_HEART",
-            "HEMOVIBE",
-            "WILTED_BERBERIS"
-        ]
-    },
     "CACTUS": {
         "name": "Cactus",
-        "img": "farming/Cactus.webp",
+        "img": "collection/item/farming/Cactus.webp",
         "levelRequirements": [
             100,
             250,
@@ -133,7 +16,7 @@
     },
     "CARROT_ITEM": {
         "name": "Carrot",
-        "img": "farming/Carrot.webp",
+        "img": "collection/item/farming/Carrot.webp",
         "levelRequirements": [
             100,
             250,
@@ -148,7 +31,7 @@
     },
     "INK_SACK:3": {
         "name": "Cocoa Beans",
-        "img": "farming/Cocoa_Beans.webp",
+        "img": "collection/item/farming/Cocoa_Beans.webp",
         "levelRequirements": [
             75,
             200,
@@ -163,7 +46,7 @@
     },
     "FEATHER": {
         "name": "Feather",
-        "img": "farming/Feather.webp",
+        "img": "collection/item/farming/Feather.webp",
         "levelRequirements": [
             50,
             100,
@@ -178,7 +61,7 @@
     },
     "LEATHER": {
         "name": "Leather",
-        "img": "farming/Leather.webp",
+        "img": "collection/item/farming/Leather.webp",
         "levelRequirements": [
             50,
             100,
@@ -194,7 +77,7 @@
     },
     "MELON": {
         "name": "Melon",
-        "img": "farming/Melon_Slice.webp",
+        "img": "collection/item/farming/Melon_Slice.webp",
         "levelRequirements": [
             250,
             500,
@@ -209,7 +92,7 @@
     },
     "MUSHROOM_COLLECTION": {
         "name": "Mushroom",
-        "img": "farming/Red_Mushroom.webp",
+        "img": "collection/item/farming/Red_Mushroom.webp",
         "levelRequirements": [
             50,
             100,
@@ -224,7 +107,7 @@
     },
     "MUTTON": {
         "name": "Mutton",
-        "img": "farming/Raw_Mutton.webp",
+        "img": "collection/item/farming/Raw_Mutton.webp",
         "levelRequirements": [
             50,
             100,
@@ -240,7 +123,7 @@
     },
     "NETHER_STALK": {
         "name": "Nether Wart",
-        "img": "farming/Nether_Wart.webp",
+        "img": "collection/item/farming/Nether_Wart.webp",
         "levelRequirements": [
             50,
             100,
@@ -258,7 +141,7 @@
     },
     "POTATO_ITEM": {
         "name": "Potato",
-        "img": "farming/Potato.webp",
+        "img": "collection/item/farming/Potato.webp",
         "levelRequirements": [
             100,
             200,
@@ -273,7 +156,7 @@
     },
     "PUMPKIN": {
         "name": "Pumpkin",
-        "img": "farming/Pumpkin.webp",
+        "img": "collection/item/farming/Pumpkin.webp",
         "levelRequirements": [
             40,
             100,
@@ -290,7 +173,7 @@
     },
     "RAW_CHICKEN": {
         "name": "Raw Chicken",
-        "img": "farming/Raw_Chicken.webp",
+        "img": "collection/item/farming/Raw_Chicken.webp",
         "levelRequirements": [
             50,
             100,
@@ -306,7 +189,7 @@
     },
     "PORK": {
         "name": "Raw Porkchop",
-        "img": "farming/Raw_Porkchop.webp",
+        "img": "collection/item/farming/Raw_Porkchop.webp",
         "levelRequirements": [
             50,
             100,
@@ -321,7 +204,7 @@
     },
     "RABBIT": {
         "name": "Raw Rabbit",
-        "img": "farming/Raw_Rabbit.webp",
+        "img": "collection/item/farming/Raw_Rabbit.webp",
         "levelRequirements": [
             50,
             100,
@@ -336,7 +219,7 @@
     },
     "SEEDS": {
         "name": "Seeds",
-        "img": "farming/Seeds.webp",
+        "img": "collection/item/farming/Seeds.webp",
         "levelRequirements": [
             50,
             100,
@@ -349,7 +232,7 @@
     },
     "SUGAR_CANE": {
         "name": "Sugar Cane",
-        "img": "farming/Sugar_Cane.webp",
+        "img": "collection/item/farming/Sugar_Cane.webp",
         "levelRequirements": [
             100,
             250,
@@ -364,7 +247,7 @@
     },
     "WHEAT": {
         "name": "Wheat",
-        "img": "farming/Wheat.webp",
+        "img": "collection/item/farming/Wheat.webp",
         "levelRequirements": [
             50,
             100,
@@ -381,7 +264,7 @@
     },
     "COAL": {
         "name": "Coal",
-        "img": "mining/Coal.webp",
+        "img": "collection/item/mining/Coal.webp",
         "levelRequirements": [
             50,
             100,
@@ -397,7 +280,7 @@
     },
     "COBBLESTONE": {
         "name": "Cobblestone",
-        "img": "mining/Cobblestone.webp",
+        "img": "collection/item/mining/Cobblestone.webp",
         "levelRequirements": [
             50,
             100,
@@ -413,7 +296,7 @@
     },
     "DIAMOND": {
         "name": "Diamond",
-        "img": "mining/Diamond.webp",
+        "img": "collection/item/mining/Diamond.webp",
         "levelRequirements": [
             50,
             100,
@@ -428,7 +311,7 @@
     },
     "EMERALD": {
         "name": "Emerald",
-        "img": "mining/Emerald.webp",
+        "img": "collection/item/mining/Emerald.webp",
         "levelRequirements": [
             50,
             100,
@@ -443,7 +326,7 @@
     },
     "ENDER_STONE": {
         "name": "End Stone",
-        "img": "mining/End_Stone.webp",
+        "img": "collection/item/mining/End_Stone.webp",
         "levelRequirements": [
             50,
             100,
@@ -459,7 +342,7 @@
     },
     "GEMSTONE_COLLECTION": {
         "name": "Gemstone",
-        "img": "mining/Fine_Jasper_Gemstone.webp",
+        "img": "collection/item/mining/Fine_Jasper_Gemstone.webp",
         "levelRequirements": [
             100,
             250,
@@ -476,7 +359,7 @@
     },
     "GLOWSTONE_DUST": {
         "name": "Glowstone Dust",
-        "img": "mining/Glowstone_Dust.webp",
+        "img": "collection/item/mining/Glowstone_Dust.webp",
         "levelRequirements": [
             50,
             100,
@@ -489,7 +372,7 @@
     },
     "GOLD_INGOT": {
         "name": "Gold Ingot",
-        "img": "mining/Gold_Ingot.webp",
+        "img": "collection/item/mining/Gold_Ingot.webp",
         "levelRequirements": [
             50,
             100,
@@ -504,7 +387,7 @@
     },
     "GRAVEL": {
         "name": "Gravel",
-        "img": "mining/Gravel.webp",
+        "img": "collection/item/mining/Gravel.webp",
         "levelRequirements": [
             50,
             100,
@@ -519,7 +402,7 @@
     },
     "HARD_STONE": {
         "name": "Hard Stone",
-        "img": "mining/Stone.webp",
+        "img": "collection/item/mining/Stone.webp",
         "levelRequirements": [
             50,
             1000,
@@ -532,7 +415,7 @@
     },
     "ICE": {
         "name": "Ice",
-        "img": "mining/Ice.webp",
+        "img": "collection/item/mining/Ice.webp",
         "levelRequirements": [
             50,
             100,
@@ -549,7 +432,7 @@
     },
     "IRON_INGOT": {
         "name": "Iron Ingot",
-        "img": "mining/Iron_Ingot.webp",
+        "img": "collection/item/mining/Iron_Ingot.webp",
         "levelRequirements": [
             50,
             100,
@@ -567,7 +450,7 @@
     },
     "INK_SACK:4": {
         "name": "Lapis Lazuli",
-        "img": "mining/Lapis_Lazuli.webp",
+        "img": "collection/item/mining/Lapis_Lazuli.webp",
         "levelRequirements": [
             250,
             500,
@@ -583,7 +466,7 @@
     },
     "MITHRIL_ORE": {
         "name": "Mithril",
-        "img": "mining/Prismarine_Crystals.webp",
+        "img": "collection/item/mining/Prismarine_Crystals.webp",
         "levelRequirements": [
             50,
             250,
@@ -598,7 +481,7 @@
     },
     "MYCEL": {
         "name": "Mycelium",
-        "img": "mining/Mycelium.webp",
+        "img": "collection/item/mining/Mycelium.webp",
         "levelRequirements": [
             50,
             500,
@@ -614,7 +497,7 @@
     },
     "QUARTZ": {
         "name": "Nether Quartz",
-        "img": "mining/Nether_Quartz.webp",
+        "img": "collection/item/mining/Nether_Quartz.webp",
         "levelRequirements": [
             50,
             100,
@@ -629,7 +512,7 @@
     },
     "NETHERRACK": {
         "name": "Netherrack",
-        "img": "mining/Netherrack.webp",
+        "img": "collection/item/mining/Netherrack.webp",
         "levelRequirements": [
             50,
             250,
@@ -640,7 +523,7 @@
     },
     "OBSIDIAN": {
         "name": "Obsidian",
-        "img": "mining/Obsidian.webp",
+        "img": "collection/item/mining/Obsidian.webp",
         "levelRequirements": [
             50,
             100,
@@ -656,7 +539,7 @@
     },
     "SAND:1": {
         "name": "Red Sand",
-        "img": "mining/Red_Sand.webp",
+        "img": "collection/item/mining/Red_Sand.webp",
         "levelRequirements": [
             50,
             500,
@@ -669,7 +552,7 @@
     },
     "REDSTONE": {
         "name": "Redstone",
-        "img": "mining/Redstone_Dust.webp",
+        "img": "collection/item/mining/Redstone_Dust.webp",
         "levelRequirements": [
             100,
             250,
@@ -691,7 +574,7 @@
     },
     "SAND": {
         "name": "Sand",
-        "img": "mining/Sand.webp",
+        "img": "collection/item/mining/Sand.webp",
         "levelRequirements": [
             50,
             100,
@@ -704,7 +587,7 @@
     },
     "SULPHUR_ORE": {
         "name": "Sulphur",
-        "img": "mining/Glowstone_Dust.webp",
+        "img": "collection/item/mining/Glowstone_Dust.webp",
         "levelRequirements": [
             200,
             1000,
@@ -719,7 +602,7 @@
     },
     "BLAZE_ROD": {
         "name": "Blaze Rod",
-        "img": "combat/Blaze_Rod.webp",
+        "img": "collection/item/combat/Blaze_Rod.webp",
         "levelRequirements": [
             50,
             250,
@@ -733,7 +616,7 @@
     },
     "BONE": {
         "name": "Bone",
-        "img": "combat/Bone.webp",
+        "img": "collection/item/combat/Bone.webp",
         "levelRequirements": [
             50,
             100,
@@ -749,7 +632,7 @@
     },
     "CHILI_PEPPER": {
         "name": "Chili Pepper",
-        "img": "combat/Chili_Pepper.webp",
+        "img": "collection/item/combat/Chili_Pepper.webp",
         "levelRequirements": [
             10,
             25,
@@ -764,7 +647,7 @@
     },
     "ENDER_PEARL": {
         "name": "Ender Pearl",
-        "img": "combat/Ender_Pearl.webp",
+        "img": "collection/item/combat/Ender_Pearl.webp",
         "levelRequirements": [
             50,
             250,
@@ -779,7 +662,7 @@
     },
     "GHAST_TEAR": {
         "name": "Ghast Tear",
-        "img": "combat/Ghast_Tear.webp",
+        "img": "collection/item/combat/Ghast_Tear.webp",
         "levelRequirements": [
             20,
             250,
@@ -792,7 +675,7 @@
     },
     "SULPHUR": {
         "name": "Gunpowder",
-        "img": "combat/Gunpowder.webp",
+        "img": "collection/item/combat/Gunpowder.webp",
         "levelRequirements": [
             50,
             100,
@@ -807,7 +690,7 @@
     },
     "MAGMA_CREAM": {
         "name": "Magma Cream",
-        "img": "combat/Magma_Cream.webp",
+        "img": "collection/item/combat/Magma_Cream.webp",
         "levelRequirements": [
             50,
             250,
@@ -821,7 +704,7 @@
     },
     "ROTTEN_FLESH": {
         "name": "Rotten Flesh",
-        "img": "combat/Rotten_Flesh.webp",
+        "img": "collection/item/combat/Rotten_Flesh.webp",
         "levelRequirements": [
             50,
             100,
@@ -837,7 +720,7 @@
     },
     "SLIME_BALL": {
         "name": "Slimeball",
-        "img": "combat/Slimeball.webp",
+        "img": "collection/item/combat/Slimeball.webp",
         "levelRequirements": [
             50,
             100,
@@ -852,7 +735,7 @@
     },
     "SPIDER_EYE": {
         "name": "Spider Eye",
-        "img": "combat/Spider_Eye.webp",
+        "img": "collection/item/combat/Spider_Eye.webp",
         "levelRequirements": [
             50,
             100,
@@ -867,7 +750,7 @@
     },
     "STRING": {
         "name": "String",
-        "img": "combat/String.webp",
+        "img": "collection/item/combat/String.webp",
         "levelRequirements": [
             50,
             100,
@@ -882,7 +765,7 @@
     },
     "LOG_2": {
         "name": "Acacia Wood",
-        "img": "foraging/Acacia_Wood.webp",
+        "img": "collection/item/foraging/Acacia_Wood.webp",
         "levelRequirements": [
             50,
             100,
@@ -897,7 +780,7 @@
     },
     "LOG:2": {
         "name": "Birch Wood",
-        "img": "foraging/Birch_Wood.webp",
+        "img": "collection/item/foraging/Birch_Wood.webp",
         "levelRequirements": [
             50,
             100,
@@ -913,7 +796,7 @@
     },
     "LOG_2:1": {
         "name": "Dark Oak Wood",
-        "img": "foraging/Dark_Oak_Wood.webp",
+        "img": "collection/item/foraging/Dark_Oak_Wood.webp",
         "levelRequirements": [
             50,
             100,
@@ -928,7 +811,7 @@
     },
     "LOG:3": {
         "name": "Jungle Wood",
-        "img": "foraging/Jungle_Wood.webp",
+        "img": "collection/item/foraging/Jungle_Wood.webp",
         "levelRequirements": [
             50,
             100,
@@ -943,7 +826,7 @@
     },
     "LOG": {
         "name": "Oak Wood",
-        "img": "foraging/Oak_Wood.webp",
+        "img": "collection/item/foraging/Oak_Wood.webp",
         "levelRequirements": [
             50,
             100,
@@ -958,7 +841,7 @@
     },
     "LOG:1": {
         "name": "Spruce Wood",
-        "img": "foraging/Spruce_Wood.webp",
+        "img": "collection/item/foraging/Spruce_Wood.webp",
         "levelRequirements": [
             50,
             100,
@@ -973,7 +856,7 @@
     },
     "CLAY_BALL": {
         "name": "Clay",
-        "img": "fishing/Clay.webp",
+        "img": "collection/item/fishing/Clay.webp",
         "levelRequirements": [
             50,
             100,
@@ -984,7 +867,7 @@
     },
     "RAW_FISH:2": {
         "name": "Clownfish",
-        "img": "fishing/Clownfish.webp",
+        "img": "collection/item/fishing/Clownfish.webp",
         "levelRequirements": [
             10,
             25,
@@ -999,7 +882,7 @@
     },
     "INK_SACK": {
         "name": "Ink Sac",
-        "img": "fishing/Ink_Sac.webp",
+        "img": "collection/item/fishing/Ink_Sac.webp",
         "levelRequirements": [
             20,
             40,
@@ -1014,7 +897,7 @@
     },
     "WATER_LILY": {
         "name": "Lily Pad",
-        "img": "fishing/Lily_Pad.webp",
+        "img": "collection/item/fishing/Lily_Pad.webp",
         "levelRequirements": [
             10,
             50,
@@ -1029,7 +912,7 @@
     },
     "MAGMA_FISH": {
         "name": "Magmafish",
-        "img": "fishing/Magmafish.webp",
+        "img": "collection/item/fishing/Magmafish.webp",
         "levelRequirements": [
             20,
             100,
@@ -1047,7 +930,7 @@
     },
     "PRISMARINE_CRYSTALS": {
         "name": "Prismarine Crystals",
-        "img": "fishing/Prismarine_Crystals.webp",
+        "img": "collection/item/fishing/Prismarine_Crystals.webp",
         "levelRequirements": [
             10,
             25,
@@ -1060,7 +943,7 @@
     },
     "PRISMARINE_SHARD": {
         "name": "Prismarine Shard",
-        "img": "fishing/Prismarine_Shard.webp",
+        "img": "collection/item/fishing/Prismarine_Shard.webp",
         "levelRequirements": [
             10,
             25,
@@ -1072,7 +955,7 @@
     },
     "RAW_FISH:3": {
         "name": "Pufferfish",
-        "img": "fishing/Pufferfish.webp",
+        "img": "collection/item/fishing/Pufferfish.webp",
         "levelRequirements": [
             20,
             50,
@@ -1088,7 +971,7 @@
     },
     "RAW_FISH": {
         "name": "Raw Fish",
-        "img": "fishing/Raw_Fish.webp",
+        "img": "collection/item/fishing/Raw_Fish.webp",
         "levelRequirements": [
             20,
             50,
@@ -1105,7 +988,7 @@
     },
     "RAW_FISH:1": {
         "name": "Raw Salmon",
-        "img": "fishing/Raw_Salmon.webp",
+        "img": "collection/item/fishing/Raw_Salmon.webp",
         "levelRequirements": [
             20,
             50,
@@ -1120,7 +1003,7 @@
     },
     "SPONGE": {
         "name": "Sponge",
-        "img": "fishing/Sponge.webp",
+        "img": "collection/item/fishing/Sponge.webp",
         "levelRequirements": [
             20,
             50,
@@ -1135,7 +1018,7 @@
     },
     "AGARICUS_CAP": {
         "name": "Agaricus Cap",
-        "img": "rift/Agaricus_Cap.webp",
+        "img": "collection/item/rift/Agaricus_Cap.webp",
         "levelRequirements": [
             20,
             60,
@@ -1145,7 +1028,7 @@
     },
     "CADUCOUS_STEM": {
         "name": "Caducous Stem",
-        "img": "rift/Rose_Bush.webp",
+        "img": "collection/item/rift/Rose_Bush.webp",
         "levelRequirements": [
             20,
             60,
@@ -1155,7 +1038,7 @@
     },
     "HALF_EATEN_CARROT": {
         "name": "Half Eaten Carrot",
-        "img": "rift/Carrot.webp",
+        "img": "collection/item/rift/Carrot.webp",
         "levelRequirements": [
             1,
             400,
@@ -1165,7 +1048,7 @@
     },
     "METAL_HEART": {
         "name": "Living Metal Heart",
-        "img": "rift/Living_Metal_Heart.webp",
+        "img": "collection/item/rift/Living_Metal_Heart.webp",
         "levelRequirements": [
             1,
             20,
@@ -1175,7 +1058,7 @@
     },
     "HEMOVIBE": {
         "name": "Hemovibe",
-        "img": "rift/Redstone_Ore.webp",
+        "img": "collection/item/rift/Redstone_Ore.webp",
         "levelRequirements": [
             50,
             250,
@@ -1190,7 +1073,7 @@
     },
     "WILTED_BERBERIS": {
         "name": "Wilted Berberis",
-        "img": "rift/Dead_Bush.webp",
+        "img": "collection/item/rift/Dead_Bush.webp",
         "levelRequirements": [
             20,
             60,
