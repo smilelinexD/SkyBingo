@@ -17,6 +17,10 @@ class SkyBingo(tk.Tk):
     def __init__(self):
         super().__init__()
         self.LOADER = loader.Interface()
+        self.INVENTORY = inventory_utils.Interface(self.LOADER)
+        self.COLLECTION_TRACKER = collection_tracker.Interface(self.LOADER)
+        self.MINION_CRAFT_HELPER = minion_craft_helper.Interface(
+            self.LOADER, self.INVENTORY)
         self.stack = []
         self.initUI()
 
@@ -24,37 +28,37 @@ class SkyBingo(tk.Tk):
         self.title('SkyBingo')
         self.resizable(False, False)
 
-        self.COLLECTION_TRACKER = collection_tracker.Interface(self.LOADER)
-        self.MINION_CRAFT_HELPER = minion_craft_helper.Interface(self.LOADER)
-        self.INVENTORY = inventory_utils.Interface(self.LOADER)
-
         self.loadBingoGoal()
         self.mainPage = MainPage(self)
         self.stack.append(
             {'name': 'mainPage', 'instance': self.mainPage, 'args': None})
         self.mainPage.pack()
 
-    def showPage(self, name, args):
+    def showPage(self, name, args=None):
         self.destroyCurrentPage(False)
 
         if name == 'mainPage':
-            instance = self.createMainPage()
+            instance = self.createMainPage(args)
         elif name == 'featureSelect':
-            instance = self.createFeatureSelect()
+            instance = self.createFeatureSelect(args)
         elif name == 'bingoCard':
-            instance = self.createBingoCard()
+            instance = self.createBingoCard(args)
         elif name == 'goalDetailed':
             instance = self.createGoalDetailed(args)
         elif name == 'collectionTrackerMain':
-            instance = self.createCollectionTrackerMain()
+            instance = self.createCollectionTrackerMain(args)
         elif name == 'collectionTrackerType':
             instance = self.createCollectionTrackerType(args)
         elif name == 'collectionTrackerItem':
             instance = self.createCollectionTrackerItem(args)
         elif name == 'minionCraftHelperMain':
-            instance = self.createMinionCraftHelperMain()
+            instance = self.createMinionCraftHelperMain(args)
         elif name == 'minionCraftHelperType':
             instance = self.createMinionCraftHelperType(args)
+        elif name == 'minionCraftHelperAmountSelect':
+            instance = self.createMinionCraftHelperAmountSelect(args)
+        elif name == 'minionCraftHelperTrack':
+            instance = self.createMinionCraftHelperTrack(args)
 
         if self.stack[-1]['name'] == name:
             self.stack[-1]['instance'] = instance
@@ -74,15 +78,15 @@ class SkyBingo(tk.Tk):
         self.destroyCurrentPage(True)
         self.showPage(self.stack[-1]['name'], self.stack[-1]['args'])
 
-    def createMainPage(self):
+    def createMainPage(self, args):
         self.mainPage = MainPage(self)
         return self.mainPage
 
-    def createFeatureSelect(self):
+    def createFeatureSelect(self, args):
         self.featureSelect = FeatureSelect(self)
         return self.featureSelect
 
-    def createBingoCard(self):
+    def createBingoCard(self, args):
         self.bingoCard = BingoCard(self)
         return self.bingoCard
 
@@ -91,7 +95,7 @@ class SkyBingo(tk.Tk):
         self.goalDetailed = GoalDetailed(self, i)
         return self.goalDetailed
 
-    def createCollectionTrackerMain(self):
+    def createCollectionTrackerMain(self, args):
         self.collectionTrackerMain = self.COLLECTION_TRACKER.getCollectionTrackerMain(
             self)
         return self.collectionTrackerMain
@@ -108,7 +112,7 @@ class SkyBingo(tk.Tk):
             self, item, numRequired=numRequired)
         return self.collectionTrackerItem
 
-    def createMinionCraftHelperMain(self):
+    def createMinionCraftHelperMain(self, args):
         self.minionCraftHelperMain = self.MINION_CRAFT_HELPER.getMinionCraftHelperMain(
             self)
         return self.minionCraftHelperMain
@@ -118,6 +122,18 @@ class SkyBingo(tk.Tk):
         self.minionCraftHelperType = self.MINION_CRAFT_HELPER.getMinionCraftHelperType(
             self, type)
         return self.minionCraftHelperType
+
+    def createMinionCraftHelperAmountSelect(self, args):
+        minion = args[0]
+        self.minionCraftHelperAmountSelect = self.MINION_CRAFT_HELPER.getMinionCraftHelperAmountSelect(
+            self, minion)
+        return self.minionCraftHelperAmountSelect
+
+    def createMinionCraftHelperTrack(self, args):
+        minion, tier, amount = args
+        self.minionCraftHelperTrack = self.MINION_CRAFT_HELPER.getMinionCraftHelperTrack(
+            self, minion, tier, amount)
+        return self.minionCraftHelperTrack
 
     def loadBingoGoal(self):
         self.goals = self.LOADER.get_bingo_info()

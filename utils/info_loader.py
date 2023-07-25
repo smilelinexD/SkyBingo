@@ -19,7 +19,7 @@ class Interface():
         self.minion_info_type_menu = None
         self.minion_info_type = None
         self.minion_info = None
-        self.int_to_roman = None
+        self.int_roman_transform = None
 
     def load_personal_info(self):
         file_path = './resources/private/personal_info.json'
@@ -90,10 +90,10 @@ class Interface():
         with open(filepath, 'r') as f:
             self.minion_info = json.load(f)
 
-    def load_int_to_roman(self):
-        filepath = './resources/public/other/int_to_roman.json'
+    def load_int_roman_transform(self):
+        filepath = './resources/public/other/int_roman_transform.json'
         with open(filepath, 'r') as f:
-            self.int_to_roman = json.load(f)
+            self.int_roman_transform = json.load(f)
 
     def get_personal_info(self):
         if self.personal_info is None:
@@ -148,10 +148,10 @@ class Interface():
             self.load_minion_info()
         return self.minion_info[minion_id]
 
-    def get_int_to_roman(self):
-        if self.int_to_roman is None:
-            self.load_int_to_roman()
-        return self.int_to_roman
+    def get_int_roman_transform(self):
+        if self.int_roman_transform is None:
+            self.load_int_roman_transform()
+        return self.int_roman_transform
 
 
 if __name__ == '__main__':

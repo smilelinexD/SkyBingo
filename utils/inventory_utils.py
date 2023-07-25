@@ -3,8 +3,6 @@ import base64
 import nbt
 import io
 
-import utils.info_loader as info_loader
-
 
 class Interface():
     def __init__(self, loader):
@@ -21,8 +19,9 @@ class Interface():
         inv = self.decode_inventory_data(self.inventory_raw)[0]
         self.inventory = [item for item in inv if len(item) > 0]
 
-    def count_normal_item(self, item_id):
-        self.update_inventory_data()
+    def count_normal_item(self, item_id, update=True):
+        if update:
+            self.update_inventory_data()
 
         count = 0
         for item in self.inventory:
@@ -31,11 +30,11 @@ class Interface():
 
         return count
 
-    def count_collection_item(self, item_id, variation):
+    def count_collection_item(self, item_id, variation, update=True):
+        if update:
+            self.update_inventory_data()
         if self.collection_variation is None:
             self.collection_variation = self.LOADER.get_collection_variation()
-
-        self.update_inventory_data()
 
         count = 0
         for item in self.inventory:
@@ -46,3 +45,17 @@ class Interface():
                     count += item['Count'].value * item_data['value']
 
         return count
+
+    def count_minion(self, minion_id, update=True):
+        if update:
+            self.update_inventory_data()
+
+        inventory_minion = {i: 0 for i in range(1, 12)}
+        done = 0
+        for item in self.inventory:
+            id = item['tag']['ExtraAttributes']['id'].value
+            if id.startswith(minion_id):
+                tier = int(id.split('_')[-1])
+                inventory_minion[tier] += 1
+
+        return inventory_minion

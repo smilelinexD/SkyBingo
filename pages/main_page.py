@@ -21,7 +21,7 @@ class MainPage(tk.Frame):
         btn.grid(row=2, column=0)
 
     def start(self):
-        self.master.showPage('featureSelect', None)
+        self.master.showPage('featureSelect')
 
     def exit(self):
         self.master.exit()

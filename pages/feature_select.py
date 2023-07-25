@@ -26,10 +26,10 @@ class FeatureSelect(tk.Frame):
         self.master.back()
 
     def showBingoCard(self):
-        self.master.showPage('bingoCard', None)
+        self.master.showPage('bingoCard')
 
     def showCollectionTrackerMain(self):
-        self.master.showPage('collectionTrackerMain', None)
+        self.master.showPage('collectionTrackerMain')
 
     def showMinionCraftHelper(self):
-        self.master.showPage('minionCraftHelperMain', None)
+        self.master.showPage('minionCraftHelperMain')

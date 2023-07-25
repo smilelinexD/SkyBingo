@@ -1,12 +1,14 @@
 import tkinter as tk
+import tkinter.ttk as ttk
 from PIL import Image, ImageTk
 from idlelib.tooltip import Hovertip
 from functools import partial
 
 
 class Interface():
-    def __init__(self, loader):
+    def __init__(self, loader, inventory):
         self.LOADER = loader
+        self.INVENTORY = inventory
 
     def getMinionCraftHelperMain(self, master):
         master.geometry('650x250')
@@ -15,6 +17,14 @@ class Interface():
     def getMinionCraftHelperType(self, master, type):
         master.geometry('650x250')
         return MinionCraftHelperType(master, type, self.LOADER)
+
+    def getMinionCraftHelperAmountSelect(self, master, minion):
+        master.geometry('650x250')
+        return MinionCraftHelperAmountSelect(master, minion, self.LOADER)
+
+    def getMinionCraftHelperTrack(self, master, minion, tier, amount):
+        master.geometry('650x250')
+        return MinionCraftHelperTrack(master, minion, tier, amount, self.LOADER, self.INVENTORY)
 
 
 class MinionCraftHelperMain(tk.Frame):
@@ -71,12 +81,266 @@ class MinionCraftHelperType(tk.Frame):
             self.img_list.append(ImageTk.PhotoImage(Image.open(
                 f'./imgs/{img_path}icon.webp').resize((64, 100), Image.ANTIALIAS)))
             btn = tk.Button(self, image=self.img_list[i], command=partial(
-                self.showMinionCraftHelperItem, minion))
+                self.showMinionCraftHelperAmountSelect, minion))
             Hovertip(btn, minion_info['name'], hover_delay=300)
             btn.grid(row=int(i / 7 + 1), column=i % 7 + 1)
 
-    def showMinionCraftHelperItem(self, item):
-        self.master.showPage('minionCraftHelperItem', [item, None])
+    def showMinionCraftHelperAmountSelect(self, minion):
+        self.master.showPage('minionCraftHelperAmountSelect', [minion])
 
     def back(self):
+        self.master.back()
+
+
+class MinionCraftHelperAmountSelect(tk.Frame):
+    def __init__(self, master, minion, loader):
+        super().__init__(master)
+        self.master = master
+        self.LOADER = loader
+        self.minion = minion
+        self.minion_info = self.LOADER.get_minion_info(minion)
+        self.minion_name = self.minion_info['name']
+        int_roman_transform = self.LOADER.get_int_roman_transform()
+        self.INT_TO_ROMAN = int_roman_transform['int_to_roman']
+        self.ROMAN_TO_INT = int_roman_transform['roman_to_int']
+        self.img_list = list()
+
+        self.tier = 1
+        self.amount = 1
+
+        self.initUI()
+
+    def initUI(self):
+        btn = tk.Button(self, text='Back', command=self.back,
+                        font=('Arial', 10))
+        btn.grid(row=0, column=0)
+
+        tier_roman = self.INT_TO_ROMAN[str(self.tier)]
+        self.label_name = tk.Label(
+            self, text=f'{self.minion_name} {tier_roman}', font=('Arial', 20))
+        self.label_name.grid(row=1, column=1)
+
+        for i in range(1, 12):
+            self.img_list.append(ImageTk.PhotoImage(Image.open(
+                f'./imgs/{self.minion_info["img"]}{i}.webp').resize((64, 64), Image.ANTIALIAS)))
+
+        self.label_img = tk.Label(self, image=self.img_list[0])
+        self.label_img.grid(row=2, column=1)
+
+        label = tk.Label(self, text='Tier', font=('Arial', 20))
+        label.grid(row=1, column=2)
+
+        combox_val = [self.INT_TO_ROMAN[str(i)] for i in range(1, 12)]
+        self.combox_tier = ttk.Combobox(
+            self, values=combox_val, state='readonly')
+        self.combox_tier.current(0)
+        self.combox_tier.bind('<<ComboboxSelected>>', self.updateTier)
+        self.combox_tier.grid(row=2, column=2)
+
+        label = tk.Label(self, text='Amount', font=('Arial', 20))
+        label.grid(row=1, column=3)
+
+        self.entry_var = tk.IntVar(value=1)
+        self.entry_amount = tk.Entry(
+            self, textvariable=self.entry_var, width=10)
+        # self.entry_amount.insert(0, '1')
+        self.entry_amount.grid(row=2, column=3)
+        self.entry_var.trace_add('write', self.updateAmount)
+
+        btn = tk.Button(self, text='Track',
+                        command=self.showMinionCraftHelperTrack, font=('Arial', 20))
+        btn.grid(row=3, column=2)
+
+    def updateTier(self, evt):
+        self.tier = self.ROMAN_TO_INT[self.combox_tier.get()]
+
+        tier_roman = self.INT_TO_ROMAN[str(self.tier)]
+        self.label_name.configure(text=f'{self.minion_name} {tier_roman}')
+
+        self.label_img.configure(image=self.img_list[self.tier - 1])
+
+    def updateAmount(self, *args):
+        if self.entry_amount.get() == '':
+            self.entry_var.set(1)
+        self.amount = self.entry_var.get()
+
+    def showMinionCraftHelperTrack(self):
+        if self.amount <= 0:
+            return
+        self.master.showPage('minionCraftHelperTrack', [
+                             self.minion, self.tier, self.amount])
+
+    def back(self):
+        self.master.back()
+
+
+class MinionCraftHelperTrack(tk.Frame):
+    def __init__(self, master, minion, tier, amount, loader, inventory):
+        super().__init__(master)
+        self.master = master
+        self.LOADER = loader
+        self.minion = minion
+        self.minion_info = self.LOADER.get_minion_info(minion)
+        self.collection_id = self.minion_info['collection_id']
+        self.collection_name = self.minion_info['collection_name']
+        self.recipe = self.minion_info['recipe'][str(tier)]
+        self.item_list = self.recipe['item_list']
+        self.item_cost = self.recipe['raw_cost']
+        self.INT_TO_ROMAN = self.LOADER.get_int_roman_transform()[
+            'int_to_roman']
+        self.minion_name = self.minion_info['name']
+        self.tier = tier
+        self.amount = amount
+        self.INVENTORY = inventory
+        self.img_dict_minion = dict()
+        self.img_dict_item = dict()
+        self.flag = True
+        self.can_craft = 0
+        self.INTERVAL = 5
+
+        self.initUI()
+        self.initTrack()
+
+    def initUI(self):
+        btn = tk.Button(self, text='Back', command=self.back,
+                        font=('Arial', 10))
+        btn.grid(row=0, column=0)
+
+        tier_roman = self.INT_TO_ROMAN[str(self.tier)]
+        self.textVar_minion_goal = tk.StringVar()
+        self.textVar_minion_goal.set(
+            f'Goal: {self.minion_name} {tier_roman} {self.can_craft}/{self.amount}')
+        label = tk.Label(
+            self, textvariable=self.textVar_minion_goal, font=('Arial', 20))
+        label.grid(row=1, column=1, columnspan=3)
+
+        self.textVar_minion_current = tk.StringVar()
+        self.textVar_minion_current.set(
+            f'Current: {self.minion_name} {tier_roman}')
+        label = tk.Label(self, textvariable=self.textVar_minion_current,
+                         font=('Arial', 20))
+        label.grid(row=2, column=1, columnspan=3)
+        for i in range(1, 12):
+            self.img_dict_minion[i] = ImageTk.PhotoImage(Image.open(
+                f'./imgs/{self.minion_info["img"]}{i}.webp').resize((64, 64), Image.ANTIALIAS))
+        self.label_minion_img = tk.Label(
+            self, image=self.img_dict_minion[self.tier])
+        self.label_minion_img.grid(row=3, column=1, rowspan=3)
+
+        self.textVar_itemA = tk.StringVar()
+        self.textVar_itemA.set(
+            f'0/{self.item_list[0]["required"]} {self.item_list[0]["name"]}')
+        label = tk.Label(self, textvariable=self.textVar_itemA,
+                         font=('Arial', 15))
+        label.grid(row=3, column=2)
+        self.textVar_itemA_subitem = tk.StringVar()
+        self.textVar_itemA_subitem.set(
+            f'- 0/{self.item_cost} {self.collection_name}')
+        if self.item_list[0]['item_id'] == self.collection_id:
+            self.textVar_itemA_subitem.set('')
+        label = tk.Label(self, textvariable=self.textVar_itemA_subitem,
+                         font=('Arial', 15))
+        label.grid(row=4, column=2)
+
+        self.textVar_itemB = tk.StringVar()
+        self.textVar_itemB.set(
+            f'0/{str(self.item_list[1]["required"])} {self.item_list[1]["name"]}')
+        label = tk.Label(self, textvariable=self.textVar_itemB,
+                         font=('Arial', 15))
+        label.grid(row=5, column=2)
+
+    def initTrack(self):
+        self.used_material = [0, 0]
+        self.inventory_minion = self.INVENTORY.count_minion(self.minion)
+
+        for i in range(self.tier, 12):
+            if self.inventory_minion[i] > 0:
+                self.can_craft = min(self.amount, self.can_craft +
+                                     self.inventory_minion[i])
+                if self.can_craft == self.amount:
+                    self.done()
+                    break
+
+        self.track_list = list()
+        for i in range(1, self.tier):
+            if self.inventory_minion[i] > 0:
+                for _ in range(self.inventory_minion):
+                    self.track_list.append({'tier': i, 'status': 'original'})
+        self.trackNext()
+
+    def trackNext(self):
+        ''' get highest tier minion in track_list and upgrade it to highest possible tier
+        '''
+        self.current_owned = self.track_list.pop()['tier'] if len(
+            self.track_list) > 0 else 0
+        self.tracking = self.current_owned + 1
+        self.current_recipe = self.minion_info['recipe'][str(self.tracking)]
+        self.current_variation = self.current_recipe['variation']
+        self.current_cost = self.current_recipe['raw_cost']
+
+        self.item_amount = self.INVENTORY.count_collection_item(
+            self.collection_id, self.current_variation)
+
+        self.itemB = self.current_recipe['item_list'][1]
+        self.have_itemB = self.INVENTORY.count_normal_item(
+            self.itemB['item_id']) > 0
+
+        if (self.item_amount < self.current_cost + self.used_material[self.current_variation]) or (self.current_owned == 0 and not self.have_itemB):
+            self.track()
+            return
+
+        self.used_material[self.current_variation] += self.current_cost
+
+        if self.current_owned == self.tier - 1:
+            self.can_craft += 1
+            if self.can_craft == self.amount:
+                self.done()
+                return
+        else:
+            self.track_list.append(
+                {'tier': self.tracking, 'status': 'crafted'})
+
+        self.trackNext()
+
+    def track(self):
+        if self.flag:
+            tracking = self.current_owned + 1
+            self.item_amount = self.INVENTORY.count_collection_item(
+                self.collection_id, self.current_variation) - self.used_material[self.current_variation]
+
+            self.textVar_minion_current.set(
+                f'Current: {self.minion_name} {self.INT_TO_ROMAN[str(tracking)]}')
+            self.label_minion_img.configure(
+                image=self.img_dict_minion[tracking])
+
+            itemA = self.current_recipe['item_list'][0]
+            if self.current_recipe['item_list'][0]['item_id'] == self.collection_id:
+                self.textVar_itemA.set(
+                    f'{self.item_amount}/{itemA["required"]} {itemA["name"]}')
+                self.textVar_itemA_subitem.set('')
+            else:
+                self.textVar_itemA.set(
+                    f'{itemA["required"]} {itemA["name"]}')
+                self.textVar_itemA_subitem.set(
+                    f'- {self.item_amount}/{self.current_cost} {self.collection_name}')
+
+            if self.current_owned == 0:
+                self.textVar_itemB.set(
+                    f'{1 if self.have_itemB else 0}/1 {self.itemB["name"]}')
+            else:
+                if self.have_itemB:
+                    self.textVar_itemB.set(
+                        f'1/1 {self.itemB["name"]} (owned)')
+                self.textVar_itemB.set(
+                    f'1/1 {self.itemB["name"]} ({"owned" if self.have_itemB else "can craft"})')
+
+            self.after(self.INTERVAL * 1000, self.track)
+
+    def done(self):
+        self.flag = False
+        self.textVar_minion_goal.set('DONE!')
+        self.after(3000, self.back)
+
+    def back(self):
+        self.flag = False
         self.master.back()

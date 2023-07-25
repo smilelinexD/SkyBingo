@@ -28,7 +28,7 @@ class CollectionTrackerMain(tk.Frame):
         self.LOADER = loader
 
         self.collection_types = self.LOADER.get_collection_info_type_menu()
-        self.img_list = list()
+        self.img_dict = list()
         self.initUI()
 
     def initUI(self):
@@ -38,9 +38,8 @@ class CollectionTrackerMain(tk.Frame):
 
         for i, type in enumerate(self.collection_types):
             type_info = self.LOADER.get_collection_info_type(type)
-            img_path = type_info['img']
             self.img_list.append(ImageTk.PhotoImage(Image.open(
-                f'./imgs/{img_path}').resize((100, 100), Image.ANTIALIAS)))
+                f'./imgs/{type_info["img"]}').resize((100, 100), Image.ANTIALIAS)))
             btn = tk.Button(self, image=self.img_list[i], command=partial(
                 self.showCollectionTrackerType, type))
             Hovertip(btn, type_info['name'], hover_delay=300)
@@ -74,9 +73,8 @@ class CollectionTrackerType(tk.Frame):
 
         for i, item in enumerate(self.collection_items):
             item_info = self.LOADER.get_collection_info_item(item)
-            img_path = item_info['img']
             self.img_list.append(ImageTk.PhotoImage(Image.open(
-                f'./imgs/{img_path}').resize((64, 64), Image.ANTIALIAS)))
+                f'./imgs/{item_info["img"]}').resize((64, 64), Image.ANTIALIAS)))
             btn = tk.Button(self, image=self.img_list[i], command=partial(
                 self.showCollectionTrackerItem, item))
             Hovertip(btn, item_info['name'].capitalize(), hover_delay=300)
@@ -97,7 +95,8 @@ class CollectionTrackerItem(tk.Frame):
         self.LOADER = loader
         self.numRequired = numRequired
         self.collection_info = self.LOADER.get_collection_info_item(self.item)
-        self.INTTOROMAN = self.LOADER.get_int_to_roman()
+        self.INT_TO_ROMAN = self.LOADER.get_int_roman_transform()[
+            'int_to_roman']
         self.flag = True
         self.INTERVAL = 5
         self.initUI()
@@ -106,9 +105,8 @@ class CollectionTrackerItem(tk.Frame):
         btn = tk.Button(self, text='Back', command=self.back)
         btn.grid(row=0, column=0)
 
-        img_path = self.collection_info['img']
         self.item_img = ImageTk.PhotoImage(
-            Image.open(f'./imgs/{img_path}').resize((180, 180), Image.ANTIALIAS))
+            Image.open(f'./imgs/{self.collection_info["img"]}').resize((180, 180), Image.ANTIALIAS))
         label = tk.Label(self, image=self.item_img)
         label.grid(row=1, column=1)
         self.track_text = tk.Label(self, text=self.item, font=('Arial', 20))
@@ -132,9 +130,9 @@ class CollectionTrackerItem(tk.Frame):
                     i += 1
                 print(i)
                 if i == len(requirements):
-                    text = f'{self.INTTOROMAN[str(i)]} MAX'
+                    text = f'{self.INT_TO_ROMAN[str(i)]} MAX'
                 else:
-                    text = f'{self.INTTOROMAN[str(i)]} {self.item_count}/{requirements[i]}'
+                    text = f'{self.INT_TO_ROMAN[str(i)]} {self.item_count}/{requirements[i]}'
                 self.track_text.configure(text=text)
             else:
                 text = f'{self.item_count/self.numRequired*100:.2f}% {self.item_count}/{self.numRequired}'

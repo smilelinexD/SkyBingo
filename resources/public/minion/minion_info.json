@@ -12,11 +12,11 @@
                     {
                         "item": "CACTUS",
                         "variation": 1,
-                        "count": 128
+                        "required": 128
                     },
                     {
                         "item": "WOOD_HOE",
-                        "count": 1
+                        "required": 1
                     }
                 ]
             },
@@ -26,11 +26,11 @@
                     {
                         "item": "CACTUS",
                         "variation": 1,
-                        "count": 256
+                        "required": 256
                     },
                     {
                         "item": "CACTUS_GENERATOR_1",
-                        "count": 1
+                        "required": 1
                     }
                 ]
             },
@@ -40,11 +40,11 @@
                     {
                         "item": "CACTUS",
                         "variation": 1,
-                        "count": 512
+                        "required": 512
                     },
                     {
                         "item": "CACTUS_GENERATOR_2",
-                        "count": 1
+                        "required": 1
                     }
                 ]
             },
@@ -54,11 +54,11 @@
                     {
                         "item": "ENCHANTED_CACTUS_GREEN",
                         "variation": 0,
-                        "count": 8
+                        "required": 8
                     },
                     {
                         "item": "CACTUS_GENERATOR_3",
-                        "count": 1
+                        "required": 1
                     }
                 ]
             },
@@ -68,11 +68,11 @@
                     {
                         "item": "ENCHANTED_CACTUS_GREEN",
                         "variation": 0,
-                        "count": 24
+                        "required": 24
                     },
                     {
                         "item": "CACTUS_GENERATOR_4",
-                        "count": 1
+                        "required": 1
                     }
                 ]
             },
@@ -82,11 +82,11 @@
                     {
                         "item": "ENCHANTED_CACTUS_GREEN",
                         "variation": 0,
-                        "count": 64
+                        "required": 64
                     },
                     {
                         "item": "CACTUS_GENERATOR_5",
-                        "count": 1
+                        "required": 1
                     }
                 ]
             },
@@ -96,11 +96,11 @@
                     {
                         "item": "ENCHANTED_CACTUS_GREEN",
                         "variation": 0,
-                        "count": 128
+                        "required": 128
                     },
                     {
                         "item": "CACTUS_GENERATOR_6",
-                        "count": 1
+                        "required": 1
                     }
                 ]
             },
@@ -110,11 +110,11 @@
                     {
                         "item": "ENCHANTED_CACTUS_GREEN",
                         "variation": 0,
-                        "count": 256
+                        "required": 256
                     },
                     {
                         "item": "CACTUS_GENERATOR_7",
-                        "count": 1
+                        "required": 1
                     }
                 ]
             },
@@ -124,11 +124,11 @@
                     {
                         "item": "ENCHANTED_CACTUS_GREEN",
                         "variation": 0,
-                        "count": 512
+                        "required": 512
                     },
                     {
                         "item": "CACTUS_GENERATOR_8",
-                        "count": 1
+                        "required": 1
                     }
                 ]
             },
@@ -138,11 +138,11 @@
                     {
                         "item": "ENCHANTED_CACTUS",
                         "variation": 0,
-                        "count": 8
+                        "required": 8
                     },
                     {
                         "item": "CACTUS_GENERATOR_9",
-                        "count": 1
+                        "required": 1
                     }
                 ]
             },
@@ -152,11 +152,11 @@
                     {
                         "item": "ENCHANTED_CACTUS",
                         "variation": 0,
-                        "count": 16
+                        "required": 16
                     },
                     {
                         "item": "CACTUS_GENERATOR_10",
-                        "count": 1
+                        "required": 1
                     }
                 ]
             }
@@ -165,11 +165,368 @@
     "CLAY_GENERATOR": {
         "name": "Clay Minion",
         "img": "minion/fishing/clay/",
-        "list": []
+        "collection_id": "CLAY_BALL",
+        "recipe": [
+            {
+                "tier": 1,
+                "variation": 0,
+                "raw_cost": 80,
+                "item_list": [
+                    {
+                        "item_id": "CLAY_BALL",
+                        "required": 80
+                    },
+                    {
+                        "item_id": "WOOD_SPADE",
+                        "required": 1
+                    }
+                ]
+            },
+            {
+                "tier": 2,
+                "variation": 0,
+                "raw_cost": 240,
+                "item_list": [
+                    {
+                        "item_id": "CLAY_BALL",
+                        "required": 160
+                    },
+                    {
+                        "item_id": "CLAY_GENERATOR_1",
+                        "required": 1
+                    }
+                ]
+            },
+            {
+                "tier": 3,
+                "variation": 0,
+                "raw_cost": 560,
+                "item_list": [
+                    {
+                        "item_id": "CLAY_BALL",
+                        "required": 320
+                    },
+                    {
+                        "item_id": "CLAY_GENERATOR_2",
+                        "required": 1
+                    }
+                ]
+            },
+            {
+                "tier": 4,
+                "variation": 0,
+                "raw_cost": 1072,
+                "item_list": [
+                    {
+                        "item_id": "CLAY_BALL",
+                        "required": 512
+                    },
+                    {
+                        "item_id": "CLAY_GENERATOR_3",
+                        "required": 1
+                    }
+                ]
+            },
+            {
+                "tier": 5,
+                "variation": 0,
+                "raw_cost": 2352,
+                "item_list": [
+                    {
+                        "item_id": "ENCHANTED_CLAY_BALL",
+                        "required": 8
+                    },
+                    {
+                        "item_id": "CLAY_GENERATOR_4",
+                        "required": 1
+                    }
+                ]
+            },
+            {
+                "tier": 6,
+                "variation": 0,
+                "raw_cost": 4912,
+                "item_list": [
+                    {
+                        "item_id": "ENCHANTED_CLAY_BALL",
+                        "required": 16
+                    },
+                    {
+                        "item_id": "CLAY_GENERATOR_5",
+                        "required": 1
+                    }
+                ]
+            },
+            {
+                "tier": 7,
+                "variation": 0,
+                "raw_cost": 10032,
+                "item_list": [
+                    {
+                        "item_id": "ENCHANTED_CLAY_BALL",
+                        "required": 32
+                    },
+                    {
+                        "item_id": "CLAY_GENERATOR_6",
+                        "required": 1
+                    }
+                ]
+            },
+            {
+                "tier": 8,
+                "variation": 0,
+                "raw_cost": 20272,
+                "item_list": [
+                    {
+                        "item_id": "ENCHANTED_CLAY_BALL",
+                        "required": 64
+                    },
+                    {
+                        "item_id": "CLAY_GENERATOR_7",
+                        "required": 1
+                    }
+                ]
+            },
+            {
+                "tier": 9,
+                "variation": 0,
+                "raw_cost": 40752,
+                "item_list": [
+                    {
+                        "item_id": "ENCHANTED_CLAY_BALL",
+                        "required": 128
+                    },
+                    {
+                        "item_id": "CLAY_GENERATOR_8",
+                        "required": 1
+                    }
+                ]
+            },
+            {
+                "tier": 10,
+                "variation": 0,
+                "raw_cost": 81712,
+                "item_list": [
+                    {
+                        "item_id": "ENCHANTED_CLAY_BALL",
+                        "required": 256
+                    },
+                    {
+                        "item_id": "CLAY_GENERATOR_9",
+                        "required": 1
+                    }
+                ]
+            },
+            {
+                "tier": 11,
+                "variation": 0,
+                "raw_cost": 163632,
+                "item_list": [
+                    {
+                        "item_id": "ENCHANTED_CLAY_BALL",
+                        "required": 512
+                    },
+                    {
+                        "item_id": "CLAY_GENERATOR_10",
+                        "required": 1
+                    }
+                ]
+            }
+        ]
     },
     "FISHING_GENERATOR": {
         "name": "Fishing Minion",
         "img": "minion/fishing/fishing/",
-        "list": []
+        "collection_id": "RAW_FISH",
+        "collection_name": "Raw Fish",
+        "recipe": {
+            "1": {
+                "tier": 1,
+                "variation": 0,
+                "raw_cost": 64,
+                "item_list": [
+                    {
+                        "item_id": "RAW_FISH",
+                        "name": "Raw Fish",
+                        "required": 64
+                    },
+                    {
+                        "item_id": "FISHING_ROD",
+                        "name": "Fishing Rod",
+                        "required": 1
+                    }
+                ]
+            },
+            "2": {
+                "tier": 2,
+                "variation": 0,
+                "raw_cost": 128,
+                "item_list": [
+                    {
+                        "item_id": "RAW_FISH",
+                        "name": "Raw Fish",
+                        "required": 128
+                    },
+                    {
+                        "item_id": "FISHING_GENERATOR_1",
+                        "name": "Fishing Minion I",
+                        "required": 1
+                    }
+                ]
+            },
+            "3": {
+                "tier": 3,
+                "variation": 0,
+                "raw_cost": 256,
+                "item_list": [
+                    {
+                        "item_id": "RAW_FISH",
+                        "name": "Raw Fish",
+                        "required": 256
+                    },
+                    {
+                        "item_id": "FISHING_GENERATOR_2",
+                        "name": "Fishing Minion II",
+                        "required": 1
+                    }
+                ]
+            },
+            "4": {
+                "tier": 4,
+                "variation": 0,
+                "raw_cost": 512,
+                "item_list": [
+                    {
+                        "item_id": "RAW_FISH",
+                        "name": "Raw Fish",
+                        "required": 512
+                    },
+                    {
+                        "item_id": "FISHING_GENERATOR_3",
+                        "name": "Fishing Minion III",
+                        "required": 1
+                    }
+                ]
+            },
+            "5": {
+                "tier": 5,
+                "variation": 0,
+                "raw_cost": 1280,
+                "item_list": [
+                    {
+                        "item_id": "ENCHANTED_RAW_FISH",
+                        "name": "Enchanted Raw Fish",
+                        "required": 8
+                    },
+                    {
+                        "item_id": "FISHING_GENERATOR_4",
+                        "name": "Fishing Minion IV",
+                        "required": 1
+                    }
+                ]
+            },
+            "6": {
+                "tier": 6,
+                "variation": 0,
+                "raw_cost": 3840,
+                "item_list": [
+                    {
+                        "item_id": "ENCHANTED_RAW_FISH",
+                        "name": "Enchanted Raw Fish",
+                        "required": 24
+                    },
+                    {
+                        "item_id": "FISHING_GENERATOR_5",
+                        "name": "Fishing Minion V",
+                        "required": 1
+                    }
+                ]
+            },
+            "7": {
+                "tier": 7,
+                "variation": 0,
+                "raw_cost": 10240,
+                "item_list": [
+                    {
+                        "item_id": "ENCHANTED_RAW_FISH",
+                        "name": "Enchanted Raw Fish",
+                        "required": 64
+                    },
+                    {
+                        "item_id": "FISHING_GENERATOR_6",
+                        "name": "Fishing Minion VI",
+                        "required": 1
+                    }
+                ]
+            },
+            "8": {
+                "tier": 8,
+                "variation": 0,
+                "raw_cost": 20480,
+                "item_list": [
+                    {
+                        "item_id": "ENCHANTED_RAW_FISH",
+                        "name": "Enchanted Raw Fish",
+                        "required": 128
+                    },
+                    {
+                        "item_id": "FISHING_GENERATOR_7",
+                        "name": "Fishing Minion VII",
+                        "required": 1
+                    }
+                ]
+            },
+            "9": {
+                "tier": 9,
+                "variation": 0,
+                "raw_cost": 40960,
+                "item_list": [
+                    {
+                        "item_id": "ENCHANTED_RAW_FISH",
+                        "name": "Enchanted Raw Fish",
+                        "required": 256
+                    },
+                    {
+                        "item_id": "FISHING_GENERATOR_8",
+                        "name": "Fishing Minion VIII",
+                        "required": 1
+                    }
+                ]
+            },
+            "10": {
+                "tier": 10,
+                "variation": 0,
+                "raw_cost": 81920,
+                "item_list": [
+                    {
+                        "item_id": "ENCHANTED_RAW_FISH",
+                        "name": "Enchanted Raw Fish",
+                        "required": 512
+                    },
+                    {
+                        "item_id": "FISHING_GENERATOR_9",
+                        "name": "Fishing Minion IX",
+                        "required": 1
+                    }
+                ]
+            },
+            "11": {
+                "tier": 11,
+                "variation": 0,
+                "raw_cost": 204800,
+                "item_list": [
+                    {
+                        "item_id": "ENCHANTED_COOKED_FISH",
+                        "name": "Enchanted Cooked Fish",
+                        "required": 8
+                    },
+                    {
+                        "item_id": "FISHING_GENERATOR_10",
+                        "name": "Fishing Minion X",
+                        "required": 1
+                    }
+                ]
+            }
+        }
     }
 }
