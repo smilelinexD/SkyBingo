@@ -79,7 +79,7 @@ class MinionCraftHelperType(tk.Frame):
             minion_info = self.LOADER.get_minion_info(minion)
             img_path = minion_info['img']
             self.img_list.append(ImageTk.PhotoImage(Image.open(
-                f'./imgs/{img_path}icon.webp').resize((64, 100), Image.ANTIALIAS)))
+                f'./imgs/{img_path}/icon.webp').resize((64, 100), Image.ANTIALIAS)))
             btn = tk.Button(self, image=self.img_list[i], command=partial(
                 self.showMinionCraftHelperAmountSelect, minion))
             Hovertip(btn, minion_info['name'], hover_delay=300)
@@ -122,7 +122,7 @@ class MinionCraftHelperAmountSelect(tk.Frame):
 
         for i in range(1, 12):
             self.img_list.append(ImageTk.PhotoImage(Image.open(
-                f'./imgs/{self.minion_info["img"]}{i}.webp').resize((64, 64), Image.ANTIALIAS)))
+                f'./imgs/{self.minion_info["img"]}/{i}.webp').resize((64, 64), Image.ANTIALIAS)))
 
         self.label_img = tk.Label(self, image=self.img_list[0])
         self.label_img.grid(row=2, column=1)
@@ -179,21 +179,26 @@ class MinionCraftHelperTrack(tk.Frame):
         super().__init__(master)
         self.master = master
         self.LOADER = loader
+
+        item_id_name_transform = self.LOADER.get_item_id_name_transform()
+        self.ID_TO_NAME = item_id_name_transform['id_to_name']
+        self.NAME_TO_ID = item_id_name_transform['name_to_id']
+        self.INT_TO_ROMAN = self.LOADER.get_int_roman_transform()[
+            'int_to_roman']
+
         self.minion = minion
         self.minion_info = self.LOADER.get_minion_info(minion)
         self.collection_id = self.minion_info['collection_id']
-        self.collection_name = self.minion_info['collection_name']
+        self.collection_name = self.ID_TO_NAME[self.collection_id]
         self.recipe = self.minion_info['recipe'][str(tier)]
         self.item_list = self.recipe['item_list']
-        self.item_cost = self.recipe['raw_cost']
-        self.INT_TO_ROMAN = self.LOADER.get_int_roman_transform()[
-            'int_to_roman']
         self.minion_name = self.minion_info['name']
         self.tier = tier
         self.amount = amount
         self.INVENTORY = inventory
         self.img_dict_minion = dict()
         self.img_dict_item = dict()
+        self.textVar_list = list()
         self.flag = True
         self.can_craft = 0
         self.INTERVAL = 5
@@ -222,35 +227,23 @@ class MinionCraftHelperTrack(tk.Frame):
         label.grid(row=2, column=1, columnspan=3)
         for i in range(1, 12):
             self.img_dict_minion[i] = ImageTk.PhotoImage(Image.open(
-                f'./imgs/{self.minion_info["img"]}{i}.webp').resize((64, 64), Image.ANTIALIAS))
+                f'./imgs/{self.minion_info["img"]}/{i}.webp').resize((64, 64), Image.ANTIALIAS))
         self.label_minion_img = tk.Label(
             self, image=self.img_dict_minion[self.tier])
         self.label_minion_img.grid(row=3, column=1, rowspan=3)
 
-        self.textVar_itemA = tk.StringVar()
-        self.textVar_itemA.set(
-            f'0/{self.item_list[0]["required"]} {self.item_list[0]["name"]}')
-        label = tk.Label(self, textvariable=self.textVar_itemA,
-                         font=('Arial', 15))
-        label.grid(row=3, column=2)
-        self.textVar_itemA_subitem = tk.StringVar()
-        self.textVar_itemA_subitem.set(
-            f'- 0/{self.item_cost} {self.collection_name}')
-        if self.item_list[0]['item_id'] == self.collection_id:
-            self.textVar_itemA_subitem.set('')
-        label = tk.Label(self, textvariable=self.textVar_itemA_subitem,
-                         font=('Arial', 15))
-        label.grid(row=4, column=2)
-
-        self.textVar_itemB = tk.StringVar()
-        self.textVar_itemB.set(
-            f'0/{str(self.item_list[1]["required"])} {self.item_list[1]["name"]}')
-        label = tk.Label(self, textvariable=self.textVar_itemB,
-                         font=('Arial', 15))
-        label.grid(row=5, column=2)
+        for i, item in enumerate(self.item_list):
+            item_id = item['item_id']
+            item_name = self.ID_TO_NAME[item_id]
+            cost = self.LOADER.get_item_value(item_id) * item['required']
+            textVar = tk.StringVar()
+            textVar.set(f'{item_name} 0.00% (0/{cost})')
+            self.textVar_list.append(textVar)
+            label = tk.Label(self, textvariable=textVar, font=('Arial', 15))
+            label.grid(row=3 + i, column=2)
 
     def initTrack(self):
-        self.used_material = [0, 0]
+        self.used_material = dict()
         self.inventory_minion = self.INVENTORY.count_minion(self.minion)
 
         for i in range(self.tier, 12):
@@ -275,21 +268,41 @@ class MinionCraftHelperTrack(tk.Frame):
             self.track_list) > 0 else 0
         self.tracking = self.current_owned + 1
         self.current_recipe = self.minion_info['recipe'][str(self.tracking)]
-        self.current_variation = self.current_recipe['variation']
-        self.current_cost = self.current_recipe['raw_cost']
+        self.current_item_list = self.current_recipe['item_list']
 
-        self.item_amount = self.INVENTORY.count_collection_item(
-            self.collection_id, self.current_variation)
+        flag = False
+        cost_list = list()
+        for item in self.current_item_list[:-1]:
+            item_id = item['item_id']
+            variation = self.LOADER.get_collection_variation(item_id)[
+                'variation']
+            cost = self.LOADER.get_item_value(item_id) * item['required']
+            cost_list.append({'variation': variation, 'cost': cost})
+            if variation not in self.used_material:
+                self.used_material[variation] = 0
+            amount = self.INVENTORY.count_item(
+                item_id) - self.used_material[variation]
 
-        self.itemB = self.current_recipe['item_list'][1]
-        self.have_itemB = self.INVENTORY.count_normal_item(
+            if amount < cost:
+                flag = True
+                break
+
+        self.itemB = self.current_item_list[-1]
+        self.has_itemB = self.INVENTORY.count_normal_item(
             self.itemB['item_id']) > 0
 
-        if (self.item_amount < self.current_cost + self.used_material[self.current_variation]) or (self.current_owned == 0 and not self.have_itemB):
+        if not self.has_itemB:
+            flag = True
+
+        if flag:
             self.track()
             return
 
-        self.used_material[self.current_variation] += self.current_cost
+        for cost in cost_list:
+            if cost['variation'] not in self.used_material:
+                self.used_material[cost['variation']] = cost['cost']
+            else:
+                self.used_material[cost['variation']] += cost['cost']
 
         if self.current_owned == self.tier - 1:
             self.can_craft += 1
@@ -305,34 +318,28 @@ class MinionCraftHelperTrack(tk.Frame):
     def track(self):
         if self.flag:
             tracking = self.current_owned + 1
-            self.item_amount = self.INVENTORY.count_collection_item(
-                self.collection_id, self.current_variation) - self.used_material[self.current_variation]
 
             self.textVar_minion_current.set(
                 f'Current: {self.minion_name} {self.INT_TO_ROMAN[str(tracking)]}')
             self.label_minion_img.configure(
                 image=self.img_dict_minion[tracking])
 
-            itemA = self.current_recipe['item_list'][0]
-            if self.current_recipe['item_list'][0]['item_id'] == self.collection_id:
-                self.textVar_itemA.set(
-                    f'{self.item_amount}/{itemA["required"]} {itemA["name"]}')
-                self.textVar_itemA_subitem.set('')
-            else:
-                self.textVar_itemA.set(
-                    f'{itemA["required"]} {itemA["name"]}')
-                self.textVar_itemA_subitem.set(
-                    f'- {self.item_amount}/{self.current_cost} {self.collection_name}')
+            for i, item in enumerate(self.current_item_list[:-1]):
+                cost = self.LOADER.get_item_value(
+                    item['item_id']) * item['required']
+                variation = self.LOADER.get_collection_variation(
+                    item['item_id'])['variation']
+                amount = self.INVENTORY.count_item(
+                    item['item_id']) - self.used_material[variation]
+                self.textVar_list[i].set(
+                    f'{item["name"]} {amount/cost:.2%} ({amount}/{cost})')
 
             if self.current_owned == 0:
-                self.textVar_itemB.set(
-                    f'{1 if self.have_itemB else 0}/1 {self.itemB["name"]}')
+                self.textVar_list[-1].set(
+                    f'{self.itemB["name"]} {"100.00" if self.has_itemB else "0.00"}% ({1 if self.has_itemB else 0}/1)')
             else:
-                if self.have_itemB:
-                    self.textVar_itemB.set(
-                        f'1/1 {self.itemB["name"]} (owned)')
-                self.textVar_itemB.set(
-                    f'1/1 {self.itemB["name"]} ({"owned" if self.have_itemB else "can craft"})')
+                self.textVar_list[-1].set(
+                    f'{self.itemB["name"]} 100.00% (1/1) ({"owned" if self.has_itemB else "can craft"})')
 
             self.after(self.INTERVAL * 1000, self.track)
 

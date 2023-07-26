@@ -83,11 +83,29 @@
         "variation": 0,
         "name": "Enchanted Leather"
     },
+    "RAW_BEEF": {
+        "id": "LEATHER",
+        "value": 1,
+        "variation": 1,
+        "name": "Raw Beef"
+    },
+    "ENCHANTED_RAW_BEEF": {
+        "id": "LEATHER",
+        "value": 160,
+        "variation": 1,
+        "name": "Enchanted Raw Beef"
+    },
     "MELON": {
         "id": "MELON",
         "value": 1,
         "variation": 0,
         "name": "Melon"
+    },
+    "MELON_BLOCK": {
+        "id": "MELON",
+        "value": 9,
+        "variation": 0,
+        "name": "Melon Block"
     },
     "ENCHANTED_MELON": {
         "id": "MELON",
@@ -101,7 +119,7 @@
         "variation": 0,
         "name": "Enchanted Melon Block"
     },
-    "RED_MUSHROOM": {
+    "MUSHROOM_COLLECTION": {
         "id": "MUSHROOM_COLLECTION",
         "value": 1,
         "variation": 0,
@@ -251,6 +269,30 @@
         "variation": 0,
         "name": "Enchanted Raw Rabbit"
     },
+    "RABBIT_FOOT": {
+        "id": "RABBIT",
+        "value": 1,
+        "variation": 1,
+        "name": "Rabbit's Foot"
+    },
+    "ENCHANTED_RABBIT_FOOT": {
+        "id": "RABBIT",
+        "value": 160,
+        "variation": 1,
+        "name": "Enchanted Rabbit Foot"
+    },
+    "RABBIT_HIDE": {
+        "id": "RABBIT",
+        "value": 1,
+        "variation": 2,
+        "name": "Rabbit Hide"
+    },
+    "ENCHANTED_RABBIT_HIDE": {
+        "id": "RABBIT",
+        "value": 160,
+        "variation": 2,
+        "name": "Enchanted Rabbit Hide"
+    },
     "SEEDS": {
         "id": "SEEDS",
         "value": 1,
@@ -299,7 +341,7 @@
         "variation": 0,
         "name": "Wheat"
     },
-    "HAY_BALE": {
+    "HAY_BLOCK": {
         "id": "WHEAT",
         "value": 9,
         "variation": 0,
@@ -713,6 +755,12 @@
         "variation": 0,
         "name": "Ice"
     },
+    "PACKED_ICE": {
+        "id": "ICE",
+        "value": 9,
+        "variation": 0,
+        "name": "Packed Ice"
+    },
     "ENCHANTED_ICE": {
         "id": "ICE",
         "value": 160,
@@ -773,6 +821,12 @@
         "variation": 0,
         "name": "Enchanted Mithril"
     },
+    "REFINED_MITHRIL": {
+        "id": "MITHRIL_ORE",
+        "value": 25600,
+        "variation": 0,
+        "name": "Refined Mithril"
+    },
     "MYCEL": {
         "id": "MYCEL",
         "value": 1,
@@ -796,6 +850,12 @@
         "value": 1,
         "variation": 0,
         "name": "Nether Quartz"
+    },
+    "QUARTZ_BLOCK": {
+        "id": "QUARTZ",
+        "value": 4,
+        "variation": 0,
+        "name": "Block of Quartz"
     },
     "ENCHANTED_QUARTZ": {
         "id": "QUARTZ",
@@ -880,6 +940,24 @@
         "value": 160,
         "variation": 0,
         "name": "Enchanted Sand"
+    },
+    "SNOW_BALL": {
+        "id": "SNOW_BALL",
+        "value": 1,
+        "variation": 0,
+        "name": "Snowball"
+    },
+    "SNOW_BLOCK": {
+        "id": "SNOW_BALL",
+        "value": 4,
+        "variation": 0,
+        "name": "Snow Block"
+    },
+    "ENCHANTED_SNOW_BLOCK": {
+        "id": "SNOW_BALL",
+        "value": 640,
+        "variation": 0,
+        "name": "Enchanted Snow Block"
     },
     "SULPHUR_ORE": {
         "id": "SULPHUR_ORE",
@@ -1025,6 +1103,30 @@
         "variation": 0,
         "name": "Whipped Magma Cream"
     },
+    "NULL_SPHERE": {
+        "id": "NULL_SPHERE",
+        "value": 1,
+        "variation": 0,
+        "name": "Null Sphere"
+    },
+    "NULL_OVOID": {
+        "id": "NULL_SPHERE",
+        "value": 128,
+        "variation": 0,
+        "name": "Null Ovoid"
+    },
+    "REVENANT_FLESH": {
+        "id": "REVENANT_FLESH",
+        "value": 1,
+        "variation": 0,
+        "name": "Revenant Flesh"
+    },
+    "REVENANT_VISCERA": {
+        "id": "REVENANT_FLESH",
+        "value": 128,
+        "variation": 0,
+        "name": "Revenant Viscera"
+    },
     "ROTTEN_FLESH": {
         "id": "ROTTEN_FLESH",
         "value": 1,
@@ -1067,6 +1169,12 @@
         "variation": 0,
         "name": "Enchanted Spider Eye"
     },
+    "ENCHANTED_FERMENTED_SPIDER_EYE": {
+        "id": "SPIDER_EYE",
+        "value": 10240,
+        "variation": 0,
+        "name": "Enchanted Fermented Spider Eye"
+    },
     "STRING": {
         "id": "STRING",
         "value": 1,
@@ -1078,6 +1186,18 @@
         "value": 192,
         "variation": 0,
         "name": "Enchanted String"
+    },
+    "TARANTULA_WEB": {
+        "id": "TARANTULA_WEB",
+        "value": 1,
+        "variation": 0,
+        "name": "Tarantula Web"
+    },
+    "TARANTULA_SILK": {
+        "id": "TARANTULA_WEB",
+        "value": 128,
+        "variation": 0,
+        "name": "Tarantula Silk"
     },
     "LOG_2": {
         "id": "LOG_2",
@@ -1102,6 +1222,30 @@
         "value": 160,
         "variation": 0,
         "name": "Enchanted Birch Wood"
+    },
+    "YELLOW_FLOWER": {
+        "id": "YELLOW_FLOWER",
+        "value": 1,
+        "variation": 0,
+        "name": "Dandelion"
+    },
+    "ENCHANTED_DANDELION": {
+        "id": "YELLOW_FLOWER",
+        "value": 160,
+        "variation": 0,
+        "name": "Enchanted Dandelion"
+    },
+    "RED_ROSE": {
+        "id": "YELLOW_FLOWER",
+        "value": 1,
+        "variation": 1,
+        "name": "Poppy"
+    },
+    "ENCHANTED_POPPY": {
+        "id": "YELLOW_FLOWER",
+        "value": 160,
+        "variation": 1,
+        "name": "Enchanted Poppy"
     },
     "LOG_2:1": {
         "id": "LOG_2:1",

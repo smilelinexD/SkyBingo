@@ -20,6 +20,7 @@ class Interface():
         self.minion_info_type = None
         self.minion_info = None
         self.int_roman_transform = None
+        self.item_id_name_transform = None
 
     def load_personal_info(self):
         file_path = './resources/private/personal_info.json'
@@ -95,6 +96,11 @@ class Interface():
         with open(filepath, 'r') as f:
             self.int_roman_transform = json.load(f)
 
+    def load_item_id_name_transform(self):
+        filepath = './resources/public/item/item_id_name_transform.json'
+        with open(filepath, 'r') as f:
+            self.item_id_name_transform = json.load(f)
+
     def get_personal_info(self):
         if self.personal_info is None:
             self.load_personal_info()
@@ -128,10 +134,23 @@ class Interface():
             self.load_collection_info_item()
         return self.collection_info_item[item_id]
 
-    def get_collection_variation(self):
+    def get_collection_variation(self, item_id):
+        if self.collection_variation is None:
+            self.load_collection_variation()
+
+        return self.collection_variation[item_id]
+
+    def get_collection_variation_whole(self):
         if self.collection_variation is None:
             self.load_collection_variation()
         return self.collection_variation
+
+    def get_item_value(self, item_id):
+        if self.collection_variation is None:
+            self.load_collection_variation()
+        if item_id not in self.collection_variation:
+            return 1
+        return self.collection_variation[item_id]['value']
 
     def get_minion_info_type_menu(self):
         if self.minion_info_type_menu is None:
@@ -152,6 +171,11 @@ class Interface():
         if self.int_roman_transform is None:
             self.load_int_roman_transform()
         return self.int_roman_transform
+
+    def get_item_id_name_transform(self):
+        if self.item_id_name_transform is None:
+            self.load_item_id_name_transform()
+        return self.item_id_name_transform
 
 
 if __name__ == '__main__':

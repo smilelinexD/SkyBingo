@@ -30,18 +30,24 @@ class Interface():
 
         return count
 
-    def count_collection_item(self, item_id, variation, update=True):
+    def count_item(self, item_id, update=True):
         if update:
             self.update_inventory_data()
         if self.collection_variation is None:
-            self.collection_variation = self.LOADER.get_collection_variation()
+            self.collection_variation = self.LOADER.get_collection_variation_whole()
+
+        if item_id not in self.collection_variation:
+            return self.count_normal_item(item_id, update=update)
+
+        variation = self.collection_variation[item_id]['variation']
+        value = self.collection_variation[item_id]['value']
 
         count = 0
         for item in self.inventory:
             id = item['tag']['ExtraAttributes']['id'].value
             if id in self.collection_variation:
                 item_data = self.collection_variation[id]
-                if item_data['id'] == item_id and item_data['variation'] == variation:
+                if item_data['id'] == item_id and item_data['variation'] == variation and item_data['value'] <= value:
                     count += item['Count'].value * item_data['value']
 
         return count

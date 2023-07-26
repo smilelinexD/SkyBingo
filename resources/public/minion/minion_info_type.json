@@ -50,11 +50,6 @@
         "name": "Combat Minions",
         "img": "collection/icon/Combat.webp",
         "list": [
-            "REVENANT_GENERATOR",
-            "TARANTULA_GENERATOR",
-            "VOIDLING_GENERATOR",
-            "VOIDLING_GENERATOR",
-            "VAMPIRE_GENERATOR",
             "ZOMBIE_GENERATOR",
             "SKELETON_GENERATOR",
             "CREEPER_GENERATOR",
